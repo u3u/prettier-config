@@ -1,0 +1,11 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@2.3.0/schema.json",
+  "access": "public",
+  "baseBranch": "main",
+  "changelog": ["@changesets/changelog-github", { "repo": "u3u/prettier-config" }],
+  "commit": false,
+  "fixed": [],
+  "ignore": [],
+  "linked": [],
+  "updateInternalDependencies": "patch"
+}

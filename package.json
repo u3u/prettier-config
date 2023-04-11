@@ -1,0 +1,69 @@
+{
+  "name": "@u3u/prettier-config",
+  "version": "0.0.0-development",
+  "description": "My Prettier config",
+  "repository": {
+    "url": "https://github.com/u3u/prettier-config.git"
+  },
+  "license": "MIT",
+  "author": "u3u",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./base": {
+      "require": "./lib/base.js",
+      "import": "./dist/base.mjs"
+    },
+    "./utils": {
+      "require": "./dist/utils/index.js",
+      "import": "./dist/utils/index.mjs"
+    }
+  },
+  "main": "./lib/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsup src/*.ts src/utils/*.ts --format cjs,esm --dts-resolve --clean",
+    "format": "prettier --write .",
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "pnpm build",
+    "prepublishOnly": "pnpm build"
+  },
+  "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
+    "@prettier/plugin-php": "^0.19.4",
+    "@prettier/plugin-xml": "^2.2.0",
+    "@shufo/prettier-plugin-blade": "^1.8.12",
+    "deepmerge": "^4.3.1",
+    "prettier-plugin-ini": "^1.1.0",
+    "prettier-plugin-jsdoc": "^0.4.2",
+    "prettier-plugin-nginx": "^1.0.3",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "prettier-plugin-sh": "^0.12.8",
+    "prettier-plugin-sort-json": "^1.0.0",
+    "prettier-plugin-sql": "^0.14.0"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.1",
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "^18.15.11",
+    "@u3u/prettier-config": "link:",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "prettier": "^2.8.7"
+  },
+  "packageManager": "pnpm@8.2.0",
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,42 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: ${{ !contains(fromJSON('["skip-ci", "skip-release"]'), github.event.head_commit.message) }}
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: pnpm
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install Dependencies
+        run: pnpm i
+
+      - name: PNPM build
+        run: pnpm build
+
+      - name: Create Release Pull Request or Publish to NPM
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          title: 'ci(changesets): version packages'
+          commit: 'ci(changesets): version packages'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
