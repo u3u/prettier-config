@@ -1,6 +1,6 @@
 {
   "name": "@u3u/prettier-config",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "description": "My Prettier config",
   "repository": {
     "url": "https://github.com/u3u/prettier-config.git"
