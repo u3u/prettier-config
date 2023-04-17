@@ -33,7 +33,6 @@
     "build": "tsup src/*.ts src/utils/*.ts --format cjs,esm --dts-resolve --clean",
     "format": "prettier --write .",
     "preinstall": "npx only-allow pnpm",
-    "postinstall": "pnpm build",
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {
