@@ -30,7 +30,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "tsup src/*.ts src/utils/*.ts --format cjs,esm --dts-resolve --clean",
+    "build": "tsup src/*.ts src/utils/*.ts --format cjs,esm --dts-resolve --no-splitting --shims --clean",
     "format": "prettier --write .",
     "preinstall": "npx only-allow pnpm",
     "prepublishOnly": "pnpm build"

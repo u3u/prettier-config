@@ -1,3 +1,6 @@
 {
+  "compilerOptions": {
+    "module": "es2022"
+  },
   "extends": "@tsconfig/node18/tsconfig.json"
 }
