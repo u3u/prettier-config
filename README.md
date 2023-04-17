@@ -62,9 +62,9 @@ module.exports = extendConfig({
 })
 ```
 
-## Global Format
+## Global Default Format Config
 
-You can put the configuration file in the user's home directory to format all files.
+You can place the config file in the user's home directory as the default config to format all files.
 
 ```sh
 cd ~
