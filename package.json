@@ -2,6 +2,9 @@
   "name": "@u3u/prettier-config",
   "version": "1.0.1",
   "description": "My Prettier config",
+  "keywords": [
+    "prettier-config"
+  ],
   "repository": {
     "url": "https://github.com/u3u/prettier-config.git"
   },
