@@ -2,13 +2,12 @@ name: Release
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - 'v*'
 
 jobs:
   release:
     runs-on: ubuntu-latest
-    if: ${{ !contains(fromJSON('["skip-ci", "skip-release"]'), github.event.head_commit.message) }}
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
@@ -25,20 +24,19 @@ jobs:
           cache: pnpm
           registry-url: 'https://registry.npmjs.org'
 
+      - name: Generate Changelog
+        run: npx changelogithub
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
       - name: Install Dependencies
         run: pnpm i
 
       - name: PNPM build
         run: pnpm build
 
-      - name: Create Release Pull Request or Publish to NPM
-        id: changesets
-        uses: changesets/action@v1
-        with:
-          title: 'ci(changesets): version packages'
-          commit: 'ci(changesets): version packages'
-          publish: pnpm changeset publish
+      - name: Publish to NPM
+        run: pnpm publish --access public --no-git-checks
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
