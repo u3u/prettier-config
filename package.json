@@ -65,6 +65,7 @@
     "@prettier/plugin-xml": "^2.2.0",
     "@shufo/prettier-plugin-blade": "^1.8.12",
     "deepmerge": "^4.3.1",
+    "prettier": "^2.8.8",
     "prettier-plugin-ini": "^1.1.0",
     "prettier-plugin-jsdoc": "^0.4.2",
     "prettier-plugin-nginx": "^1.0.3",
@@ -75,7 +76,7 @@
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.0",
-    "@types/node": "^18.15.13",
+    "@types/node": "^18.16.0",
     "@u3u/prettier-config": "link:",
     "lint-staged": "^13.2.1",
     "simple-git-hooks": "^2.8.1",
