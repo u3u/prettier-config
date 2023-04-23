@@ -71,3 +71,7 @@ cd ~
 pnpm add prettier @u3u/prettier-config -D
 echo '"@u3u/prettier-config"' > '.prettierrc'
 ```
+
+## License
+
+[MIT](./LICENSE) License © 2023 [u3u](https://github.com/u3u)
