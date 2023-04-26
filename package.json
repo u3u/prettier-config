@@ -75,9 +75,10 @@
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.0",
-    "@types/node": "^18.16.0",
+    "@types/node": "^18.16.1",
     "@u3u/prettier-config": "link:",
-    "lint-staged": "^13.2.1",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
     "simple-git-hooks": "^2.8.1",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
