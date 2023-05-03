@@ -32,9 +32,21 @@ Use base config (without plugins)
 "@u3u/prettier-config/base"
 ```
 
+Add `format` script to `package.json`
+
+```json
+{
+  "scripts": {
+    "format": "prettier --write ."
+  }
+}
+```
+
+Then you can run `pnpm format` to format all files.
+
 ## Recommend VSCode Config
 
-In your `settings.json`
+In your `.vscode/settings.json`
 
 ```json
 {
@@ -48,6 +60,28 @@ In your `settings.json`
   "prettier.semi": false,
   "prettier.singleQuote": true
 }
+```
+
+## Lint Staged
+
+If you want to format before every commit, you can add the following to your `package.json`:
+
+```json
+{
+  "lint-staged": {
+    "*": ["prettier --write --ignore-unknown"]
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  }
+}
+```
+
+then install them
+
+```sh
+pnpm add lint-staged simple-git-hooks -D
+npx simple-git-hooks
 ```
 
 ## Extend Config
@@ -71,6 +105,10 @@ cd ~
 pnpm add prettier @u3u/prettier-config -D
 echo '"@u3u/prettier-config"' > '.prettierrc'
 ```
+
+## Related
+
+- [u3u/eslint-config](https://github.com/u3u/eslint-config) - My ESLint config
 
 ## License
 
