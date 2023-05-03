@@ -13,40 +13,37 @@
   "sideEffects": false,
   "exports": {
     ".": {
-      "types": "./lib/index.d.ts",
-      "require": "./lib/index.js",
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
       "import": "./dist/index.mjs"
     },
     "./base": {
-      "types": "./lib/base.d.ts",
-      "require": "./lib/base.js",
+      "types": "./dist/base.d.ts",
+      "require": "./dist/base.js",
       "import": "./dist/base.mjs"
     },
     "./utils": {
-      "types": "./dist/utils/index.d.ts",
-      "require": "./dist/utils/index.js",
-      "import": "./dist/utils/index.mjs"
+      "types": "./dist/utils.d.ts",
+      "require": "./dist/utils.js",
+      "import": "./dist/utils.mjs"
     }
   },
-  "main": "./lib/index.js",
+  "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "types": "./lib/index.d.ts",
+  "types": "./dist/index.d.ts",
   "typesVersions": {
     "*": {
-      "base": [
-        "./lib/base.d.ts"
-      ],
-      "utils": [
-        "./dist/utils/index.d.ts"
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
       ]
     }
   },
   "files": [
-    "dist",
-    "lib"
+    "dist"
   ],
   "scripts": {
-    "build": "tsup src/*.ts src/utils/*.ts --format cjs,esm --dts-resolve --no-splitting --shims --clean",
+    "build": "tsup && fix-tsup-cjs",
     "format": "prettier --write .",
     "preinstall": "npx only-allow pnpm",
     "prepare": "pnpm build"
@@ -75,8 +72,9 @@
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.0",
-    "@types/node": "^18.16.1",
+    "@types/node": "^18.16.3",
     "@u3u/prettier-config": "link:",
+    "fix-tsup-cjs": "^1.1.0",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "simple-git-hooks": "^2.8.1",
