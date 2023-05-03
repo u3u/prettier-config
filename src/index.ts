@@ -7,10 +7,10 @@ const require = createRequire(import.meta.url)
 const config = defineConfig({
   ...base,
 
-  importOrderSortSpecifiers: true,
-  importOrderMergeDuplicateImports: true,
-  importOrderCombineTypeAndValueImports: true,
   importOrderBuiltinModulesToTop: true,
+  importOrderCombineTypeAndValueImports: true,
+  importOrderMergeDuplicateImports: true,
+  importOrderSortSpecifiers: true,
 
   iniSpaceAroundEquals: true,
   jsonRecursiveSort: true,
