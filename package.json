@@ -45,7 +45,6 @@
   "scripts": {
     "build": "tsup && fix-tsup-cjs",
     "format": "prettier --write .",
-    "preinstall": "npx only-allow pnpm",
     "lint": "eslint --fix .",
     "prepare": "pnpm build"
   },
