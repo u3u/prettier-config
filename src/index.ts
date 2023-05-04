@@ -30,7 +30,7 @@ const config = defineConfig({
     },
     {
       files: ['**/*.php'],
-      options: { trailingCommaPHP: true },
+      options: { parser: 'php', trailingCommaPHP: true },
     },
     {
       files: ['**/*.blade.php'],
