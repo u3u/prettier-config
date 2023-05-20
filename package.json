@@ -76,7 +76,7 @@
   "devDependencies": {
     "@tsconfig/node18": "^2.0.0",
     "@types/node": "^18.16.4",
-    "@u3u/eslint-config": "^1.3.0",
+    "@u3u/eslint-config": "^2.0.0",
     "@u3u/prettier-config": "link:",
     "eslint": "^8.39.0",
     "fix-tsup-cjs": "^1.1.1",
