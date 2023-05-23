@@ -1,10 +1,8 @@
-import { createRequire } from 'node:module'
 import base from './base'
 import { defineConfig } from './utils'
+import { require } from './utils/require'
 
-const require = createRequire(import.meta.url)
-
-const config = defineConfig({
+export default defineConfig({
   ...base,
 
   importOrderBuiltinModulesToTop: true,
@@ -52,5 +50,3 @@ const config = defineConfig({
     require.resolve('@shufo/prettier-plugin-blade'),
   ],
 })
-
-export default config

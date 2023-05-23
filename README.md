@@ -7,6 +7,7 @@
 - Sort/merge `import` statements
 - Sort JSON Key
 - Sort `package.json`
+- Sort Tailwind CSS classes (also `twin.macro` supported)
 - Format `jsdoc`
 - Format `nginx` config
 - Extend config
@@ -30,6 +31,18 @@ Use base config (without plugins)
 
 ```json
 "@u3u/prettier-config/base"
+```
+
+With Tailwind CSS (By default, the `clsx`, `tw`, and `twMerge` methods will also be sorted.)
+
+```json
+"@u3u/prettier-config/tw"
+```
+
+With [twin.macro](https://github.com/ben-rogerson/twin.macro)
+
+```json
+"@u3u/prettier-config/twin.macro"
 ```
 
 Add `format` script to `package.json`

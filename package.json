@@ -22,6 +22,21 @@
       "require": "./dist/base.js",
       "import": "./dist/base.mjs"
     },
+    "./tw": {
+      "types": "./dist/tw.d.ts",
+      "require": "./dist/tw.js",
+      "import": "./dist/tw.mjs"
+    },
+    "./twin.macro": {
+      "types": "./dist/twin.macro.d.ts",
+      "require": "./dist/twin.macro.js",
+      "import": "./dist/twin.macro.mjs"
+    },
+    "./with-twin.macro": {
+      "types": "./dist/with-twin.macro.d.ts",
+      "require": "./dist/with-twin.macro.js",
+      "import": "./dist/with-twin.macro.mjs"
+    },
     "./utils": {
       "types": "./dist/utils.d.ts",
       "require": "./dist/utils.js",
@@ -61,7 +76,7 @@
   },
   "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
-    "@prettier/plugin-php": "^0.19.4",
+    "@prettier/plugin-php": "^0.19.5",
     "@prettier/plugin-xml": "^2.2.0",
     "@shufo/prettier-plugin-blade": "^1.8.12",
     "deepmerge": "^4.3.1",
@@ -71,11 +86,14 @@
     "prettier-plugin-packagejson": "^2.4.3",
     "prettier-plugin-sh": "^0.12.8",
     "prettier-plugin-sort-json": "^1.0.0",
-    "prettier-plugin-sql": "^0.14.0"
+    "prettier-plugin-sql": "^0.14.0",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "prettier-plugin-twin.macro": "1.0.11",
+    "remeda": "^1.18.0"
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.1",
-    "@types/node": "^18.16.13",
+    "@types/node": "^18.16.14",
     "@u3u/eslint-config": "^2.2.2",
     "@u3u/prettier-config": "link:",
     "eslint": "^8.41.0",
