@@ -31,6 +31,9 @@ dependencies:
   prettier-plugin-packagejson:
     specifier: ^2.4.3
     version: 2.4.3(prettier@2.8.8)
+  prettier-plugin-prisma:
+    specifier: ^4.13.0
+    version: 4.13.0(prettier@2.8.8)
   prettier-plugin-sh:
     specifier: ^0.12.8
     version: 0.12.8(prettier@2.8.8)
@@ -649,6 +652,10 @@ packages:
     dependencies:
       '@xml-tools/parser': 1.0.11
       prettier: 2.8.8
+    dev: false
+
+  /@prisma/prisma-fmt-wasm@4.13.0-52.integration-mobc-upstream-d100a9299fcb9cffb064301998e9a94ce2722c49:
+    resolution: {integrity: sha512-12dZRXW36s3hRHLeD8c4S3o1ZZcnFt1NxhBrSlYepnMxatfkj5S8aIDP/G+zzUqucB//kGZZWNX3eUcmxMsEqw==}
     dev: false
 
   /@shufo/prettier-plugin-blade@1.8.12:
@@ -3606,6 +3613,16 @@ packages:
       prettier: 2.8.8
       sort-package-json: 2.4.1
       synckit: 0.8.5
+    dev: false
+
+  /prettier-plugin-prisma@4.13.0(prettier@2.8.8):
+    resolution: {integrity: sha512-bnOWoQTVXM9VWBErPGE6rVgI8kCQts+DMQolg7Sj/Q0/oAlpDYOhce4ljQKf5BhJW061yrB3+CRVps6tNcUkQg==}
+    engines: {node: '>=14', npm: '>=8'}
+    peerDependencies:
+      prettier: '>=2'
+    dependencies:
+      '@prisma/prisma-fmt-wasm': 4.13.0-52.integration-mobc-upstream-d100a9299fcb9cffb064301998e9a94ce2722c49
+      prettier: 2.8.8
     dev: false
 
   /prettier-plugin-sh@0.12.8(prettier@2.8.8):

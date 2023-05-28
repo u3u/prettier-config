@@ -39,6 +39,10 @@ export default defineConfig({
       files: ['**/*.blade.php'],
       options: { parser: 'blade', sortTailwindcssClasses: true, wrapAttributes: 'auto' },
     },
+    {
+      files: ['**/*.prisma'],
+      options: { parser: 'prisma-parse' },
+    },
   ],
 
   plugins: [
@@ -53,5 +57,6 @@ export default defineConfig({
     require.resolve('@prettier/plugin-xml'),
     require.resolve('@prettier/plugin-php'),
     require.resolve('@shufo/prettier-plugin-blade'),
+    require.resolve('prettier-plugin-prisma'),
   ],
 })
