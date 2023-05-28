@@ -1,7 +1,7 @@
-import { definePlugin } from './define-plugin'
 import sortImportsPlugin from '@ianvs/prettier-plugin-sort-imports'
 import { type Plugin } from 'prettier'
 import { mapValues } from 'remeda'
+import { definePlugin } from './define-plugin'
 
 export const withSortPlugin = (plugin: Required<Pick<Plugin, 'parsers'>>) => {
   return definePlugin({

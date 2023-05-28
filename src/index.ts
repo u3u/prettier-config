@@ -1,14 +1,19 @@
+import { getPackageInfoSync } from 'local-pkg'
 import base from './base'
 import { defineConfig } from './utils'
 import { require } from './utils/require'
 
+const typescript = getPackageInfoSync('typescript')
+
 export default defineConfig({
   ...base,
 
-  importOrderBuiltinModulesToTop: true,
-  importOrderCombineTypeAndValueImports: true,
-  importOrderMergeDuplicateImports: true,
-  importOrderSortSpecifiers: true,
+  // https://github.com/IanVS/prettier-plugin-sort-imports/releases/tag/v4.0.0
+  // importOrderBuiltinModulesToTop: true, // [Removed] (always true)
+  // importOrderCombineTypeAndValueImports: true, // [Replace with `importOrderTypeScriptVersion`]
+  // importOrderMergeDuplicateImports: true, // [Removed] (always true)
+  // importOrderSortSpecifiers: true, // [Removed]
+  importOrderTypeScriptVersion: typescript ? typescript.version : '5.0.0',
 
   iniSpaceAroundEquals: true,
   jsonRecursiveSort: true,
