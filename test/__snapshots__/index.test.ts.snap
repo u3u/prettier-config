@@ -1,0 +1,133 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should work 1`] = `
+"import { type Config, type Options } from 'prettier'
+import { defineConfig, extendConfig, withSortPlugin } from '../../src/utils'
+
+const obj = /** @type {const} */ {
+  name: 'test',
+}
+"
+`;
+
+exports[`should work 2`] = `
+"{
+  \\"name\\": \\"my-awesome-project\\",
+  \\"version\\": \\"1.0.0\\",
+  \\"dependencies\\": {
+    \\"sort-object-keys\\": \\"1.0.0\\",
+    \\"sort-package-json\\": \\"1.0.0\\"
+  }
+}
+"
+`;
+
+exports[`should work 3`] = `
+"generator client {
+  provider = \\"prisma-client-js\\"
+}
+
+datasource db {
+  provider = \\"postgresql\\"
+  url      = env(\\"DATABASE_URL\\")
+}
+
+model Post {
+  id        Int       @id @default(autoincrement())
+  createdAt DateTime  @default(now())
+  title     String
+  content   String?
+  published Boolean   @default(false)
+  User      User      @relation(fields: [authorId], references: [id])
+  authorId  Int
+  Comment   Comment[]
+}
+
+model Profile {
+  id     Int     @id @default(autoincrement())
+  bio    String?
+  User   User    @relation(fields: [userId], references: [id])
+  userId Int     @unique
+}
+
+model User {
+  id      Int       @id @default(autoincrement())
+  email   String    @unique
+  name    String?
+  Post    Post[]
+  Profile Profile?
+  Comment Comment[]
+}
+
+model Comment {
+  id      Int    @id @default(autoincrement())
+  content String
+  author  User   @relation(fields: [userId], references: [id])
+  post    Post   @relation(fields: [postId], references: [id])
+  userId  Int
+  postId  Int
+}
+"
+`;
+
+exports[`should work 4`] = `
+"{
+  \\"0\\": null,
+  \\"a\\": null,
+  \\"b\\": null,
+  \\"exampleNestedObject\\": {
+    \\"a\\": null,
+    \\"z\\": null
+  },
+  \\"z\\": null
+}
+"
+`;
+
+exports[`should work 5`] = `
+"server {
+    # server definition
+    listen      443 ssl;
+    listen      [::]:443 ssl;
+    server_name example.com;
+
+    location / {
+        proxy_pass         http://proxy;
+        proxy_set_header   Host $http_host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+        proxy_read_timeout 1000;
+    }
+    # end server definition
+}"
+`;
+
+exports[`tailwindcss classes should sorted 1`] = `
+"const tw = String.raw
+const clsx = (...args: any) => args
+const twMerge = clsx
+const twJoin = clsx
+
+export const classes = clsx('rounded bg-blue-500 px-4 py-2 text-base text-white', {
+  'bg-blue-700 text-gray-100': true,
+})
+
+export const styles = {
+  root: tw\`text-md text-black dark:text-white\`,
+  base: twMerge(['relative z-[1]', twJoin('absolute inset-0 flex items-center')]),
+}
+"
+`;
+
+exports[`twin.macro classes should sorted 1`] = `
+"// @ts-nocheck
+import { type Config, type Options } from 'prettier'
+import tw from 'twin.macro'
+import { defineConfig, extendConfig, withSortPlugin } from '../../src/utils'
+
+export const styles = tw\`inline1 inline display[block] [display:block]\`
+
+export const Button = tw.button\`sm:(bg-red-100 [display:inline] hover:(mt-4 w-10 before:p-4))\`
+"
+`;

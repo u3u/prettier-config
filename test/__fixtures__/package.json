@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "sort-package-json": "1.0.0",
+    "sort-object-keys": "1.0.0"
+  },
+  "version": "1.0.0",
+  "name": "my-awesome-project"
+}
