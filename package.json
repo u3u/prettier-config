@@ -92,7 +92,7 @@
     "prettier-plugin-sort-json": "^1.0.0",
     "prettier-plugin-sql": "^0.14.0",
     "prettier-plugin-tailwindcss": "^0.3.0",
-    "prettier-plugin-twin.macro": "1.0.11",
+    "prettier-plugin-twin.macro": "1.0.14",
     "remeda": "^1.19.0"
   },
   "devDependencies": {
