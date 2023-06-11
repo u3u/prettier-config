@@ -1,6 +1,29 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should work 1`] = `
+exports[`should match snapshots > .env.local 1`] = `
+"HTTPS_PROXY = http://127.0.0.1:7890
+"
+`;
+
+exports[`should match snapshots > .npmrc 1`] = `
+"shamefully-hoist = true
+auto-install-peers = true
+strict-peer-dependencies = false
+"
+`;
+
+exports[`should match snapshots > .zshrc 1`] = `
+"plugins=(
+  git
+  gitcd
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  wakatime
+)
+"
+`;
+
+exports[`should match snapshots > base.ts 1`] = `
 "import { type Config, type Options } from 'prettier'
 import { defineConfig, extendConfig, withSortPlugin } from '../../src/utils'
 
@@ -10,7 +33,20 @@ const obj = /** @type {const} */ {
 "
 `;
 
-exports[`should work 2`] = `
+exports[`should match snapshots > hosts 1`] = `
+"##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1 localhost
+255.255.255.255 broadcasthost
+::1 localhost
+"
+`;
+
+exports[`should match snapshots > package.json 1`] = `
 "{
   \\"name\\": \\"my-awesome-project\\",
   \\"version\\": \\"1.0.0\\",
@@ -22,7 +58,7 @@ exports[`should work 2`] = `
 "
 `;
 
-exports[`should work 3`] = `
+exports[`should match snapshots > schema.prisma 1`] = `
 "generator client {
   provider = \\"prisma-client-js\\"
 }
@@ -70,7 +106,41 @@ model Comment {
 "
 `;
 
-exports[`should work 4`] = `
+exports[`should match snapshots > test.blade.php 1`] = `
+"@extends('frontend.layouts.app')
+@section('title') foo
+@endsection
+@section('content')
+  <section id=\\"content\\">
+    <div class=\\"container mod-users-pd-h\\">
+      <div class=\\"pf-user-header\\">
+        <div></div>
+        <p>@lang('users.index')</p>
+      </div>
+      <div class=\\"pf-users-branch\\">
+        <ul class=\\"pf-users-branch__list\\">
+          @foreach ($users as $user)
+            <li>
+              <img src=\\"{{ asset('img/frontend/icon/branch-arrow.svg') }}\\" alt=\\"branch_arrow\\">
+              {{ link_to_route('frontend.users.user.show', $users['name'], $users['_id']) }}
+            </li>
+          @endforeach
+        </ul>
+        <div class=\\"pf-users-branch__btn\\">
+          @can('create', App\\\\Models\\\\User::class)
+            {!! link_to_route('frontend.users.user.create', __('users.create'), [1, 2, 3], ['class' => 'btn']) !!}
+          @endcan
+        </div>
+      </div>
+    </div>
+  </section>
+@endsection
+@section('footer')
+@stop
+"
+`;
+
+exports[`should match snapshots > test.json 1`] = `
 "{
   \\"0\\": null,
   \\"a\\": null,
@@ -84,7 +154,7 @@ exports[`should work 4`] = `
 "
 `;
 
-exports[`should work 5`] = `
+exports[`should match snapshots > test.nginx 1`] = `
 "server {
   # server definition
   listen      443 ssl;
@@ -101,6 +171,25 @@ exports[`should work 5`] = `
   }
   # end server definition
 }"
+`;
+
+exports[`should match snapshots > test.php 1`] = `
+"<?php
+array_map(
+  function ($arg1, $arg2) use ($var1, $var2) {
+    return $arg1 + $arg2 / ($var + $var2);
+  },
+  [
+    'complex' => 'code',
+    'with' => function () {
+      return 'inconsistent';
+    },
+    'formatting' => 'is',
+    'hard' => 'to',
+    'maintain' => true,
+  ]
+);
+"
 `;
 
 exports[`tailwindcss classes should sorted 1`] = `

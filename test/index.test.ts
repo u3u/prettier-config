@@ -1,17 +1,19 @@
+import path from 'node:path'
 import { globby } from 'globby'
 import { expect, it } from 'vitest'
 import { format } from './format'
 
-it('should work', async () => {
+it('should match snapshots', async () => {
   const paths = await globby('*', {
     cwd: 'test/__fixtures__',
+    dot: true,
     ignore: ['tw.ts', 'twin.macro.ts'],
   })
 
   for (const filepath of paths) {
     const result = await format(filepath)
 
-    expect(result).toMatchSnapshot()
+    expect(result).toMatchSnapshot(path.basename(filepath))
   }
 })
 

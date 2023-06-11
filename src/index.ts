@@ -13,35 +13,23 @@ export default defineConfig({
   // importOrderCombineTypeAndValueImports: true, // [Replace with `importOrderTypeScriptVersion`]
   // importOrderMergeDuplicateImports: true, // [Removed] (always true)
   // importOrderSortSpecifiers: true, // [Removed]
-  importOrderTypeScriptVersion: typescript ? typescript.version : '5.0.0',
+  importOrderTypeScriptVersion: typescript?.version || '5.0.0',
 
   iniSpaceAroundEquals: true,
   jsonRecursiveSort: true,
 
   overrides: [
     {
-      files: ['*.nginx', '*.nginxconfig', 'nginx.conf', 'nginx/**/*.conf'],
+      files: ['nginx.conf', 'nginx/**/*.conf'],
       options: { parser: 'nginx' },
     },
     {
-      files: ['*.ini', '.env', '.env.*', '.npmrc', '.editorconfig'],
+      files: ['.npmrc', '.env', '.env.*'],
       options: { parser: 'ini' },
     },
     {
-      files: ['*.sh', '.*ignore', 'hosts'],
-      options: { parser: 'sh' },
-    },
-    {
-      files: ['**/*.php'],
-      options: { parser: 'php', trailingCommaPHP: true },
-    },
-    {
-      files: ['**/*.blade.php'],
+      files: ['*.blade.php'],
       options: { parser: 'blade', sortTailwindcssClasses: true, wrapAttributes: 'auto' },
-    },
-    {
-      files: ['**/*.prisma'],
-      options: { parser: 'prisma-parse' },
     },
   ],
 
