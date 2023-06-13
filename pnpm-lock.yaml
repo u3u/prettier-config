@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -9,14 +9,14 @@ dependencies:
     specifier: ^4.0.2
     version: 4.0.2(prettier@2.8.8)
   '@prettier/plugin-php':
-    specifier: ^0.19.5
-    version: 0.19.5(prettier@2.8.8)
+    specifier: ^0.19.6
+    version: 0.19.6(prettier@2.8.8)
   '@prettier/plugin-xml':
     specifier: ^2.2.0
     version: 2.2.0
   '@shufo/prettier-plugin-blade':
-    specifier: ^1.8.12
-    version: 1.8.12
+    specifier: ^1.8.13
+    version: 1.8.13
   '@types/prettier':
     specifier: ^2.7.3
     version: 2.7.3
@@ -52,7 +52,7 @@ dependencies:
     version: 0.14.0(prettier@2.8.8)
   prettier-plugin-tailwindcss:
     specifier: ^0.3.0
-    version: 0.3.0(@ianvs/prettier-plugin-sort-imports@4.0.2)(@shufo/prettier-plugin-blade@1.8.12)(prettier-plugin-jsdoc@0.4.2)(prettier@2.8.8)
+    version: 0.3.0(@ianvs/prettier-plugin-sort-imports@4.0.2)(@shufo/prettier-plugin-blade@1.8.13)(prettier-plugin-jsdoc@0.4.2)(prettier@2.8.8)
   prettier-plugin-twin.macro:
     specifier: 1.0.14
     version: 1.0.14(prettier@2.8.8)(tailwindcss@3.3.2)
@@ -272,11 +272,11 @@ packages:
       '@babel/types': 7.22.4
     dev: false
 
-  /@babel/runtime-corejs3@7.22.3:
-    resolution: {integrity: sha512-6bdmknScYKmt8I9VjsJuKKGr+TwUb555FTf6tT1P/ANlCjTHCiYLhiQ4X/O7J731w5NOqu8c1aYHEVuOwPz7jA==}
+  /@babel/runtime-corejs3@7.22.5:
+    resolution: {integrity: sha512-TNPDN6aBFaUox2Lu+H/Y1dKKQgr4ucz/FGyCz67RVYLsBpVpUFf1dDngzg+Od8aqbrqwyztkaZjtWCZEUOT8zA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      core-js-pure: 3.30.2
+      core-js-pure: 3.31.0
       regenerator-runtime: 0.13.11
     dev: false
 
@@ -649,14 +649,14 @@ packages:
       tslib: 2.5.2
     dev: false
 
-  /@prettier/plugin-php@0.19.5(prettier@2.8.8):
-    resolution: {integrity: sha512-AnmiB76G7qX2d7FbvGgABc3l4dVshOlBqxajiHe8nfMVTzmge7xDhiC28aP8OZafhIRksLKNRB1ZEemfN+j5pg==}
+  /@prettier/plugin-php@0.19.6(prettier@2.8.8):
+    resolution: {integrity: sha512-MFaBfdxfTbGNwClJ/EZd2ROTa/Bd7EV+ff2KG769I9RsmNcVWcHARIYlSlJqFGgSbumOm+Ylm6RIXdxb5kG+OA==}
     peerDependencies:
       prettier: ^1.15.0 || ^2.0.0
     dependencies:
       linguist-languages: 7.21.0
       mem: 8.1.1
-      php-parser: 3.1.4
+      php-parser: 3.1.5
       prettier: 2.8.8
     dev: false
 
@@ -671,11 +671,11 @@ packages:
     resolution: {integrity: sha512-12dZRXW36s3hRHLeD8c4S3o1ZZcnFt1NxhBrSlYepnMxatfkj5S8aIDP/G+zzUqucB//kGZZWNX3eUcmxMsEqw==}
     dev: false
 
-  /@shufo/prettier-plugin-blade@1.8.12:
-    resolution: {integrity: sha512-Ec74bhLCsfs5HNdqajWDzepFFrmEFeI/Bh4HiFY9snqUbMIbzHbXZY2SgHZpm0SaiyCFri/xznpmc8WShF7uIA==}
+  /@shufo/prettier-plugin-blade@1.8.13:
+    resolution: {integrity: sha512-J2+fV1Q/xP74oOF6R3BquzUovM213bQe/3L6pIvzPDolPZ22WrHEKi8edvjrOuEpbmNvD/NB8UYSmrn4UNlPLA==}
     engines: {node: '>= 14.0.0'}
     dependencies:
-      blade-formatter: 1.32.12
+      blade-formatter: 1.32.13
       prettier: 2.8.8
       synckit: 0.8.5
     transitivePeerDependencies:
@@ -1178,12 +1178,12 @@ packages:
     resolution: {integrity: sha512-v4N2l3RxL+m4zDxyxz3Ne2aTmiPn8ZUpKFpdPtO+ItW1NcTCXA7JeHG5GMBSvoKSkQZ9ycS+EouDVxYB9ufKWA==}
     dev: false
 
-  /blade-formatter@1.32.12:
-    resolution: {integrity: sha512-Xc1eEy/Adi6DnnUuh9IprD7Kyg2tq/ix3DFnr8AgN3wFg1Ews6vWpA44tuyoigqNHq59ss4JX2cgPkqbMLiurg==}
+  /blade-formatter@1.32.13:
+    resolution: {integrity: sha512-CQOY2Zt6l+yUN7MmWGdxaZl320oSaJnf9Snrwi1JAoYL83jqwhpR4MCceVKBkUiM9YnPyRP7dTyQeorzOc+yUg==}
     engines: {node: '>= 14.0.0'}
     hasBin: true
     dependencies:
-      '@prettier/plugin-php': 0.19.5(prettier@2.8.8)
+      '@prettier/plugin-php': 0.19.6(prettier@2.8.8)
       '@shufo/tailwindcss-class-sorter': 2.0.0
       aigle: 1.14.1
       ajv: 8.12.0
@@ -1196,7 +1196,7 @@ packages:
       ignore: 5.2.4
       js-beautify: 1.14.8
       lodash: 4.17.21
-      php-parser: 3.1.4
+      php-parser: 3.1.5
       prettier: 2.8.8
       tailwindcss: 3.3.2
       vscode-oniguruma: 1.7.0
@@ -1501,8 +1501,8 @@ packages:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
     dev: false
 
-  /core-js-pure@3.30.2:
-    resolution: {integrity: sha512-p/npFUJXXBkCCTIlEGBdghofn00jWG6ZOtdoIXSJmAu2QBvN0IqpZXWweOytcwE6cfx8ZvVUy1vw8zxhe4Y2vg==}
+  /core-js-pure@3.31.0:
+    resolution: {integrity: sha512-/AnE9Y4OsJZicCzIe97JP5XoPKQJfTuEG43aEVLFJGOJpyqELod+pE6LEl63DfG1Mp8wX97LDaDpy1GmLEUxlg==}
     requiresBuild: true
     dev: false
 
@@ -3664,8 +3664,8 @@ packages:
     resolution: {integrity: sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==}
     dev: true
 
-  /php-parser@3.1.4:
-    resolution: {integrity: sha512-WUEfH4FWsVItqgOknM67msDdcUAfgPJsHhPNl6EPXzWtX+PfdY282m4i8YIJ9ALUEhf+qGDajdmW+VYqSd7Deg==}
+  /php-parser@3.1.5:
+    resolution: {integrity: sha512-jEY2DcbgCm5aclzBdfW86GM6VEIWcSlhTBSHN1qhJguVePlYe28GhwS0yoeLYXpM2K8y6wzLwrbq814n2PHSoQ==}
     dev: false
 
   /picocolors@1.0.0:
@@ -3874,7 +3874,7 @@ packages:
       tslib: 2.5.2
     dev: false
 
-  /prettier-plugin-tailwindcss@0.3.0(@ianvs/prettier-plugin-sort-imports@4.0.2)(@shufo/prettier-plugin-blade@1.8.12)(prettier-plugin-jsdoc@0.4.2)(prettier@2.8.8):
+  /prettier-plugin-tailwindcss@0.3.0(@ianvs/prettier-plugin-sort-imports@4.0.2)(@shufo/prettier-plugin-blade@1.8.13)(prettier-plugin-jsdoc@0.4.2)(prettier@2.8.8):
     resolution: {integrity: sha512-009/Xqdy7UmkcTBpwlq7jsViDqXAYSOMLDrHAdTMlVZOrKfM2o9Ci7EMWTMZ7SkKBFTG04UM9F9iM2+4i6boDA==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
@@ -3927,7 +3927,7 @@ packages:
         optional: true
     dependencies:
       '@ianvs/prettier-plugin-sort-imports': 4.0.2(prettier@2.8.8)
-      '@shufo/prettier-plugin-blade': 1.8.12
+      '@shufo/prettier-plugin-blade': 1.8.13
       prettier: 2.8.8
       prettier-plugin-jsdoc: 0.4.2(prettier@2.8.8)
     dev: false
@@ -5050,7 +5050,7 @@ packages:
   /xregexp@5.1.1:
     resolution: {integrity: sha512-fKXeVorD+CzWvFs7VBuKTYIW63YD1e1osxwQ8caZ6o1jg6pDAbABDG54LCIq0j5cy7PjRvGIq6sef9DYPXpncg==}
     dependencies:
-      '@babel/runtime-corejs3': 7.22.3
+      '@babel/runtime-corejs3': 7.22.5
     dev: false
 
   /y18n@5.0.8:
