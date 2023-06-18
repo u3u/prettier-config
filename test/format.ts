@@ -9,7 +9,7 @@ export const format = async (file: string, config = '@u3u/prettier-config') => {
 
   const info = await prettier.getFileInfo(filepath, {
     // https://github.com/prettier/prettier-vscode/blob/d5ac67aa66822641491039a53dbe6388e5cd2594/src/PrettierEditService.ts#L420
-    plugins: options?.plugins as string[],
+    plugins: options?.plugins?.filter((item): item is string => typeof item === 'string'),
     resolveConfig: true,
   })
 
