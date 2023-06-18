@@ -97,18 +97,18 @@
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.1",
-    "@types/node": "^18.16.17",
+    "@types/node": "^18.16.18",
     "@u3u/eslint-config": "^2.3.0",
     "@u3u/prettier-config": "link:",
-    "eslint": "^8.42.0",
+    "eslint": "^8.43.0",
     "fix-tsup-cjs": "^1.1.1",
     "globby": "^13.1.4",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "simple-git-hooks": "^2.8.1",
-    "tsup": "^6.7.0",
+    "tsup": "^7.0.0",
     "typescript": "^5.1.3",
-    "vitest": "^0.32.0"
+    "vitest": "^0.32.2"
   },
   "peerDependencies": {
     "prettier": "^2.8.8"
