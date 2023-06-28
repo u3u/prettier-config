@@ -96,7 +96,7 @@
     "remeda": "^1.19.0"
   },
   "devDependencies": {
-    "@tsconfig/node18": "^2.0.1",
+    "@tsconfig/node18": "^18.2.0",
     "@types/node": "^18.16.18",
     "@u3u/eslint-config": "^2.3.0",
     "@u3u/prettier-config": "link:",
