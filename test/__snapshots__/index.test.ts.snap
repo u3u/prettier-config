@@ -24,12 +24,12 @@ exports[`should match snapshots > .zshrc 1`] = `
 `;
 
 exports[`should match snapshots > base.ts 1`] = `
-"import { type Config, type Options } from 'prettier'
-import { defineConfig, extendConfig, withSortPlugin } from '../../src/utils'
+"import { type Config, type Options } from 'prettier';
+import { defineConfig, extendConfig, withSortPlugin } from '../../src/utils';
 
 const obj = /** @type {const} */ {
   name: 'test',
-}
+};
 "
 `;
 
@@ -193,30 +193,30 @@ array_map(
 `;
 
 exports[`tailwindcss classes should sorted 1`] = `
-"const tw = String.raw
-const clsx = (...args: any) => args
-const twMerge = clsx
-const twJoin = clsx
+"const tw = String.raw;
+const clsx = (...args: any) => args;
+const twMerge = clsx;
+const twJoin = clsx;
 
 export const classes = clsx('rounded bg-blue-500 px-4 py-2 text-base text-white', {
   'bg-blue-700 text-gray-100': true,
-})
+});
 
 export const styles = {
   root: tw\`text-md text-black dark:text-white\`,
   base: twMerge(['relative z-[1]', twJoin('absolute inset-0 flex items-center')]),
-}
+};
 "
 `;
 
 exports[`twin.macro classes should sorted 1`] = `
 "// @ts-nocheck
-import { type Config, type Options } from 'prettier'
-import tw from 'twin.macro'
-import { defineConfig, extendConfig, withSortPlugin } from '../../src/utils'
+import { type Config, type Options } from 'prettier';
+import tw from 'twin.macro';
+import { defineConfig, extendConfig, withSortPlugin } from '../../src/utils';
 
-export const styles = tw\`inline1 inline display[block] [display:block]\`
+export const styles = tw\`inline1 inline display[block] [display:block]\`;
 
-export const Button = tw.button\`sm:(bg-red-100 [display:inline] hover:(mt-4 w-10 before:p-4))\`
+export const Button = tw.button\`sm:(bg-red-100 [display:inline] hover:(mt-4 w-10 before:p-4))\`;
 "
 `;
