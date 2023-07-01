@@ -1,3 +1,3 @@
-import { type Config } from 'prettier'
+import { type Config } from 'prettier';
 
-export const defineConfig = <T extends Config>(config: T) => config
+export const defineConfig = <T extends Config>(config: T) => config;

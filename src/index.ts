@@ -1,9 +1,9 @@
-import { getPackageInfoSync } from 'local-pkg'
-import base from './base'
-import { defineConfig } from './utils'
-import { require } from './utils/require'
+import { getPackageInfoSync } from 'local-pkg';
+import base from './base';
+import { defineConfig } from './utils';
+import { require } from './utils/require';
 
-const typescript = getPackageInfoSync('typescript')
+const typescript = getPackageInfoSync('typescript');
 
 export default defineConfig({
   ...base,
@@ -47,4 +47,4 @@ export default defineConfig({
     require.resolve('@shufo/prettier-plugin-blade'),
     require.resolve('prettier-plugin-prisma'),
   ],
-})
+});

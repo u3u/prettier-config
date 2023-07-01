@@ -4,4 +4,4 @@
 module.exports = {
   extends: ['@u3u'],
   ignorePatterns: ['dist', '__fixtures__'],
-}
+};

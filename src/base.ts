@@ -1,4 +1,4 @@
-import { defineConfig } from './utils'
+import { defineConfig } from './utils';
 
 export default defineConfig({
   endOfLine: 'lf',
@@ -7,4 +7,4 @@ export default defineConfig({
   singleQuote: true,
   tabWidth: 2,
   useTabs: false,
-} as const)
+} as const);
