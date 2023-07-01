@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
-    "module": "es2022",
-    "resolveJsonModule": true
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "esnext"
   },
   "extends": "@tsconfig/node18/tsconfig.json"
 }
