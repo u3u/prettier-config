@@ -13,6 +13,9 @@
 - Extend config
 - ...
 
+> **Note** Upgrade this config to `>=3.x` version, Prettier should automatically infer the plugin parser. If you are using the [prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension, you need to upgrade to [>=9.17.0](https://github.com/prettier/prettier-vscode/blob/main/CHANGELOG.md) version for automatic inference of the plugin parser to take effect.  
+> See this fix: https://github.com/prettier/prettier-vscode/pull/3027
+
 ## Install
 
 ```sh
@@ -33,7 +36,7 @@ Use base config (without plugins)
 "@u3u/prettier-config/base"
 ```
 
-With Tailwind CSS (By default, the `clsx`, `tw`, and `twMerge` methods will also be sorted.)
+With Tailwind CSS (By default, the `clsx`, `tw`, and `twMerge`, `twJoin` methods will also be sorted.)
 
 ```json
 "@u3u/prettier-config/tw"
@@ -102,11 +105,11 @@ npx simple-git-hooks
 In your `.prettierrc.js`
 
 ```js
-const { extendConfig } = require('@u3u/prettier-config/utils')
+const { extendConfig } = require('@u3u/prettier-config/utils');
 
 module.exports = extendConfig({
   printWidth: 80,
-})
+});
 ```
 
 ## Global Default Format Config
