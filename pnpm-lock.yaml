@@ -15,8 +15,8 @@ dependencies:
     specifier: ^2.2.0
     version: 2.2.0
   '@shufo/prettier-plugin-blade':
-    specifier: ^1.8.13
-    version: 1.8.13
+    specifier: ^1.9.2
+    version: 1.9.2
   '@types/prettier':
     specifier: ^2.7.3
     version: 2.7.3
@@ -42,17 +42,17 @@ dependencies:
     specifier: ^4.13.0
     version: 4.13.0(prettier@2.8.8)
   prettier-plugin-sh:
-    specifier: ^0.12.8
-    version: 0.12.8(prettier@2.8.8)
+    specifier: ^0.13.0
+    version: 0.13.0(prettier@2.8.8)
   prettier-plugin-sort-json:
     specifier: ^1.0.0
     version: 1.0.0(prettier@2.8.8)
   prettier-plugin-sql:
-    specifier: ^0.14.0
-    version: 0.14.0(prettier@2.8.8)
+    specifier: ^0.15.1
+    version: 0.15.1(prettier@2.8.8)
   prettier-plugin-tailwindcss:
     specifier: ^0.3.0
-    version: 0.3.0(@ianvs/prettier-plugin-sort-imports@4.0.2)(@shufo/prettier-plugin-blade@1.8.13)(prettier-plugin-jsdoc@0.4.2)(prettier@2.8.8)
+    version: 0.3.0(@ianvs/prettier-plugin-sort-imports@4.0.2)(@shufo/prettier-plugin-blade@1.9.2)(prettier-plugin-jsdoc@0.4.2)(prettier@2.8.8)
   prettier-plugin-twin.macro:
     specifier: 1.0.14
     version: 1.0.14(prettier@2.8.8)(tailwindcss@3.3.2)
@@ -80,8 +80,8 @@ devDependencies:
     specifier: ^1.1.1
     version: 1.1.1
   globby:
-    specifier: ^13.2.1
-    version: 13.2.1
+    specifier: ^13.2.2
+    version: 13.2.2
   lint-staged:
     specifier: ^13.2.3
     version: 13.2.3
@@ -98,8 +98,8 @@ devDependencies:
     specifier: ^5.1.6
     version: 5.1.6
   vitest:
-    specifier: ^0.32.4
-    version: 0.32.4
+    specifier: ^0.33.0
+    version: 0.33.0
 
 packages:
 
@@ -881,19 +881,19 @@ packages:
     resolution: {integrity: sha512-12dZRXW36s3hRHLeD8c4S3o1ZZcnFt1NxhBrSlYepnMxatfkj5S8aIDP/G+zzUqucB//kGZZWNX3eUcmxMsEqw==}
     dev: false
 
-  /@shufo/prettier-plugin-blade@1.8.13:
-    resolution: {integrity: sha512-J2+fV1Q/xP74oOF6R3BquzUovM213bQe/3L6pIvzPDolPZ22WrHEKi8edvjrOuEpbmNvD/NB8UYSmrn4UNlPLA==}
+  /@shufo/prettier-plugin-blade@1.9.2:
+    resolution: {integrity: sha512-Od9mxEIwuhY3rubx89jrGv3rjkkmOU6P0AdizVZ6xn5iQF7OwmHzJ2jR0uheJVK7eogZqou+dLd6pWX/26ourw==}
     engines: {node: '>= 14.0.0'}
     dependencies:
-      blade-formatter: 1.32.13
-      prettier: 2.8.8
+      blade-formatter: 1.33.1
+      prettier: 3.0.0
       synckit: 0.8.5
     transitivePeerDependencies:
       - ts-node
     dev: false
 
-  /@shufo/tailwindcss-class-sorter@2.0.0:
-    resolution: {integrity: sha512-whoaxr/m3Bi+UBnlsWpmf38/yhDAg9zeLKpU5syBNC68d9QINL2IwCt1zw1JuKHHSAqxiFY3Km5iJcFiz16WxQ==}
+  /@shufo/tailwindcss-class-sorter@3.0.1:
+    resolution: {integrity: sha512-y9SMobvwElX2G6vdg4odJ6UL6hu/o5RlMsdwEeDLGaqHU3BLSw9CeitGgBus6kadjjDdT2wseG0Tl5yXWdc4UQ==}
     engines: {node: '>= 14.0.0'}
     dependencies:
       escalade: 3.1.1
@@ -1213,38 +1213,38 @@ packages:
       - typescript
     dev: true
 
-  /@vitest/expect@0.32.4:
-    resolution: {integrity: sha512-m7EPUqmGIwIeoU763N+ivkFjTzbaBn0n9evsTOcde03ugy2avPs3kZbYmw3DkcH1j5mxhMhdamJkLQ6dM1bk/A==}
+  /@vitest/expect@0.33.0:
+    resolution: {integrity: sha512-sVNf+Gla3mhTCxNJx+wJLDPp/WcstOe0Ksqz4Vec51MmgMth/ia0MGFEkIZmVGeTL5HtjYR4Wl/ZxBxBXZJTzQ==}
     dependencies:
-      '@vitest/spy': 0.32.4
-      '@vitest/utils': 0.32.4
+      '@vitest/spy': 0.33.0
+      '@vitest/utils': 0.33.0
       chai: 4.3.7
     dev: true
 
-  /@vitest/runner@0.32.4:
-    resolution: {integrity: sha512-cHOVCkiRazobgdKLnczmz2oaKK9GJOw6ZyRcaPdssO1ej+wzHVIkWiCiNacb3TTYPdzMddYkCgMjZ4r8C0JFCw==}
+  /@vitest/runner@0.33.0:
+    resolution: {integrity: sha512-UPfACnmCB6HKRHTlcgCoBh6ppl6fDn+J/xR8dTufWiKt/74Y9bHci5CKB8tESSV82zKYtkBJo9whU3mNvfaisg==}
     dependencies:
-      '@vitest/utils': 0.32.4
+      '@vitest/utils': 0.33.0
       p-limit: 4.0.0
       pathe: 1.1.1
     dev: true
 
-  /@vitest/snapshot@0.32.4:
-    resolution: {integrity: sha512-IRpyqn9t14uqsFlVI2d7DFMImGMs1Q9218of40bdQQgMePwVdmix33yMNnebXcTzDU5eiV3eUsoxxH5v0x/IQA==}
+  /@vitest/snapshot@0.33.0:
+    resolution: {integrity: sha512-tJjrl//qAHbyHajpFvr8Wsk8DIOODEebTu7pgBrP07iOepR5jYkLFiqLq2Ltxv+r0uptUb4izv1J8XBOwKkVYA==}
     dependencies:
-      magic-string: 0.30.0
+      magic-string: 0.30.1
       pathe: 1.1.1
       pretty-format: 29.5.0
     dev: true
 
-  /@vitest/spy@0.32.4:
-    resolution: {integrity: sha512-oA7rCOqVOOpE6rEoXuCOADX7Lla1LIa4hljI2MSccbpec54q+oifhziZIJXxlE/CvI2E+ElhBHzVu0VEvJGQKQ==}
+  /@vitest/spy@0.33.0:
+    resolution: {integrity: sha512-Kv+yZ4hnH1WdiAkPUQTpRxW8kGtH8VRTnus7ZTGovFYM1ZezJpvGtb9nPIjPnptHbsyIAxYZsEpVPYgtpjGnrg==}
     dependencies:
       tinyspy: 2.1.1
     dev: true
 
-  /@vitest/utils@0.32.4:
-    resolution: {integrity: sha512-Gwnl8dhd1uJ+HXrYyV0eRqfmk9ek1ASE/LWfTCuWMw+d07ogHqp4hEAV28NiecimK6UY9DpSEPh+pXBA5gtTBg==}
+  /@vitest/utils@0.33.0:
+    resolution: {integrity: sha512-pF1w22ic965sv+EN6uoePkAOTkAPWM03Ri/jXNyMIKBb/XHLDPfhLvf/Fa9g0YECevAIz56oVYXhodLvLQ/awA==}
     dependencies:
       diff-sequences: 29.4.3
       loupe: 2.3.6
@@ -1454,13 +1454,13 @@ packages:
     resolution: {integrity: sha512-v4N2l3RxL+m4zDxyxz3Ne2aTmiPn8ZUpKFpdPtO+ItW1NcTCXA7JeHG5GMBSvoKSkQZ9ycS+EouDVxYB9ufKWA==}
     dev: false
 
-  /blade-formatter@1.32.13:
-    resolution: {integrity: sha512-CQOY2Zt6l+yUN7MmWGdxaZl320oSaJnf9Snrwi1JAoYL83jqwhpR4MCceVKBkUiM9YnPyRP7dTyQeorzOc+yUg==}
+  /blade-formatter@1.33.1:
+    resolution: {integrity: sha512-Z1nOJB4YFz23VmVOGg0aVqdK2SIgbWIiPzexrJy1qQh8chCG6cr3xcSL5Jak0pBE5PTo6ELYZe2lpvES6zJQHA==}
     engines: {node: '>= 14.0.0'}
     hasBin: true
     dependencies:
       '@prettier/plugin-php': 0.19.6(prettier@2.8.8)
-      '@shufo/tailwindcss-class-sorter': 2.0.0
+      '@shufo/tailwindcss-class-sorter': 3.0.1
       aigle: 1.14.1
       ajv: 8.12.0
       chalk: 4.1.2
@@ -2485,6 +2485,16 @@ packages:
       merge2: 1.4.1
       micromatch: 4.0.5
 
+  /fast-glob@3.3.0:
+    resolution: {integrity: sha512-ChDuvbOypPuNjO8yIDf36x7BlZX1smcUMTTcyoIjycexOxd6DFsKsg21qVBzEmr3G7fUKIRy2/psii+CIUt7FA==}
+    engines: {node: '>=8.6.0'}
+    dependencies:
+      '@nodelib/fs.stat': 2.0.5
+      '@nodelib/fs.walk': 1.2.8
+      glob-parent: 5.1.2
+      merge2: 1.4.1
+      micromatch: 4.0.5
+
   /fast-json-stable-stringify@2.1.0:
     resolution: {integrity: sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==}
     dev: true
@@ -2709,12 +2719,12 @@ packages:
       slash: 3.0.0
     dev: true
 
-  /globby@13.2.1:
-    resolution: {integrity: sha512-DPCBxctI7dN4EeIqjW2KGqgdcUMbrhJ9AzON+PlxCtvppWhubTLD4+a0GFxiym14ZvacUydTPjLPc2DlKz7EIg==}
+  /globby@13.2.2:
+    resolution: {integrity: sha512-Y1zNGV+pzQdh7H39l9zgB4PJqjRNqydvdYCDG4HFXM4XuvSaQQlEc91IU1yALL8gUTDomgBAfz3XJdmUS+oo0w==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       dir-glob: 3.0.1
-      fast-glob: 3.2.12
+      fast-glob: 3.3.0
       ignore: 5.2.4
       merge2: 1.4.1
       slash: 4.0.0
@@ -3305,8 +3315,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /magic-string@0.30.0:
-    resolution: {integrity: sha512-LA+31JYDJLs82r2ScLrlz1GjSgu66ZV518eyWT+S8VhyQn/JL0u9MeBOvQMGYiPk1DBiSN9DDMOcXvigJZaViQ==}
+  /magic-string@0.30.1:
+    resolution: {integrity: sha512-mbVKXPmS0z0G4XqFDCTllmDQ6coZzn94aMlb0o/A4HEHJCKcanlDZwYJgwnkmgD3jyWhUgj9VsPrfd972yPffA==}
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -4106,15 +4116,15 @@ packages:
       prettier: 2.8.8
     dev: false
 
-  /prettier-plugin-sh@0.12.8(prettier@2.8.8):
-    resolution: {integrity: sha512-VOq8h2Gn5UzrCIKm4p/nAScXJbN09HdyFDknAcxt6Qu/tv/juu9bahxSrcnM9XWYA+Spz1F1ANJ4LhfwB7+Q1Q==}
-    engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
+  /prettier-plugin-sh@0.13.0(prettier@2.8.8):
+    resolution: {integrity: sha512-YAoRiG/CJ5cK7ha5khzwrKTTAsYv0v+bgImTPo/ITuFJy68ThAUhz0shzY2xaEkLHy/e4yFI+VcmLsNdCzVxkA==}
+    engines: {node: '>=16.0.0'}
     peerDependencies:
-      prettier: ^2.0.0
+      prettier: ^3.0.0
     dependencies:
       mvdan-sh: 0.10.1
       prettier: 2.8.8
-      sh-syntax: 0.3.7
+      sh-syntax: 0.4.1
       synckit: 0.8.5
     dev: false
 
@@ -4128,19 +4138,19 @@ packages:
       prettier: 2.8.8
     dev: false
 
-  /prettier-plugin-sql@0.14.0(prettier@2.8.8):
-    resolution: {integrity: sha512-dRgINgNd3ZhBDuO/+EFalJjSlAqNXvXv9XDtSCeMufXaP6O64HHLBo1Szo+l+cfvXFxwvkTSGrS+sjpEpSchNA==}
-    engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
+  /prettier-plugin-sql@0.15.1(prettier@2.8.8):
+    resolution: {integrity: sha512-CWYgo4dXDhjA6ofvC6yUjsEOSzb5qdLmaloK8V+mPiSjkvMbatWsSTKjkV2g4k17shtqYmnU+WWOaYpFNbNL1A==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      prettier: ^2.0.0
+      prettier: ^3.0.0
     dependencies:
       node-sql-parser: 4.7.0
       prettier: 2.8.8
-      sql-formatter: 12.2.1
-      tslib: 2.5.2
+      sql-formatter: 12.2.3
+      tslib: 2.6.0
     dev: false
 
-  /prettier-plugin-tailwindcss@0.3.0(@ianvs/prettier-plugin-sort-imports@4.0.2)(@shufo/prettier-plugin-blade@1.8.13)(prettier-plugin-jsdoc@0.4.2)(prettier@2.8.8):
+  /prettier-plugin-tailwindcss@0.3.0(@ianvs/prettier-plugin-sort-imports@4.0.2)(@shufo/prettier-plugin-blade@1.9.2)(prettier-plugin-jsdoc@0.4.2)(prettier@2.8.8):
     resolution: {integrity: sha512-009/Xqdy7UmkcTBpwlq7jsViDqXAYSOMLDrHAdTMlVZOrKfM2o9Ci7EMWTMZ7SkKBFTG04UM9F9iM2+4i6boDA==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
@@ -4193,7 +4203,7 @@ packages:
         optional: true
     dependencies:
       '@ianvs/prettier-plugin-sort-imports': 4.0.2(prettier@2.8.8)
-      '@shufo/prettier-plugin-blade': 1.8.13
+      '@shufo/prettier-plugin-blade': 1.9.2
       prettier: 2.8.8
       prettier-plugin-jsdoc: 0.4.2(prettier@2.8.8)
     dev: false
@@ -4212,6 +4222,12 @@ packages:
     resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
+
+  /prettier@3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: false
 
   /pretty-format@29.5.0:
     resolution: {integrity: sha512-V2mGkI31qdttvTFX7Mt4efOqHXqJWMu4/r66Xh3Z3BwZaPfPJgp6/gbwoujRpPUtfEF6AUUWx3Jim3GCw5g/Qw==}
@@ -4510,11 +4526,11 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
-  /sh-syntax@0.3.7:
-    resolution: {integrity: sha512-xIB/uRniZ9urxAuXp1Ouh/BKSI1VK8RSqfwGj7cV57HvGrFo3vHdJfv8Tdp/cVcxJgXQTkmHr5mG5rqJW8r4wQ==}
-    engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
+  /sh-syntax@0.4.1:
+    resolution: {integrity: sha512-MW/ZsCYTu11EIYYTSZcfAgMFszAodCmQVB27XssHoIN6L4EG0KSA3h32x8whaSOKuYBX5wz9EybfnPBUFQMCKA==}
+    engines: {node: '>=16.0.0'}
     dependencies:
-      tslib: 2.5.2
+      tslib: 2.6.0
     dev: false
 
   /shebang-command@2.0.0:
@@ -4599,7 +4615,7 @@ packages:
       detect-newline: 4.0.0
       get-stdin: 9.0.0
       git-hooks-list: 3.1.0
-      globby: 13.2.1
+      globby: 13.2.2
       is-plain-obj: 4.1.0
       sort-object-keys: 1.1.3
     dev: false
@@ -4637,8 +4653,8 @@ packages:
     resolution: {integrity: sha512-XkD+zwiqXHikFZm4AX/7JSCXA98U5Db4AFd5XUg/+9UNtnH75+Z9KxtpYiJZx36mUDVOwH83pl7yvCer6ewM3w==}
     dev: true
 
-  /sql-formatter@12.2.1:
-    resolution: {integrity: sha512-rvNfY+g+mv3vxzqdDrsLVjhe/UZohYdCqUqyTK/JI8oXxnW4ObcldlclqUoL55SWQs8azEfFf66XfPBi6tkjfQ==}
+  /sql-formatter@12.2.3:
+    resolution: {integrity: sha512-sVRjEBTKJ5to2kfn11eDHcfVswz1//AL6HdGbPVN8ROWQ/XTv7E3z7rjgRxEimaBq5yDBE55JCljgcJ8a3+s7Q==}
     hasBin: true
     dependencies:
       argparse: 2.0.1
@@ -4855,8 +4871,8 @@ packages:
     resolution: {integrity: sha512-kRwSG8Zx4tjF9ZiyH4bhaebu+EDz1BOx9hOigYHlUW4xxI/wKIUQUqo018UlU4ar6ATPBsaMrdbKZ+tmPdohFA==}
     dev: true
 
-  /tinypool@0.5.0:
-    resolution: {integrity: sha512-paHQtnrlS1QZYKF/GnLoOM/DN9fqaGOFbCbxzAhwniySnzl9Ebk8w73/dd34DAhe/obUbPAOldTyYXQZxnPBPQ==}
+  /tinypool@0.6.0:
+    resolution: {integrity: sha512-FdswUUo5SxRizcBc6b1GSuLpLjisa8N8qMyYoP3rl+bym+QauhtJP5bvZY1ytt8krKGmMLYIRl36HBZfeAoqhQ==}
     engines: {node: '>=14.0.0'}
     dev: true
 
@@ -4910,6 +4926,10 @@ packages:
 
   /tslib@2.5.2:
     resolution: {integrity: sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==}
+
+  /tslib@2.6.0:
+    resolution: {integrity: sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==}
+    dev: false
 
   /tsup@7.1.0(postcss@8.4.24)(typescript@5.1.6):
     resolution: {integrity: sha512-mazl/GRAk70j8S43/AbSYXGgvRP54oQeX8Un4iZxzATHt0roW0t6HYDVZIXMw0ZQIpvr1nFMniIVnN5186lW7w==}
@@ -5087,8 +5107,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-node@0.32.4(@types/node@18.16.19):
-    resolution: {integrity: sha512-L2gIw+dCxO0LK14QnUMoqSYpa9XRGnTTTDjW2h19Mr+GR0EFj4vx52W41gFXfMLqpA00eK4ZjOVYo1Xk//LFEw==}
+  /vite-node@0.33.0(@types/node@18.16.19):
+    resolution: {integrity: sha512-19FpHYbwWWxDr73ruNahC+vtEdza52kA90Qb3La98yZ0xULqV8A5JLNPUff0f5zID4984tW7l3DH2przTJUZSw==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
     dependencies:
@@ -5141,8 +5161,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest@0.32.4:
-    resolution: {integrity: sha512-3czFm8RnrsWwIzVDu/Ca48Y/M+qh3vOnF16czJm98Q/AN1y3B6PBsyV8Re91Ty5s7txKNjEhpgtGPcfdbh2MZg==}
+  /vitest@0.33.0:
+    resolution: {integrity: sha512-1CxaugJ50xskkQ0e969R/hW47za4YXDUfWJDxip1hwbnhUjYolpfUn2AMOulqG/Dtd9WYAtkHmM/m3yKVrEejQ==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
     peerDependencies:
@@ -5175,26 +5195,26 @@ packages:
       '@types/chai': 4.3.5
       '@types/chai-subset': 1.3.3
       '@types/node': 18.16.19
-      '@vitest/expect': 0.32.4
-      '@vitest/runner': 0.32.4
-      '@vitest/snapshot': 0.32.4
-      '@vitest/spy': 0.32.4
-      '@vitest/utils': 0.32.4
+      '@vitest/expect': 0.33.0
+      '@vitest/runner': 0.33.0
+      '@vitest/snapshot': 0.33.0
+      '@vitest/spy': 0.33.0
+      '@vitest/utils': 0.33.0
       acorn: 8.9.0
       acorn-walk: 8.2.0
       cac: 6.7.14
       chai: 4.3.7
       debug: 4.3.4
       local-pkg: 0.4.3
-      magic-string: 0.30.0
+      magic-string: 0.30.1
       pathe: 1.1.1
       picocolors: 1.0.0
       std-env: 3.3.3
       strip-literal: 1.0.1
       tinybench: 2.5.0
-      tinypool: 0.5.0
+      tinypool: 0.6.0
       vite: 4.3.9(@types/node@18.16.19)
-      vite-node: 0.32.4(@types/node@18.16.19)
+      vite-node: 0.33.0(@types/node@18.16.19)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
