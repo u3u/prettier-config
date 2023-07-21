@@ -76,31 +76,31 @@
     ]
   },
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.0.2",
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
     "@prettier/plugin-php": "^0.19.6",
     "@prettier/plugin-xml": "^2.2.0",
-    "@shufo/prettier-plugin-blade": "^1.9.2",
+    "@shufo/prettier-plugin-blade": "^1.10.0",
     "@types/prettier": "^2.7.3",
     "deepmerge": "^4.3.1",
     "local-pkg": "^0.4.3",
     "prettier-plugin-ini": "^1.1.0",
     "prettier-plugin-jsdoc": "^0.4.2",
     "prettier-plugin-nginx": "^1.0.3",
-    "prettier-plugin-packagejson": "^2.4.4",
-    "prettier-plugin-prisma": "^4.13.0",
-    "prettier-plugin-sh": "^0.13.0",
+    "prettier-plugin-packagejson": "^2.4.5",
+    "prettier-plugin-prisma": "^4.17.0",
+    "prettier-plugin-sh": "^0.13.1",
     "prettier-plugin-sort-json": "^1.0.0",
     "prettier-plugin-sql": "^0.15.1",
-    "prettier-plugin-tailwindcss": "^0.3.0",
+    "prettier-plugin-tailwindcss": "^0.4.1",
     "prettier-plugin-twin.macro": "1.0.14",
-    "remeda": "^1.23.0"
+    "remeda": "^1.24.0"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.0",
     "@types/node": "^18.16.19",
     "@u3u/eslint-config": "^2.4.2",
     "@u3u/prettier-config": "link:",
-    "eslint": "^8.44.0",
+    "eslint": "^8.45.0",
     "fix-tsup-cjs": "^1.1.1",
     "globby": "^13.2.2",
     "lint-staged": "^13.2.3",
@@ -113,7 +113,7 @@
   "peerDependencies": {
     "prettier": "^2.8.8"
   },
-  "packageManager": "pnpm@8.6.7",
+  "packageManager": "pnpm@8.6.9",
   "publishConfig": {
     "access": "public"
   }
