@@ -87,7 +87,7 @@
     "prettier-plugin-jsdoc": "^0.4.2",
     "prettier-plugin-nginx": "^1.0.3",
     "prettier-plugin-packagejson": "^2.4.5",
-    "prettier-plugin-prisma": "^4.17.0",
+    "prettier-plugin-prisma": "^5.0.0",
     "prettier-plugin-sh": "^0.13.1",
     "prettier-plugin-sort-json": "^1.0.0",
     "prettier-plugin-sql": "^0.15.1",
