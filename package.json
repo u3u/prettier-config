@@ -78,7 +78,7 @@
   "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
     "@prettier/plugin-php": "^0.19.6",
-    "@prettier/plugin-xml": "^2.2.0",
+    "@prettier/plugin-xml": "^3.1.1",
     "@shufo/prettier-plugin-blade": "^1.10.1",
     "@types/prettier": "^2.7.3",
     "deepmerge": "^4.3.1",
