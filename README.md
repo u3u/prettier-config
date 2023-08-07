@@ -18,8 +18,10 @@
 
 ## Install
 
+> **Note** Prettier v3 not supported yet (wait for all plugins upgrade)
+
 ```sh
-pnpm add prettier @u3u/prettier-config -D
+pnpm add prettier@^2.8.8 @u3u/prettier-config -D
 ```
 
 ## Usage
