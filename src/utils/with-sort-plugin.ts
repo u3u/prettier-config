@@ -1,4 +1,4 @@
-import { type Plugin } from 'prettier';
+import type { Plugin } from 'prettier';
 import { mapValues } from 'remeda';
 import { definePlugin } from './define-plugin';
 import { require } from './require';

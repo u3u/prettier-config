@@ -1,3 +1,3 @@
-import { type Plugin } from 'prettier';
+import type { Plugin } from 'prettier';
 
 export const definePlugin = <T extends Plugin>(plugin: T) => plugin;

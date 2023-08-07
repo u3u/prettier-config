@@ -89,6 +89,7 @@ If you want to format before every commit, you can add the following to your `pa
   "lint-staged": {
     "*": ["prettier --write --ignore-unknown"]
   },
+
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
   }
