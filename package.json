@@ -97,11 +97,11 @@
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.0",
-    "@types/node": "^18.17.3",
+    "@types/node": "^18.17.4",
     "@u3u/eslint-config": "^2.9.1",
     "@u3u/prettier-config": "link:",
     "eslint": "^8.46.0",
-    "fix-tsup-cjs": "^1.1.1",
+    "fix-tsup-cjs": "^1.2.0",
     "globby": "^13.2.2",
     "lint-staged": "^13.2.3",
     "prettier": "^2.8.8",
