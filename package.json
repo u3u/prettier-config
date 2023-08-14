@@ -86,14 +86,15 @@
     "remeda": "^1.24.0"
   },
   "devDependencies": {
+    "@total-typescript/ts-reset": "^0.4.2",
     "@tsconfig/node18": "^18.2.0",
     "@types/node": "^18.17.4",
-    "@u3u/eslint-config": "^2.9.1",
+    "@u3u/eslint-config": "^2.9.2",
     "@u3u/prettier-config": "link:",
-    "eslint": "^8.46.0",
+    "eslint": "^8.47.0",
     "fix-tsup-cjs": "^1.2.0",
     "globby": "^13.2.2",
-    "lint-staged": "^13.2.3",
+    "lint-staged": "^14.0.0",
     "prettier": "^2.8.8",
     "simple-git-hooks": "^2.9.0",
     "tsup": "^7.2.0",

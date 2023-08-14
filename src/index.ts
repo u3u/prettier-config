@@ -1,3 +1,4 @@
+import '@total-typescript/ts-reset';
 import { getPackageInfoSync } from 'local-pkg';
 import base from './base';
 import { defineConfig } from './utils';
