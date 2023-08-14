@@ -13,34 +13,24 @@
   "sideEffects": false,
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
     },
-    "./base": {
-      "types": "./dist/base.d.ts",
-      "require": "./dist/base.js",
-      "import": "./dist/base.mjs"
-    },
-    "./tw": {
-      "types": "./dist/tw.d.ts",
-      "require": "./dist/tw.js",
-      "import": "./dist/tw.mjs"
-    },
-    "./twin.macro": {
-      "types": "./dist/twin.macro.d.ts",
-      "require": "./dist/twin.macro.js",
-      "import": "./dist/twin.macro.mjs"
-    },
-    "./with-twin.macro": {
-      "types": "./dist/with-twin.macro.d.ts",
-      "require": "./dist/with-twin.macro.js",
-      "import": "./dist/with-twin.macro.mjs"
-    },
-    "./utils": {
-      "types": "./dist/utils.d.ts",
-      "require": "./dist/utils.js",
-      "import": "./dist/utils.mjs"
+    "./*": {
+      "import": {
+        "types": "./dist/*.d.mts",
+        "default": "./dist/*.mjs"
+      },
+      "require": {
+        "types": "./dist/*.d.ts",
+        "default": "./dist/*.js"
+      }
     }
   },
   "main": "./dist/index.js",
