@@ -12,10 +12,12 @@ export const withSortPlugin = (plugin: Required<Pick<Plugin, 'parsers'>>) => {
     },
 
     parsers: {
-      ...mapValues(plugin.parsers, (item, key) => ({
-        ...item,
-        preprocess: sortImportsPlugin.parsers[key].preprocess,
-      })),
+      ...mapValues(plugin.parsers, (item, key) => {
+        return {
+          ...item,
+          preprocess: sortImportsPlugin.parsers[key].preprocess,
+        };
+      }),
     },
   } as const);
 };

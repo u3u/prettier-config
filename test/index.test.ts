@@ -1,9 +1,10 @@
 import path from 'node:path';
-import { globby } from 'globby';
 import { expect, it } from 'vitest';
 import { format } from './format';
 
 it('should match snapshots', async () => {
+  const { globby } = await import('globby');
+
   const paths = await globby('*', {
     cwd: 'test/__fixtures__',
     dot: true,
