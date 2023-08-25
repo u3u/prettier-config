@@ -45,8 +45,8 @@ dependencies:
     specifier: ^0.12.8
     version: 0.12.8(prettier@2.8.8)
   prettier-plugin-sort-json:
-    specifier: ^1.0.0
-    version: 1.0.0(prettier@2.8.8)
+    specifier: ^2.0.0
+    version: 2.0.0(prettier@2.8.8)
   prettier-plugin-sql:
     specifier: ^0.14.0
     version: 0.14.0(prettier@2.8.8)
@@ -4246,9 +4246,9 @@ packages:
       synckit: 0.8.5
     dev: false
 
-  /prettier-plugin-sort-json@1.0.0(prettier@2.8.8):
-    resolution: {integrity: sha512-XgcaF/Sojax1vD6j53wNIByx0rp7ecang+A8W0eM+Ks3yBFu/qXjJNvUtC1lEWeYbNfmRs/d8FyYJCYozAVENw==}
-    engines: {node: '>=14.0.0'}
+  /prettier-plugin-sort-json@2.0.0(prettier@2.8.8):
+    resolution: {integrity: sha512-3gSjdNOZm1ZsNurYGMFIya7m7KDTjcGBq/D5ymiWP770uvLyjGE1sE+IFNwA7igGRRTDjI9pPoikRCICKS131w==}
+    engines: {node: '>=16.0.0'}
     peerDependencies:
       prettier: ^2.3.2
     dependencies:

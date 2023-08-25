@@ -79,7 +79,7 @@
     "prettier-plugin-packagejson": "^2.4.5",
     "prettier-plugin-prisma": "^5.0.0",
     "prettier-plugin-sh": "^0.12.8",
-    "prettier-plugin-sort-json": "^1.0.0",
+    "prettier-plugin-sort-json": "^2.0.0",
     "prettier-plugin-sql": "^0.14.0",
     "prettier-plugin-tailwindcss": "^0.4.1",
     "prettier-plugin-twin.macro": "1.0.14",
