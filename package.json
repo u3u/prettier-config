@@ -111,7 +111,9 @@
   },
   "pnpm": {
     "updateConfig": {
-      "ignoreDependencies": []
+      "ignoreDependencies": [
+        "@types/node"
+      ]
     }
   }
 }
