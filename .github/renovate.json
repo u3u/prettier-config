@@ -1,11 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>u3u/renovate-config"],
-  "ignoreDeps": [
-    "@prettier/plugin-xml",
-    "@shufo/prettier-plugin-blade",
-    "prettier-plugin-jsdoc",
-    "prettier-plugin-sh",
-    "prettier-plugin-sql"
-  ]
+  "extends": ["github>u3u/renovate-config"]
 }

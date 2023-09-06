@@ -208,15 +208,3 @@ export const styles = {
 };
 "
 `;
-
-exports[`twin.macro classes should sorted 1`] = `
-"// @ts-nocheck
-import { type Config, type Options } from 'prettier';
-import tw from 'twin.macro';
-import { defineConfig, extendConfig, withSortPlugin } from '../../src/utils';
-
-export const styles = tw\`inline1 inline display[block] [display:block]\`;
-
-export const Button = tw.button\`sm:(bg-red-100 [display:inline] hover:(mt-4 w-10 before:p-4))\`;
-"
-`;

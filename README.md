@@ -7,7 +7,7 @@
 - Sort/merge `import` statements
 - Sort JSON Key
 - Sort `package.json`
-- Sort Tailwind CSS classes (also `twin.macro` supported)
+- Sort Tailwind CSS classes
 - Format `jsdoc`
 - Format `nginx` config
 - Extend config
@@ -18,10 +18,8 @@
 
 ## Install
 
-> **Note** Prettier v3 not supported yet (wait for all plugins upgrade)
-
 ```sh
-pnpm add prettier@^2.8.8 @u3u/prettier-config -D
+pnpm add prettier @u3u/prettier-config -D
 ```
 
 ## Usage
@@ -42,12 +40,6 @@ With Tailwind CSS (By default, the `clsx`, `tw`, and `twMerge`, `twJoin` methods
 
 ```json
 "@u3u/prettier-config/tw"
-```
-
-With [twin.macro](https://github.com/ben-rogerson/twin.macro)
-
-```json
-"@u3u/prettier-config/twin.macro"
 ```
 
 Add `format` script to `package.json`

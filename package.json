@@ -67,56 +67,51 @@
   },
   "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
-    "@prettier/plugin-php": "^0.19.6",
-    "@prettier/plugin-xml": "^2.2.0",
-    "@shufo/prettier-plugin-blade": "^1.8.13",
-    "@types/prettier": "^2.7.3",
+    "@prettier/plugin-php": "^0.20.1",
+    "@prettier/plugin-xml": "^3.2.0",
+    "@shufo/prettier-plugin-blade": "^1.11.1",
+    "@types/prettier": "^3.0.0",
     "deepmerge": "^4.3.1",
     "local-pkg": "^0.4.3",
     "prettier-plugin-ini": "^1.1.0",
-    "prettier-plugin-jsdoc": "^0.4.2",
+    "prettier-plugin-jsdoc": "^1.0.1",
     "prettier-plugin-nginx": "^1.0.3",
     "prettier-plugin-packagejson": "^2.4.5",
     "prettier-plugin-prisma": "^5.0.0",
-    "prettier-plugin-sh": "^0.12.8",
-    "prettier-plugin-sort-json": "^1.0.0",
-    "prettier-plugin-sql": "^0.14.0",
-    "prettier-plugin-tailwindcss": "^0.4.1",
-    "prettier-plugin-twin.macro": "1.0.14",
-    "remeda": "^1.24.0"
+    "prettier-plugin-sh": "^0.13.1",
+    "prettier-plugin-sort-json": "^3.0.1",
+    "prettier-plugin-sql": "^0.15.1",
+    "prettier-plugin-tailwindcss": "^0.5.4",
+    "remeda": "^1.26.0"
   },
   "devDependencies": {
-    "@total-typescript/ts-reset": "^0.4.2",
-    "@tsconfig/node18": "^18.2.0",
-    "@types/node": "^18.17.4",
-    "@u3u/eslint-config": "^2.9.2",
+    "@total-typescript/ts-reset": "^0.5.1",
+    "@tsconfig/node18": "^18.2.1",
+    "@types/node": "^20.5.9",
+    "@u3u/eslint-config": "^2.10.0",
     "@u3u/prettier-config": "link:",
-    "eslint": "^8.47.0",
+    "dedent": "^1.5.1",
+    "eslint": "^8.48.0",
+    "execa": "^8.0.1",
     "fix-tsup-cjs": "^1.2.0",
     "globby": "^13.2.2",
-    "lint-staged": "^14.0.0",
-    "prettier": "^2.8.8",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
     "simple-git-hooks": "^2.9.0",
     "tsup": "^7.2.0",
-    "typescript": "^5.1.6",
-    "vitest": "^0.34.1"
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.3"
   },
   "peerDependencies": {
-    "prettier": "^2.8.8"
+    "prettier": ">=3.0.0"
   },
-  "packageManager": "pnpm@8.6.12",
+  "packageManager": "pnpm@8.7.4",
   "publishConfig": {
     "access": "public"
   },
   "pnpm": {
     "updateConfig": {
-      "ignoreDependencies": [
-        "@prettier/plugin-xml",
-        "@shufo/prettier-plugin-blade",
-        "prettier-plugin-jsdoc",
-        "prettier-plugin-sh",
-        "prettier-plugin-sql"
-      ]
+      "ignoreDependencies": []
     }
   }
 }
