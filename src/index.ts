@@ -46,5 +46,6 @@ export default defineConfig({
     require.resolve('@prettier/plugin-php'),
     require.resolve('@shufo/prettier-plugin-blade'),
     require.resolve('prettier-plugin-prisma'),
+    require.resolve('prettier-plugin-astro'),
   ],
 });
