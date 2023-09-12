@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.20.1
     version: 0.20.1(prettier@3.0.3)
   '@prettier/plugin-xml':
-    specifier: ^3.2.0
-    version: 3.2.0(prettier@3.0.3)
+    specifier: ^3.2.1
+    version: 3.2.1(prettier@3.0.3)
   '@shufo/prettier-plugin-blade':
     specifier: ^1.11.1
     version: 1.11.1
@@ -913,8 +913,8 @@ packages:
       prettier: 3.0.3
     dev: false
 
-  /@prettier/plugin-xml@3.2.0(prettier@3.0.3):
-    resolution: {integrity: sha512-1SgnoMIOLjGcKqstr6gmly7J6VoVSXULz0kMDimBE36yj59GrNvaOBPjoeYUmcpU3/IwLiCIJRaCX8qiVSvy/A==}
+  /@prettier/plugin-xml@3.2.1(prettier@3.0.3):
+    resolution: {integrity: sha512-DvwnQPf8FsczapBVDm54IhR+Pryt3DbPZSNtUb9gOuFtgoUUPbPN69f3nQBMF5BEqh4ZjZjTaHBmsVno3UnAXQ==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:

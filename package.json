@@ -68,7 +68,7 @@
   "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
     "@prettier/plugin-php": "^0.20.1",
-    "@prettier/plugin-xml": "^3.2.0",
+    "@prettier/plugin-xml": "^3.2.1",
     "@shufo/prettier-plugin-blade": "^1.11.1",
     "@types/prettier": "^3.0.0",
     "deepmerge": "^4.3.1",
@@ -105,7 +105,7 @@
   "peerDependencies": {
     "prettier": ">=3.0.0"
   },
-  "packageManager": "pnpm@8.7.4",
+  "packageManager": "pnpm@8.7.5",
   "publishConfig": {
     "access": "public"
   },
