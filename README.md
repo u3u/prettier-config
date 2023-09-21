@@ -13,7 +13,9 @@
 - Extend config
 - ...
 
-> **Note** Upgrade this config to `>=3.x` version, Prettier should automatically infer the plugin parser. If you are using the [prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension, you need to upgrade to [>=9.17.0](https://github.com/prettier/prettier-vscode/blob/main/CHANGELOG.md) version for automatic inference of the plugin parser to take effect.  
+> **Note**
+>
+> Upgrade this config to `>=3.x` version, Prettier should automatically infer the plugin parser. If you are using the [prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension, you need to upgrade to [>=9.17.0](https://github.com/prettier/prettier-vscode/blob/main/CHANGELOG.md) version for automatic inference of the plugin parser to take effect.  
 > See this fix: https://github.com/prettier/prettier-vscode/pull/3027
 
 ## Install

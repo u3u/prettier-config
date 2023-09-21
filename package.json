@@ -1,9 +1,10 @@
 {
   "name": "@u3u/prettier-config",
   "version": "4.1.0",
-  "description": "My Prettier config",
+  "description": "🎨 The most perfect Prettier config",
   "keywords": [
-    "prettier-config"
+    "prettier-config",
+    "prettier-preset"
   ],
   "repository": {
     "url": "https://github.com/u3u/prettier-config.git"
