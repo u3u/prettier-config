@@ -70,7 +70,6 @@
     "@prettier/plugin-php": "^0.20.1",
     "@prettier/plugin-xml": "^3.2.1",
     "@shufo/prettier-plugin-blade": "^1.11.1",
-    "@types/prettier": "^3.0.0",
     "deepmerge": "^4.3.1",
     "local-pkg": "^0.4.3",
     "prettier-plugin-astro": "^0.12.0",
