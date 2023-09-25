@@ -88,11 +88,11 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^18.17.18",
+    "@types/node": "^18.17.19",
     "@u3u/eslint-config": "^2.12.0",
     "@u3u/prettier-config": "link:",
     "dedent": "^1.5.1",
-    "eslint": "^8.49.0",
+    "eslint": "^8.50.0",
     "execa": "^8.0.1",
     "fix-tsup-cjs": "^1.2.0",
     "globby": "^13.2.2",
