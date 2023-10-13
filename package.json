@@ -67,10 +67,10 @@
     ]
   },
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "@prettier/plugin-php": "^0.20.1",
     "@prettier/plugin-xml": "^3.2.1",
-    "@shufo/prettier-plugin-blade": "^1.11.1",
+    "@shufo/prettier-plugin-blade": "^1.13.1",
     "deepmerge": "^4.3.1",
     "local-pkg": "^0.5.0",
     "prettier-plugin-astro": "^0.12.0",
@@ -82,13 +82,13 @@
     "prettier-plugin-sh": "^0.13.1",
     "prettier-plugin-sort-json": "^3.1.0",
     "prettier-plugin-sql": "^0.15.1",
-    "prettier-plugin-tailwindcss": "^0.5.5",
-    "remeda": "^1.27.0"
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "remeda": "^1.27.1"
   },
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^18.18.4",
+    "@types/node": "^18.18.5",
     "@u3u/eslint-config": "^2.12.0",
     "@u3u/prettier-config": "link:",
     "dedent": "^1.5.1",
@@ -106,7 +106,7 @@
   "peerDependencies": {
     "prettier": ">=3.0.0"
   },
-  "packageManager": "pnpm@8.8.0",
+  "packageManager": "pnpm@8.9.0",
   "publishConfig": {
     "access": "public"
   },
