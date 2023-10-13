@@ -203,7 +203,7 @@ array_map(
     'formatting' => 'is',
     'hard' => 'to',
     'maintain' => true,
-  ]
+  ],
 );
 "
 `;
