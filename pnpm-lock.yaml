@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.21.0
     version: 0.21.0(prettier@3.0.3)
   '@prettier/plugin-xml':
-    specifier: ^3.2.1
-    version: 3.2.1(prettier@3.0.3)
+    specifier: ^3.2.2
+    version: 3.2.2(prettier@3.0.3)
   '@shufo/prettier-plugin-blade':
     specifier: ^1.13.3
     version: 1.13.3
@@ -24,8 +24,8 @@ dependencies:
     specifier: ^0.4.3
     version: 0.4.3
   prettier-plugin-astro:
-    specifier: ^0.12.0
-    version: 0.12.0
+    specifier: ^0.12.1
+    version: 0.12.1
   prettier-plugin-ini:
     specifier: ^1.1.0
     version: 1.1.0
@@ -52,10 +52,10 @@ dependencies:
     version: 0.15.1(prettier@3.0.3)
   prettier-plugin-tailwindcss:
     specifier: ^0.5.6
-    version: 0.5.6(@ianvs/prettier-plugin-sort-imports@4.1.1)(@shufo/prettier-plugin-blade@1.13.3)(prettier-plugin-astro@0.12.0)(prettier-plugin-jsdoc@1.1.1)(prettier@3.0.3)
+    version: 0.5.6(@ianvs/prettier-plugin-sort-imports@4.1.1)(@shufo/prettier-plugin-blade@1.13.3)(prettier-plugin-astro@0.12.1)(prettier-plugin-jsdoc@1.1.1)(prettier@3.0.3)
   remeda:
-    specifier: ^1.27.1
-    version: 1.27.1
+    specifier: ^1.28.0
+    version: 1.28.0
 
 devDependencies:
   '@total-typescript/ts-reset':
@@ -65,8 +65,8 @@ devDependencies:
     specifier: ^18.2.2
     version: 18.2.2
   '@types/node':
-    specifier: ^18.18.6
-    version: 18.18.6
+    specifier: ^18.18.7
+    version: 18.18.7
   '@u3u/eslint-config':
     specifier: ^2.12.1
     version: 2.12.1(eslint@8.52.0)(typescript@5.2.2)
@@ -915,8 +915,8 @@ packages:
       prettier: 3.0.3
     dev: false
 
-  /@prettier/plugin-xml@3.2.1(prettier@3.0.3):
-    resolution: {integrity: sha512-DvwnQPf8FsczapBVDm54IhR+Pryt3DbPZSNtUb9gOuFtgoUUPbPN69f3nQBMF5BEqh4ZjZjTaHBmsVno3UnAXQ==}
+  /@prettier/plugin-xml@3.2.2(prettier@3.0.3):
+    resolution: {integrity: sha512-SoE70SQF1AKIvK7LVK80JcdAe6wrDcbodFFjcoqb1FkOqV0G0oSlgAFDwoRXPqkUE5p/YF2nGsnUbnfm6471sw==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
@@ -1012,8 +1012,10 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: false
 
-  /@types/node@18.18.6:
-    resolution: {integrity: sha512-wf3Vz+jCmOQ2HV1YUJuCWdL64adYxumkrxtc+H1VUQlnQI04+5HtH+qZCOE21lBE7gIrt+CwX2Wv8Acrw5Ak6w==}
+  /@types/node@18.18.7:
+    resolution: {integrity: sha512-bw+lEsxis6eqJYW8Ql6+yTqkE6RuFtsQPSe5JxXbqYRFQEER5aJA9a5UH9igqDWm3X4iLHIKOHlnAXLM4mi7uQ==}
+    dependencies:
+      undici-types: 5.26.5
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -4426,8 +4428,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-astro@0.12.0:
-    resolution: {integrity: sha512-8E+9YQR6/5CPZJs8XsfBw579zrwZkc0Wb7x0fRVm/51JC8Iys4lBw4ecV8fHwpbQnzve86TUa4fJ08BJzqfWnA==}
+  /prettier-plugin-astro@0.12.1:
+    resolution: {integrity: sha512-1mlNIU/cV+25oB4z5wXzOz2fSDcawG3MsVUwgw2i8VSy7voLSENMSpR1juu3U5MAVUo3owuyax11QuylbpuqOQ==}
     engines: {node: ^14.15.0 || >=16.0.0}
     dependencies:
       '@astrojs/compiler': 1.8.2
@@ -4514,7 +4516,7 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /prettier-plugin-tailwindcss@0.5.6(@ianvs/prettier-plugin-sort-imports@4.1.1)(@shufo/prettier-plugin-blade@1.13.3)(prettier-plugin-astro@0.12.0)(prettier-plugin-jsdoc@1.1.1)(prettier@3.0.3):
+  /prettier-plugin-tailwindcss@0.5.6(@ianvs/prettier-plugin-sort-imports@4.1.1)(@shufo/prettier-plugin-blade@1.13.3)(prettier-plugin-astro@0.12.1)(prettier-plugin-jsdoc@1.1.1)(prettier@3.0.3):
     resolution: {integrity: sha512-2Xgb+GQlkPAUCFi3sV+NOYcSI5XgduvDBL2Zt/hwJudeKXkyvRS65c38SB0yb9UB40+1rL83I6m0RtlOQ8eHdg==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
@@ -4569,7 +4571,7 @@ packages:
       '@ianvs/prettier-plugin-sort-imports': 4.1.1(prettier@3.0.3)
       '@shufo/prettier-plugin-blade': 1.13.3
       prettier: 3.0.3
-      prettier-plugin-astro: 0.12.0
+      prettier-plugin-astro: 0.12.1
       prettier-plugin-jsdoc: 1.1.1(prettier@3.0.3)
     dev: false
 
@@ -4738,8 +4740,8 @@ packages:
       jsesc: 0.5.0
     dev: true
 
-  /remeda@1.27.1:
-    resolution: {integrity: sha512-va05uuDBz/E55O9wmpDdbVlwdWbHGJJy3oC0EAHSFn74MpWF3S81NVJDz/FW05bc/UDg769t1u6YPhBK/gmvLw==}
+  /remeda@1.28.0:
+    resolution: {integrity: sha512-QANcfxsEiRCdiN8PQ7LsPQvW1qVFAO2x4dXEpuWbZKPrzzRG2BA0SXReDnhppD2YZKgLWA/bLpHq0ANenXea1w==}
     dev: false
 
   /require-directory@2.1.1:
@@ -5448,6 +5450,10 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+    dev: true
+
   /unist-util-stringify-position@2.0.3:
     resolution: {integrity: sha512-3faScn5I+hy9VleOq/qNbAd6pAx7iH5jYBMS9I1HgQVijz/4mv5Bvw5iw1sC/90CODiKo81G/ps8AJrISn687g==}
     dependencies:
@@ -5497,7 +5503,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-node@0.34.6(@types/node@18.18.6):
+  /vite-node@0.34.6(@types/node@18.18.7):
     resolution: {integrity: sha512-nlBMJ9x6n7/Amaz6F3zJ97EBwR2FkzhBRxF5e+jE6LA3yi6Wtc2lyTij1OnDMIr34v5g/tVQtsVAzhT0jc5ygA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -5507,7 +5513,7 @@ packages:
       mlly: 1.4.2
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 4.4.9(@types/node@18.18.6)
+      vite: 4.4.9(@types/node@18.18.7)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5519,7 +5525,7 @@ packages:
       - terser
     dev: true
 
-  /vite@4.4.9(@types/node@18.18.6):
+  /vite@4.4.9(@types/node@18.18.7):
     resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -5547,7 +5553,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.18.6
+      '@types/node': 18.18.7
       esbuild: 0.18.20
       postcss: 8.4.29
       rollup: 3.29.0
@@ -5588,7 +5594,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.6
       '@types/chai-subset': 1.3.3
-      '@types/node': 18.18.6
+      '@types/node': 18.18.7
       '@vitest/expect': 0.34.6
       '@vitest/runner': 0.34.6
       '@vitest/snapshot': 0.34.6
@@ -5607,8 +5613,8 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.5.0
       tinypool: 0.7.0
-      vite: 4.4.9(@types/node@18.18.6)
-      vite-node: 0.34.6(@types/node@18.18.6)
+      vite: 4.4.9(@types/node@18.18.7)
+      vite-node: 0.34.6(@types/node@18.18.7)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
