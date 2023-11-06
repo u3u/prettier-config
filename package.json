@@ -70,7 +70,7 @@
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "@prettier/plugin-php": "^0.21.0",
     "@prettier/plugin-xml": "^3.2.2",
-    "@shufo/prettier-plugin-blade": "^1.13.3",
+    "@shufo/prettier-plugin-blade": "^1.13.4",
     "deepmerge": "^4.3.1",
     "local-pkg": "^0.4.3",
     "prettier-plugin-astro": "^0.12.1",
