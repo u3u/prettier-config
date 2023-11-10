@@ -48,8 +48,8 @@ dependencies:
     specifier: ^3.1.0
     version: 3.1.0(prettier@3.0.3)
   prettier-plugin-sql:
-    specifier: ^0.15.2
-    version: 0.15.2(prettier@3.0.3)
+    specifier: ^0.16.0
+    version: 0.16.0(prettier@3.0.3)
   prettier-plugin-tailwindcss:
     specifier: ^0.5.7
     version: 0.5.7(@ianvs/prettier-plugin-sort-imports@4.1.1)(@shufo/prettier-plugin-blade@1.13.4)(prettier-plugin-astro@0.12.1)(prettier-plugin-jsdoc@1.1.1)(prettier@3.0.3)
@@ -3492,6 +3492,11 @@ packages:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
     dev: true
 
+  /jsox@1.2.118:
+    resolution: {integrity: sha512-ubYWn4WOc7HA7icvcQuIni1I7Xx4bI4KbRXbXzlr5e48hvdizeAbflBx97B629ZNH5RZnQ657Z5Z8dFgxFVrSQ==}
+    hasBin: true
+    dev: false
+
   /jsx-ast-utils@3.3.5:
     resolution: {integrity: sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ==}
     engines: {node: '>=4.0'}
@@ -4031,8 +4036,8 @@ packages:
     resolution: {integrity: sha512-QzsYKWhXTWx8h1kIvqfnC++o0pEmpRQA/aenALsL2F4pqNVr7YzcdMlDij5WBnwftRbJCNJL/O7zdKaxKPHqgQ==}
     dev: false
 
-  /node-sql-parser@4.10.0:
-    resolution: {integrity: sha512-P4LZNX8drf+0X5zPtcE5o1SV7Wn4VpTGSYOnN8uY+TswtHrg3ymb193tYpF8EMp2LhGqqDUqTAnCr8hqjN3uQw==}
+  /node-sql-parser@4.11.0:
+    resolution: {integrity: sha512-ElheoPibjc7IVyRdsORgkzJi0DWm3f0LYSsm/eJIeUt3M/csDLTblLDR4zl5Qi7jmVjJ1KpEkPKSbgVGEzU5Xw==}
     engines: {node: '>=8'}
     dependencies:
       big-integer: 1.6.51
@@ -4504,15 +4509,16 @@ packages:
       prettier: 3.0.3
     dev: false
 
-  /prettier-plugin-sql@0.15.2(prettier@3.0.3):
-    resolution: {integrity: sha512-4h1s1u1sxi2RTdfMjubVTBJWiUsyc2/kolxqQbFp/aFoUEfMLH+t6/hFGr2FeTKTuc576wOXFtkQG2WXXvBrRA==}
+  /prettier-plugin-sql@0.16.0(prettier@3.0.3):
+    resolution: {integrity: sha512-ISKL8EpiW9VSaHxmezr/lYiBNgcJvCF5V4NR2SCGZcv4vawn1negBD5jVVf7VN/wqTLd56U/taJiQPhQdbrYdA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       prettier: ^3.0.3
     dependencies:
-      node-sql-parser: 4.10.0
+      jsox: 1.2.118
+      node-sql-parser: 4.11.0
       prettier: 3.0.3
-      sql-formatter: 12.2.4
+      sql-formatter: 13.1.0
       tslib: 2.6.2
     dev: false
 
@@ -5006,8 +5012,8 @@ packages:
     resolution: {integrity: sha512-XkD+zwiqXHikFZm4AX/7JSCXA98U5Db4AFd5XUg/+9UNtnH75+Z9KxtpYiJZx36mUDVOwH83pl7yvCer6ewM3w==}
     dev: true
 
-  /sql-formatter@12.2.4:
-    resolution: {integrity: sha512-Qj45LEHSfgrdYDOrAtIkR8SdS10SWcqCIM2WZwQwMKF2v9sM0K2dlThWPS7eYCUrhttZIrU1WwuIwHk7MjsWOw==}
+  /sql-formatter@13.1.0:
+    resolution: {integrity: sha512-/nZQXuN7KzipFNM20ko+dHY4kOr9rymSfZLUDED8rhx3m8OK5y74jcyN+y1L51ZqHqiB0kp40VdpZP99uWvQdA==}
     hasBin: true
     dependencies:
       argparse: 2.0.1
