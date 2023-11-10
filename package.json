@@ -81,7 +81,7 @@
     "prettier-plugin-prisma": "^5.0.0",
     "prettier-plugin-sh": "^0.13.1",
     "prettier-plugin-sort-json": "^3.1.0",
-    "prettier-plugin-sql": "^0.15.2",
+    "prettier-plugin-sql": "^0.16.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
     "remeda": "^1.29.0"
   },
