@@ -96,7 +96,7 @@
     "execa": "^8.0.1",
     "fix-tsup-cjs": "^1.2.0",
     "globby": "^13.2.2",
-    "lint-staged": "^14.0.1",
+    "lint-staged": "^15.1.0",
     "prettier": "^3.0.3",
     "simple-git-hooks": "^2.9.0",
     "tsup": "^7.2.0",
