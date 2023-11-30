@@ -88,8 +88,8 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^20.10.0",
-    "@u3u/eslint-config": "^2.12.4",
+    "@types/node": "^20.10.1",
+    "@u3u/eslint-config": "^2.13.1",
     "@u3u/prettier-config": "link:",
     "dedent": "^1.5.1",
     "eslint": "^8.54.0",
