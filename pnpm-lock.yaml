@@ -51,8 +51,8 @@ dependencies:
     specifier: ^0.17.0
     version: 0.17.0(prettier@3.1.0)
   prettier-plugin-tailwindcss:
-    specifier: ^0.5.7
-    version: 0.5.7(@ianvs/prettier-plugin-sort-imports@4.1.1)(@shufo/prettier-plugin-blade@1.13.4)(prettier-plugin-astro@0.12.2)(prettier-plugin-jsdoc@1.1.1)(prettier@3.1.0)
+    specifier: ^0.5.8
+    version: 0.5.8(@ianvs/prettier-plugin-sort-imports@4.1.1)(prettier-plugin-astro@0.12.2)(prettier-plugin-jsdoc@1.1.1)(prettier@3.1.0)
   remeda:
     specifier: ^1.29.0
     version: 1.29.0
@@ -4610,14 +4610,13 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /prettier-plugin-tailwindcss@0.5.7(@ianvs/prettier-plugin-sort-imports@4.1.1)(@shufo/prettier-plugin-blade@1.13.4)(prettier-plugin-astro@0.12.2)(prettier-plugin-jsdoc@1.1.1)(prettier@3.1.0):
-    resolution: {integrity: sha512-4v6uESAgwCni6YF6DwJlRaDjg9Z+al5zM4JfngcazMy4WEf/XkPS5TEQjbD+DZ5iNuG6RrKQLa/HuX2SYzC3kQ==}
+  /prettier-plugin-tailwindcss@0.5.8(@ianvs/prettier-plugin-sort-imports@4.1.1)(prettier-plugin-astro@0.12.2)(prettier-plugin-jsdoc@1.1.1)(prettier@3.1.0):
+    resolution: {integrity: sha512-9XqjDi0zA/6IUYe3cC80+Eb+z0DU4vFF4yARVKddRZaW2ocBVawjpsFU7FtLn/xlBA8Fubp6Pd3HP3415Go4aw==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
       '@prettier/plugin-pug': '*'
       '@shopify/prettier-plugin-liquid': '*'
-      '@shufo/prettier-plugin-blade': '*'
       '@trivago/prettier-plugin-sort-imports': '*'
       prettier: ^3.0
       prettier-plugin-astro: '*'
@@ -4636,8 +4635,6 @@ packages:
       '@prettier/plugin-pug':
         optional: true
       '@shopify/prettier-plugin-liquid':
-        optional: true
-      '@shufo/prettier-plugin-blade':
         optional: true
       '@trivago/prettier-plugin-sort-imports':
         optional: true
@@ -4663,7 +4660,6 @@ packages:
         optional: true
     dependencies:
       '@ianvs/prettier-plugin-sort-imports': 4.1.1(prettier@3.1.0)
-      '@shufo/prettier-plugin-blade': 1.13.4
       prettier: 3.1.0
       prettier-plugin-astro: 0.12.2
       prettier-plugin-jsdoc: 1.1.1(prettier@3.1.0)
