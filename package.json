@@ -89,7 +89,7 @@
     "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node18": "^18.2.2",
     "@types/node": "^20.10.4",
-    "@u3u/eslint-config": "^2.13.1",
+    "@u3u/eslint-config": "^2.14.1",
     "@u3u/prettier-config": "link:",
     "dedent": "^1.5.1",
     "eslint": "^8.55.0",
@@ -99,14 +99,14 @@
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.0",
     "simple-git-hooks": "^2.9.0",
-    "tsup": "^7.3.0",
+    "tsup": "^8.0.1",
     "typescript": "^5.3.3",
-    "vitest": "^0.34.6"
+    "vitest": "^1.0.2"
   },
   "peerDependencies": {
     "prettier": ">=3.0.0"
   },
-  "packageManager": "pnpm@8.11.0",
+  "packageManager": "pnpm@8.12.0",
   "publishConfig": {
     "access": "public"
   },

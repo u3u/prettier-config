@@ -61,11 +61,11 @@ exports[`should match snapshots > hosts 1`] = `
 
 exports[`should match snapshots > package.json 1`] = `
 "{
-  \\"name\\": \\"my-awesome-project\\",
-  \\"version\\": \\"1.0.0\\",
-  \\"dependencies\\": {
-    \\"sort-object-keys\\": \\"1.0.0\\",
-    \\"sort-package-json\\": \\"1.0.0\\"
+  "name": "my-awesome-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "sort-object-keys": "1.0.0",
+    "sort-package-json": "1.0.0"
   }
 }
 "
@@ -73,12 +73,12 @@ exports[`should match snapshots > package.json 1`] = `
 
 exports[`should match snapshots > schema.prisma 1`] = `
 "generator client {
-  provider = \\"prisma-client-js\\"
+  provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = \\"postgresql\\"
-  url      = env(\\"DATABASE_URL\\")
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model Post {
@@ -121,11 +121,11 @@ model Comment {
 
 exports[`should match snapshots > test.astro 1`] = `
 "<!doctype html>
-<html lang=\\"en\\">
+<html lang="en">
   <head>
-    <meta charset=\\"UTF-8\\" />
-    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\" />
-    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
@@ -140,23 +140,23 @@ exports[`should match snapshots > test.blade.php 1`] = `
 @section('title') foo
 @endsection
 @section('content')
-  <section id=\\"content\\">
-    <div class=\\"container mod-users-pd-h\\">
-      <div class=\\"pf-user-header\\">
+  <section id="content">
+    <div class="container mod-users-pd-h">
+      <div class="pf-user-header">
         <div></div>
         <p>@lang('users.index')</p>
       </div>
-      <div class=\\"pf-users-branch\\">
-        <ul class=\\"pf-users-branch__list\\">
+      <div class="pf-users-branch">
+        <ul class="pf-users-branch__list">
           @foreach ($users as $user)
             <li>
-              <img src=\\"{{ asset('img/frontend/icon/branch-arrow.svg') }}\\" alt=\\"branch_arrow\\">
+              <img src="{{ asset('img/frontend/icon/branch-arrow.svg') }}" alt="branch_arrow">
               {{ link_to_route('frontend.users.user.show', $users['name'], $users['_id']) }}
             </li>
           @endforeach
         </ul>
-        <div class=\\"pf-users-branch__btn\\">
-          @can('create', App\\\\Models\\\\User::class)
+        <div class="pf-users-branch__btn">
+          @can('create', App\\Models\\User::class)
             {!! link_to_route('frontend.users.user.create', __('users.create'), [1, 2, 3], ['class' => 'btn']) !!}
           @endcan
         </div>
@@ -171,14 +171,14 @@ exports[`should match snapshots > test.blade.php 1`] = `
 
 exports[`should match snapshots > test.json 1`] = `
 "{
-  \\"0\\": null,
-  \\"a\\": null,
-  \\"b\\": null,
-  \\"exampleNestedObject\\": {
-    \\"a\\": null,
-    \\"z\\": null
+  "0": null,
+  "a": null,
+  "b": null,
+  "exampleNestedObject": {
+    "a": null,
+    "z": null
   },
-  \\"z\\": null
+  "z": null
 }
 "
 `;
