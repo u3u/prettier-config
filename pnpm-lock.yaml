@@ -54,8 +54,8 @@ dependencies:
     specifier: ^0.5.9
     version: 0.5.9(@ianvs/prettier-plugin-sort-imports@4.1.1)(prettier-plugin-astro@0.12.2)(prettier-plugin-jsdoc@1.1.1)(prettier@3.1.1)
   remeda:
-    specifier: ^1.29.0
-    version: 1.29.0
+    specifier: ^1.30.0
+    version: 1.30.0
 
 devDependencies:
   '@total-typescript/ts-reset':
@@ -5153,8 +5153,8 @@ packages:
       unified: 11.0.4
     dev: true
 
-  /remeda@1.29.0:
-    resolution: {integrity: sha512-M3LQ14KtMdQ1879lj/kKji3zBk158s7Rwg963mEkTfQFMxnKrIEAMxJfo/+0sp/+uGgN/KMVU2MBA4LNjqf8YQ==}
+  /remeda@1.30.0:
+    resolution: {integrity: sha512-KzdPP0PCxSdafrJlaaNOvxGCout+qNBb9lefLLbWBC6YOpskVXbOA4hmSGnKHe5/MRHjIa8qhsZjvbE2eU/l2w==}
     dev: false
 
   /require-directory@2.1.1:
