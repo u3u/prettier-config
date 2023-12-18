@@ -1,6 +1,7 @@
 # My Prettier config
 
-[![npm version](https://badgen.net/npm/v/@u3u/prettier-config)](https://npm.im/@u3u/prettier-config) [![npm downloads](https://badgen.net/npm/dm/@u3u/prettier-config)](https://npm.im/@u3u/prettier-config)
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
 
 ## Features
 
@@ -13,7 +14,7 @@
 - Extend config
 - ...
 
-> [!Note]
+> [!NOTE]
 >
 > Upgrade this config to `>=3.x` version, Prettier should automatically infer the plugin parser. If you are using the [prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension, you need to upgrade to [>=9.17.0](https://github.com/prettier/prettier-vscode/blob/main/CHANGELOG.md) version for automatic inference of the plugin parser to take effect.  
 > See this fix: https://github.com/prettier/prettier-vscode/pull/3027
@@ -126,3 +127,10 @@ echo '"@u3u/prettier-config"' > '.prettierrc'
 ## License
 
 [MIT](./LICENSE) License © 2023 [u3u](https://github.com/u3u)
+
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/@u3u/prettier-config
+[npm-version-href]: https://npmjs.com/package/@u3u/prettier-config
+[npm-downloads-src]: https://img.shields.io/npm/dm/@u3u/prettier-config
+[npm-downloads-href]: https://npmjs.com/package/@u3u/prettier-config
