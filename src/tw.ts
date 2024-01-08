@@ -16,6 +16,10 @@ const tailwindFunctions = [
 ];
 
 export default extendConfig({
+  customAttributes: ['class'],
+
+  customFunctions: tailwindFunctions,
+
   plugins: [
     require.resolve('prettier-plugin-tailwindcss'),
     require.resolve('prettier-plugin-classnames'),
@@ -23,10 +27,6 @@ export default extendConfig({
   ],
 
   tailwindAttributes: ['tw'],
-
-  customAttributes: ['class'],
-
-  customFunctions: tailwindFunctions,
 
   tailwindFunctions,
 });
