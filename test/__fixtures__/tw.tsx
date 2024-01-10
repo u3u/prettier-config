@@ -17,8 +17,8 @@ export const styles = {
 
 export function Callout({ children }: React.PropsWithChildren) {
   return (
-    <div className="bg-gray-100/50 border border-zinc-400/30 dark:bg-neutral-900/50 dark:border-neutral-500/30 px-4 py-4 rounded-xl">
+    <label className="[view-transition-name:upload] mx-auto max-w-md cursor-pointer flex flex-col items-center justify-center gap-2 rounded-lg bg-white p-8 shadow-panel transition active:scale-95 border-2 border-dashed border-transparent can-hover:hover:border-primary hover:-translate-y-1">
       {children}
-    </div>
+    </label>
   );
 }

@@ -21,9 +21,10 @@ export default extendConfig({
   customFunctions: tailwindFunctions,
 
   plugins: [
-    require.resolve('prettier-plugin-tailwindcss'),
-    require.resolve('prettier-plugin-classnames'),
-    require.resolve('prettier-plugin-merge'),
+    //
+    'prettier-plugin-tailwindcss',
+    'prettier-plugin-classnames',
+    'prettier-plugin-merge',
   ],
 
   tailwindAttributes: ['tw'],
