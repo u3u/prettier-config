@@ -24,6 +24,7 @@
                 </div>
             </div>
         </div>
+        <p style="margin-top: 30px;" class="dark:text-white text-md text-black">Hello world!<br> This is HTML5 Boilerplate.</p>
     </section>
 @endsection
 @section('footer')

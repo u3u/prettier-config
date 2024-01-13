@@ -119,56 +119,6 @@ model Comment {
 "
 `;
 
-exports[`should match snapshots > test.astro 1`] = `
-"<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Hello world!</h1>
-  </body>
-</html>
-"
-`;
-
-exports[`should match snapshots > test.blade.php 1`] = `
-"@extends('frontend.layouts.app')
-@section('title') foo
-@endsection
-@section('content')
-  <section id="content">
-    <div class="container mod-users-pd-h">
-      <div class="pf-user-header">
-        <div></div>
-        <p>@lang('users.index')</p>
-      </div>
-      <div class="pf-users-branch">
-        <ul class="pf-users-branch__list">
-          @foreach ($users as $user)
-            <li>
-              <img src="{{ asset('img/frontend/icon/branch-arrow.svg') }}" alt="branch_arrow">
-              {{ link_to_route('frontend.users.user.show', $users['name'], $users['_id']) }}
-            </li>
-          @endforeach
-        </ul>
-        <div class="pf-users-branch__btn">
-          @can('create', App\\Models\\User::class)
-            {!! link_to_route('frontend.users.user.create', __('users.create'), [1, 2, 3], ['class' => 'btn']) !!}
-          @endcan
-        </div>
-      </div>
-    </div>
-  </section>
-@endsection
-@section('footer')
-@stop
-"
-`;
-
 exports[`should match snapshots > test.json 1`] = `
 "{
   "0": null,
@@ -235,5 +185,66 @@ export const styles = {
   root: tw\`text-md text-black dark:text-white\`,
   base: twMerge(['relative z-[1]', twJoin('absolute inset-0 flex items-center')]),
 };
+"
+`;
+
+exports[`tailwindcss classes should sorted 2`] = `
+"<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+
+    <p class:list={['text-md text-black dark:text-white', 'absolute inset-0 flex items-center']}>
+      Hello world!<br /> This is HTML5 Boilerplate.
+    </p>
+  </body>
+</html>
+"
+`;
+
+exports[`tailwindcss classes should sorted 3`] = `
+"@extends('frontend.layouts.app')
+@section('title') foo
+@endsection
+@section('content')
+  <section id="content">
+    <div class="mod-users-pd-h container">
+      <div class="pf-user-header">
+        <div></div>
+        <p>@lang('users.index')</p>
+      </div>
+      <div class="pf-users-branch">
+        <ul class="pf-users-branch__list">
+          @foreach ($users as $user)
+            <li>
+              <img
+                alt="branch_arrow"
+                src="{{ asset('img/frontend/icon/branch-arrow.svg') }}"
+              >
+              {{ link_to_route('frontend.users.user.show', $users['name'], $users['_id']) }}
+            </li>
+          @endforeach
+        </ul>
+        <div class="pf-users-branch__btn">
+          @can('create', App\\Models\\User::class)
+            {!! link_to_route('frontend.users.user.create', __('users.create'), [1, 2, 3], ['class' => 'btn']) !!}
+          @endcan
+        </div>
+      </div>
+    </div>
+    <p
+      class="text-md text-black dark:text-white"
+      style="margin-top: 30px;"
+    >Hello world!<br> This is HTML5 Boilerplate.</p>
+  </section>
+@endsection
+@section('footer')
+@stop
 "
 `;

@@ -2,13 +2,15 @@ import path from 'node:path';
 import { expect, it } from 'vitest';
 import { format } from './format';
 
+const sortTailwindClassesFiles = ['tw.ts', 'test.astro', 'test.blade.php'];
+
 it('should match snapshots', async () => {
   const { globby } = await import('globby');
 
   const paths = await globby('*', {
     cwd: 'test/__fixtures__',
     dot: true,
-    ignore: ['tw.ts'],
+    ignore: sortTailwindClassesFiles,
   });
 
   for (const filepath of paths) {
@@ -19,7 +21,9 @@ it('should match snapshots', async () => {
 });
 
 it('tailwindcss classes should sorted', async () => {
-  const result = await format('tw.ts', '@u3u/prettier-config/tw');
+  for (const file of sortTailwindClassesFiles) {
+    const result = await format(file, '@u3u/prettier-config/tw');
 
-  expect(result).toMatchSnapshot();
+    expect(result).toMatchSnapshot();
+  }
 });
