@@ -2,6 +2,7 @@
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![License][license-src]][license-href]
 
 ## Features
 
@@ -134,3 +135,5 @@ echo '"@u3u/prettier-config"' > '.prettierrc'
 [npm-version-href]: https://npmjs.com/package/@u3u/prettier-config
 [npm-downloads-src]: https://img.shields.io/npm/dm/@u3u/prettier-config
 [npm-downloads-href]: https://npmjs.com/package/@u3u/prettier-config
+[license-src]: https://img.shields.io/github/license/u3u/prettier-config.svg
+[license-href]: ./LICENSE
