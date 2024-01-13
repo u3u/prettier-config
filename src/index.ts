@@ -29,13 +29,7 @@ export default defineConfig({
     },
     {
       files: ['*.blade.php'],
-
-      options: {
-        parser: 'blade',
-        sortHtmlAttributes: 'alphabetical',
-        sortTailwindcssClasses: true,
-        wrapAttributes: 'force-expand-multiline',
-      },
+      options: { parser: 'blade' },
     },
   ],
 
@@ -54,4 +48,9 @@ export default defineConfig({
     require.resolve('prettier-plugin-prisma'),
     require.resolve('prettier-plugin-astro'),
   ],
+
+  // https://github.com/shufo/prettier-plugin-blade/tree/main?tab=readme-ov-file#options
+  sortHtmlAttributes: 'alphabetical',
+  sortTailwindcssClasses: true,
+  wrapAttributes: 'force-expand-multiline',
 });
