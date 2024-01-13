@@ -1,5 +1,12 @@
 import { extendConfig } from './utils';
 
+const tailwindAttributes = [
+  //
+  'class:list',
+  'class',
+  'tw',
+];
+
 const tailwindFunctions = [
   //
   'classed',
@@ -16,9 +23,16 @@ const tailwindFunctions = [
 ];
 
 export default extendConfig({
-  plugins: [require.resolve('prettier-plugin-tailwindcss')],
+  customAttributes: tailwindAttributes,
+  customFunctions: tailwindFunctions,
 
-  tailwindAttributes: ['tw', 'class:list'],
+  plugins: [
+    //
+    'prettier-plugin-tailwindcss',
+    'prettier-plugin-classnames',
+    'prettier-plugin-merge',
+  ].map((item) => require.resolve(item)),
 
+  tailwindAttributes,
   tailwindFunctions,
 });

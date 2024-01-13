@@ -2,7 +2,7 @@ import path from 'node:path';
 import { expect, it } from 'vitest';
 import { format } from './format';
 
-const sortTailwindClassesFiles = ['tw.ts', 'test.astro', 'test.blade.php'];
+const sortTailwindClassesFiles = ['tw.tsx', 'test.astro', 'test.blade.php'];
 
 it('should match snapshots', async () => {
   const { globby } = await import('globby');

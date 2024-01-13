@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "allowJs": true,
+    "jsx": "preserve",
     "noEmit": true,
     "resolveJsonModule": true
   },
