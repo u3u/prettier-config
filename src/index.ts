@@ -29,7 +29,13 @@ export default defineConfig({
     },
     {
       files: ['*.blade.php'],
-      options: { parser: 'blade', sortTailwindcssClasses: true, wrapAttributes: 'auto' },
+
+      options: {
+        parser: 'blade',
+        sortHtmlAttributes: 'alphabetical',
+        sortTailwindcssClasses: true,
+        wrapAttributes: 'force-expand-multiline',
+      },
     },
   ],
 
