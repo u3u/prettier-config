@@ -70,7 +70,6 @@
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "@prettier/plugin-php": "^0.22.1",
     "@prettier/plugin-xml": "^3.2.2",
-    "@prettier/sync": "^0.5.0",
     "@shufo/prettier-plugin-blade": "^1.13.4",
     "deepmerge": "^4.3.1",
     "local-pkg": "^0.4.3",
