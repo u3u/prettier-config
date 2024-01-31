@@ -20,11 +20,13 @@ const tailwindFunctions = [
   'twj',
   'twJoin',
   'twMerge',
+  'twx',
 ];
 
 export default extendConfig({
   customAttributes: tailwindAttributes,
   customFunctions: tailwindFunctions,
+  endingPosition: 'absolute',
 
   plugins: [
     //
