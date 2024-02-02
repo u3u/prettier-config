@@ -27,8 +27,8 @@ dependencies:
     specifier: ^0.13.0
     version: 0.13.0
   prettier-plugin-classnames:
-    specifier: ^0.5.1
-    version: 0.5.1(prettier@3.2.4)
+    specifier: ^0.5.2
+    version: 0.5.2(prettier@3.2.4)
   prettier-plugin-ini:
     specifier: ^1.1.0
     version: 1.1.0
@@ -60,8 +60,8 @@ dependencies:
     specifier: ^0.5.11
     version: 0.5.11(@ianvs/prettier-plugin-sort-imports@4.1.1)(prettier-plugin-astro@0.13.0)(prettier-plugin-jsdoc@1.3.0)(prettier@3.2.4)
   remeda:
-    specifier: ^1.39.0
-    version: 1.39.0
+    specifier: ^1.40.0
+    version: 1.40.0
 
 devDependencies:
   '@total-typescript/ts-reset':
@@ -71,11 +71,11 @@ devDependencies:
     specifier: ^18.2.2
     version: 18.2.2
   '@types/node':
-    specifier: ^20.11.13
-    version: 20.11.13
+    specifier: ^20.11.16
+    version: 20.11.16
   '@types/react':
-    specifier: ^18.2.48
-    version: 18.2.48
+    specifier: ^18.2.51
+    version: 18.2.51
   '@u3u/eslint-config':
     specifier: ^2.15.0
     version: 2.15.0(eslint@8.56.0)(typescript@5.3.3)
@@ -98,8 +98,8 @@ devDependencies:
     specifier: ^14.0.0
     version: 14.0.0
   lint-staged:
-    specifier: ^15.2.0
-    version: 15.2.0
+    specifier: ^15.2.1
+    version: 15.2.1
   prettier:
     specifier: ^3.2.4
     version: 3.2.4
@@ -114,7 +114,7 @@ devDependencies:
     version: 5.3.3
   vitest:
     specifier: ^1.2.2
-    version: 1.2.2(@types/node@20.11.13)
+    version: 1.2.2(@types/node@20.11.16)
 
 packages:
 
@@ -912,7 +912,7 @@ packages:
   /@types/concat-stream@2.0.3:
     resolution: {integrity: sha512-3qe4oQAPNwVNwK4C9c8u+VJqv9kez+2MR4qJpoPFfXtgxxif1QbFusvXzK0/Wra2VX07smostI2VMmJNSpZjuQ==}
     dependencies:
-      '@types/node': 20.11.13
+      '@types/node': 20.11.16
     dev: true
 
   /@types/debug@4.1.8:
@@ -969,8 +969,8 @@ packages:
   /@types/ms@0.7.31:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
 
-  /@types/node@20.11.13:
-    resolution: {integrity: sha512-5G4zQwdiQBSWYTDAH1ctw2eidqdhMJaNsiIDKHFr55ihz5Trl2qqR8fdrT732yPBho5gkNxXm67OxWFBqX9aPg==}
+  /@types/node@20.11.16:
+    resolution: {integrity: sha512-gKb0enTmRCzXSSUJDq6/sPcqrfCv2mkkG6Jt/clpn5eiCbKTY+SgZUxo+p8ZKMof5dCp9vHQUAB7wOUTod22wQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -983,8 +983,8 @@ packages:
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
     dev: true
 
-  /@types/react@18.2.48:
-    resolution: {integrity: sha512-qboRCl6Ie70DQQG9hhNREz81jqC1cs9EVNcjQ1AU+jH6NFfSAhVVbrrY/+nSF+Bsk4AOwm9Qa61InvMCyV+H3w==}
+  /@types/react@18.2.51:
+    resolution: {integrity: sha512-XeoMaU4CzyjdRr3c4IQQtiH7Rpo18V07rYZUucEZQwOUEtGgTXv7e6igQiQ+xnV6MbMe1qjEmKdgMNnfppnXfg==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -3666,8 +3666,8 @@ packages:
     resolution: {integrity: sha512-Wzx/22c5Jsv2ag+uKy+ITanGA5hzvBZngrNGDXLTC7ZjGM6FLCYGgomauTkxNJeP9of353OM0pWqngYA180xgw==}
     dev: false
 
-  /lint-staged@15.2.0:
-    resolution: {integrity: sha512-TFZzUEV00f+2YLaVPWBWGAMq7So6yQx+GG8YRMDeOEIf95Zn5RyiLMsEiX4KTNl9vq/w+NqRJkLA1kPIo15ufQ==}
+  /lint-staged@15.2.1:
+    resolution: {integrity: sha512-dhwAPnM85VdshybV9FWI/9ghTvMLoQLEXgVMx+ua2DN7mdfzd/tRfoU2yhMcBac0RHkofoxdnnJUokr8s4zKmQ==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     dependencies:
@@ -3676,7 +3676,7 @@ packages:
       debug: 4.3.4
       execa: 8.0.1
       lilconfig: 3.0.0
-      listr2: 8.0.0
+      listr2: 8.0.1
       micromatch: 4.0.5
       pidtree: 0.6.0
       string-argv: 0.3.2
@@ -3685,8 +3685,8 @@ packages:
       - supports-color
     dev: true
 
-  /listr2@8.0.0:
-    resolution: {integrity: sha512-u8cusxAcyqAiQ2RhYvV7kRKNLgUvtObIbhOX2NCXqvp1UU32xIg5CT22ykS2TPKJXZWJwtK3IKLiqAGlGNE+Zg==}
+  /listr2@8.0.1:
+    resolution: {integrity: sha512-ovJXBXkKGfq+CwmKTjluEqFi3p4h8xvkxGQQAQan22YCgef4KZ1mKGjzfGh6PL6AW5Csw0QiQPNuQyH+6Xk3hA==}
     engines: {node: '>=18.0.0'}
     dependencies:
       cli-truncate: 4.0.0
@@ -4771,8 +4771,8 @@ packages:
       sass-formatter: 0.7.8
     dev: false
 
-  /prettier-plugin-classnames@0.5.1(prettier@3.2.4):
-    resolution: {integrity: sha512-AfGW6evHCZJXYue8Cfz3WTNAUQqlR6PL+YCTx2EOdGMLlLLdV9tD7gUiY72x+TaoFaGgPYuq+xZqTtTH7YmTFg==}
+  /prettier-plugin-classnames@0.5.2(prettier@3.2.4):
+    resolution: {integrity: sha512-SOofg8sE4S1GI8aoZ+kBttI1GxYmCoMpuwoTXKolU509fJo5AXp2EyzF06DgEFcv2C+tqSg2WtWkSQKPmBWa6Q==}
     engines: {node: '>=14'}
     peerDependencies:
       prettier: ^2 || ^3
@@ -5136,8 +5136,8 @@ packages:
       unified: 11.0.4
     dev: true
 
-  /remeda@1.39.0:
-    resolution: {integrity: sha512-RCb8Akt4jVFoVoM1m49nSxLgN7pxPgdXqttntzFylSVljwY5+QR6hqXpl187GlcLgawhRxtC1lstN1I49gaRbQ==}
+  /remeda@1.40.0:
+    resolution: {integrity: sha512-jrpzUSPTrCAnzyVko7h9lXyVZFT75hYeZGFLg3JomiUhASiZzbjpf938LJjn1uARNWMreMeTtX1FKzkFOTTziA==}
     dev: false
 
   /require-directory@2.1.1:
@@ -5904,7 +5904,7 @@ packages:
       '@types/concat-stream': 2.0.3
       '@types/debug': 4.1.8
       '@types/is-empty': 1.2.3
-      '@types/node': 20.11.13
+      '@types/node': 20.11.16
       '@types/unist': 3.0.0
       '@ungap/structured-clone': 1.2.0
       concat-stream: 2.0.0
@@ -6086,7 +6086,7 @@ packages:
       vfile-message: 4.0.2
     dev: true
 
-  /vite-node@1.2.2(@types/node@20.11.13):
+  /vite-node@1.2.2(@types/node@20.11.16):
     resolution: {integrity: sha512-1as4rDTgVWJO3n1uHmUYqq7nsFgINQ9u+mRcXpjeOMJUmviqNKjcZB7UfRZrlM7MjYXMKpuWp5oGkjaFLnjawg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -6095,7 +6095,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 5.0.7(@types/node@20.11.13)
+      vite: 5.0.7(@types/node@20.11.16)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -6107,7 +6107,7 @@ packages:
       - terser
     dev: true
 
-  /vite@5.0.7(@types/node@20.11.13):
+  /vite@5.0.7(@types/node@20.11.16):
     resolution: {integrity: sha512-B4T4rJCDPihrQo2B+h1MbeGL/k/GMAHzhQ8S0LjQ142s6/+l3hHTT095ORvsshj4QCkoWu3Xtmob5mazvakaOw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -6135,7 +6135,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.13
+      '@types/node': 20.11.16
       esbuild: 0.19.5
       postcss: 8.4.32
       rollup: 4.4.1
@@ -6143,7 +6143,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.2.2(@types/node@20.11.13):
+  /vitest@1.2.2(@types/node@20.11.16):
     resolution: {integrity: sha512-d5Ouvrnms3GD9USIK36KG8OZ5bEvKEkITFtnGv56HFaSlbItJuYr7hv2Lkn903+AvRAgSixiamozUVfORUekjw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -6168,7 +6168,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@types/node': 20.11.13
+      '@types/node': 20.11.16
       '@vitest/expect': 1.2.2
       '@vitest/runner': 1.2.2
       '@vitest/snapshot': 1.2.2
@@ -6187,8 +6187,8 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.5.1
       tinypool: 0.8.2
-      vite: 5.0.7(@types/node@20.11.13)
-      vite-node: 1.2.2(@types/node@20.11.13)
+      vite: 5.0.7(@types/node@20.11.16)
+      vite-node: 1.2.2(@types/node@20.11.16)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
