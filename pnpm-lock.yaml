@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.22.2
     version: 0.22.2(prettier@3.2.5)
   '@prettier/plugin-xml':
-    specifier: ^3.3.0
-    version: 3.3.0(prettier@3.2.5)
+    specifier: ^3.3.1
+    version: 3.3.1(prettier@3.2.5)
   '@shufo/prettier-plugin-blade':
     specifier: ^1.13.5
     version: 1.13.5
@@ -27,8 +27,8 @@ dependencies:
     specifier: ^0.13.0
     version: 0.13.0
   prettier-plugin-classnames:
-    specifier: ^0.5.2
-    version: 0.5.2(prettier@3.2.5)
+    specifier: ^0.6.0
+    version: 0.6.0(prettier-plugin-astro@0.13.0)(prettier@3.2.5)
   prettier-plugin-ini:
     specifier: ^1.1.0
     version: 1.1.0
@@ -60,8 +60,8 @@ dependencies:
     specifier: ^0.5.11
     version: 0.5.11(@ianvs/prettier-plugin-sort-imports@4.1.1)(prettier-plugin-astro@0.13.0)(prettier-plugin-jsdoc@1.3.0)(prettier@3.2.5)
   remeda:
-    specifier: ^1.40.1
-    version: 1.40.1
+    specifier: ^1.40.2
+    version: 1.40.2
 
 devDependencies:
   '@total-typescript/ts-reset':
@@ -95,8 +95,8 @@ devDependencies:
     specifier: ^1.2.0
     version: 1.2.0
   globby:
-    specifier: ^14.0.0
-    version: 14.0.0
+    specifier: ^14.0.1
+    version: 14.0.1
   lint-staged:
     specifier: ^15.2.2
     version: 15.2.2
@@ -744,8 +744,8 @@ packages:
       prettier: 3.2.5
     dev: false
 
-  /@prettier/plugin-xml@3.3.0(prettier@3.2.5):
-    resolution: {integrity: sha512-RuEPnovn7zykiPfh/Mw0Xp3KfoXE/01dp+CnJtaHUXCmhmjOyzweu+J3KviiZIlUf/4SDaAj5MYXrqJ9j8cZPw==}
+  /@prettier/plugin-xml@3.3.1(prettier@3.2.5):
+    resolution: {integrity: sha512-kllNJk6n2pXJjGWdj+HAr1GhOoOTrlmeWkDYCGBzkyZS2l0K6h2gsUQcVif2cNqAE1MNC+nUrzN6QwEsCukPnQ==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
@@ -878,8 +878,8 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@sindresorhus/merge-streams@1.0.0:
-    resolution: {integrity: sha512-rUV5WyJrJLoloD4NDN1V1+LDMDWOa4OTsT4yYJwQNpTU6FWxkxHpL7eu4w+DmiH8x/EAM1otkPE1+LaspIbplw==}
+  /@sindresorhus/merge-streams@2.1.0:
+    resolution: {integrity: sha512-g3/sYJWXTAf3Ce861z4/mW9jDxN7hoNHZMEyhd3Zh7GKQPiovWNttzhRW2BeGPwPxPpLDKumL6Sg056VAMjdkg==}
     engines: {node: '>=18'}
     dev: true
 
@@ -3079,11 +3079,11 @@ packages:
       slash: 4.0.0
     dev: false
 
-  /globby@14.0.0:
-    resolution: {integrity: sha512-/1WM/LNHRAOH9lZta77uGbq0dAEQM+XjNesWwhlERDVenqothRbnzTrL3/LrIoEPPjeUHC3vrS6TwoyxeHs7MQ==}
+  /globby@14.0.1:
+    resolution: {integrity: sha512-jOMLD2Z7MAhyG8aJpNOpmziMOP4rPLcc95oQPKXBazW82z+CEgPFBQvEpRUa1KeIMUJo4Wsm+q6uzO/Q/4BksQ==}
     engines: {node: '>=18'}
     dependencies:
-      '@sindresorhus/merge-streams': 1.0.0
+      '@sindresorhus/merge-streams': 2.1.0
       fast-glob: 3.3.2
       ignore: 5.2.4
       path-type: 5.0.0
@@ -4724,13 +4724,18 @@ packages:
       sass-formatter: 0.7.8
     dev: false
 
-  /prettier-plugin-classnames@0.5.2(prettier@3.2.5):
-    resolution: {integrity: sha512-SOofg8sE4S1GI8aoZ+kBttI1GxYmCoMpuwoTXKolU509fJo5AXp2EyzF06DgEFcv2C+tqSg2WtWkSQKPmBWa6Q==}
+  /prettier-plugin-classnames@0.6.0(prettier-plugin-astro@0.13.0)(prettier@3.2.5):
+    resolution: {integrity: sha512-diXYCoLJBWXzXulK5NiLi2jjUrFSJxzZbaZnCpERdlmpnqRrSm6AmkHpiM1gE+Cddrt6k7jXpaoPhjm6saXCUg==}
     engines: {node: '>=14'}
     peerDependencies:
       prettier: ^2 || ^3
+      prettier-plugin-astro: '*'
+    peerDependenciesMeta:
+      prettier-plugin-astro:
+        optional: true
     dependencies:
       prettier: 3.2.5
+      prettier-plugin-astro: 0.13.0
     dev: false
 
   /prettier-plugin-ini@1.1.0:
@@ -5077,8 +5082,8 @@ packages:
       unified: 11.0.4
     dev: true
 
-  /remeda@1.40.1:
-    resolution: {integrity: sha512-p5HzqKlMK02mvnalm3mavRaUeRljqKoE7r0QgDDzbZ9C0jFowisYLPU9e52gCZOd7Dn6KAWTPbVucJtcPfAIxA==}
+  /remeda@1.40.2:
+    resolution: {integrity: sha512-rD5Qe5OacbxWJovOdTB/ttGnQAUyYjrpwKDkd3Tl8+GUkk6k3AUgpfLMD6PeOV5P+FNaETw3bIHCgtd+4coeNA==}
     dev: false
 
   /require-directory@2.1.1:
