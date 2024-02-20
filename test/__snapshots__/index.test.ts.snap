@@ -190,8 +190,8 @@ export function Callout({ children }: React.PropsWithChildren) {
   return (
     <label
       className="shadow-panel can-hover:hover:border-primary mx-auto flex max-w-md cursor-pointer flex-col
-items-center justify-center gap-2 rounded-lg border-2 border-dashed border-transparent bg-white p-8 transition
-[view-transition-name:upload] hover:-translate-y-1 active:scale-95"
+        items-center justify-center gap-2 rounded-lg border-2 border-dashed border-transparent bg-white p-8 transition
+        [view-transition-name:upload] hover:-translate-y-1 active:scale-95"
     >
       {children}
     </label>

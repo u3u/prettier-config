@@ -26,7 +26,7 @@ const tailwindFunctions = [
 export default extendConfig({
   customAttributes: tailwindAttributes,
   customFunctions: tailwindFunctions,
-  endingPosition: 'absolute',
+  endingPosition: 'absolute-with-indent',
 
   plugins: [
     //
