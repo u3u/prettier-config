@@ -15,8 +15,8 @@ dependencies:
     specifier: ^3.3.1
     version: 3.3.1(prettier@3.2.5)
   '@shufo/prettier-plugin-blade':
-    specifier: ^1.13.5
-    version: 1.13.5
+    specifier: ^1.14.0
+    version: 1.14.0
   deepmerge:
     specifier: ^4.3.1
     version: 4.3.1
@@ -853,11 +853,11 @@ packages:
     dev: true
     optional: true
 
-  /@shufo/prettier-plugin-blade@1.13.5:
-    resolution: {integrity: sha512-GD11dWg6c1iBbCijwXeqPvxoFz8DIkRKcj6js6SEAw5gAXLhhj6JJfLWhgeCUo0FibInW9JyXY9yAc5Bbq/PaQ==}
+  /@shufo/prettier-plugin-blade@1.14.0:
+    resolution: {integrity: sha512-D3oZa68X+L+qfZGflZutWsNKrrz/T9FQVcN/qbxeW251sqo8bAfYCXELQq7V27IFuI8ASquHb5uTelz8Fp67cw==}
     engines: {node: '>= 14.0.0'}
     dependencies:
-      blade-formatter: 1.40.1
+      blade-formatter: 1.41.0
       prettier: 3.2.5
     transitivePeerDependencies:
       - ts-node
@@ -1605,8 +1605,8 @@ packages:
     resolution: {integrity: sha512-v4N2l3RxL+m4zDxyxz3Ne2aTmiPn8ZUpKFpdPtO+ItW1NcTCXA7JeHG5GMBSvoKSkQZ9ycS+EouDVxYB9ufKWA==}
     dev: false
 
-  /blade-formatter@1.40.1:
-    resolution: {integrity: sha512-TULnwSXLepfW+bnMQyYqaUhoxA65VwaOCNhipgsmAJ+c1FvedAc4AgWqVtcGUndAWU+MkHP/g+0r8kU22THfJg==}
+  /blade-formatter@1.41.0:
+    resolution: {integrity: sha512-31vC39wyYMPmn13KyK6u4W2GOWfs7keUbfIl0QrnDmoAaqZ89zJ3wohxxXhvkrdQC6Hnk7b62KfHtaKIK00CiQ==}
     engines: {node: '>= 14.0.0'}
     hasBin: true
     dependencies:
