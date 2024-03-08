@@ -27,8 +27,8 @@ dependencies:
     specifier: ^0.13.0
     version: 0.13.0
   prettier-plugin-classnames:
-    specifier: ^0.6.1
-    version: 0.6.1(prettier-plugin-astro@0.13.0)(prettier@3.2.5)
+    specifier: ^0.6.2
+    version: 0.6.2(prettier-plugin-astro@0.13.0)(prettier@3.2.5)
   prettier-plugin-ini:
     specifier: ^1.1.0
     version: 1.1.0
@@ -4728,8 +4728,8 @@ packages:
       sass-formatter: 0.7.8
     dev: false
 
-  /prettier-plugin-classnames@0.6.1(prettier-plugin-astro@0.13.0)(prettier@3.2.5):
-    resolution: {integrity: sha512-th2Fnic6iA1NqfW4JRGBmhbraUBab8u0ud8iyYoBOLV9OcLBJi4XglpEfd4yf4zxEFL3U2fDPy5Y/IRFUl4rGg==}
+  /prettier-plugin-classnames@0.6.2(prettier-plugin-astro@0.13.0)(prettier@3.2.5):
+    resolution: {integrity: sha512-49A8SimMk1RQXoIKWYWIQHIFU3UDSfRl1Y06V8qSBoplBuKnp3wCekzlg0F/BmodqV9SXEeuQIiW8+9HVCHZ4A==}
     engines: {node: '>=14'}
     peerDependencies:
       prettier: ^2 || ^3
