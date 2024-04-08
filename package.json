@@ -12,6 +12,7 @@
   "license": "MIT",
   "author": "u3u <qwq@qwq.cat> (https://github.com/u3u)",
   "sideEffects": false,
+  "type": "commonjs",
   "exports": {
     ".": {
       "import": {
