@@ -105,12 +105,12 @@
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5",
-    "vitest": "^1.5.2"
+    "vitest": "^1.5.3"
   },
   "peerDependencies": {
     "prettier": ">=3.0.0"
   },
-  "packageManager": "pnpm@8.15.7",
+  "packageManager": "pnpm@8.15.8",
   "publishConfig": {
     "access": "public"
   },
