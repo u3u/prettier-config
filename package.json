@@ -91,7 +91,7 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node18": "^18.2.4",
-    "@types/node": "^20.14.1",
+    "@types/node": "^20.14.2",
     "@types/react": "^18.3.3",
     "@u3u/eslint-config": "^2.15.1",
     "@u3u/prettier-config": "link:",
@@ -101,7 +101,7 @@
     "fix-tsup-cjs": "^1.2.0",
     "globby": "^14.0.1",
     "lint-staged": "^15.2.5",
-    "prettier": "^3.3.0",
+    "prettier": "^3.3.1",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.1.0",
     "typescript": "^5.4.5",
