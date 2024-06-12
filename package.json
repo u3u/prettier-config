@@ -85,7 +85,7 @@
     "prettier-plugin-sh": "^0.14.0",
     "prettier-plugin-sort-json": "^4.0.0",
     "prettier-plugin-sql": "^0.18.0",
-    "prettier-plugin-tailwindcss": "^0.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.3",
     "remeda": "^1.61.0"
   },
   "devDependencies": {
@@ -100,8 +100,8 @@
     "execa": "^8.0.1",
     "fix-tsup-cjs": "^1.2.0",
     "globby": "^14.0.1",
-    "lint-staged": "^15.2.5",
-    "prettier": "^3.3.1",
+    "lint-staged": "^15.2.7",
+    "prettier": "^3.3.2",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.1.0",
     "typescript": "^5.4.5",
