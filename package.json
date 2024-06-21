@@ -91,7 +91,7 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node18": "^18.2.4",
-    "@types/node": "^20.14.6",
+    "@types/node": "^20.14.7",
     "@types/react": "^18.3.3",
     "@u3u/eslint-config": "^2.15.1",
     "@u3u/prettier-config": "link:",
@@ -104,7 +104,7 @@
     "prettier": "^3.3.2",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.1.0",
-    "typescript": "^5.4.5",
+    "typescript": "^5.5.2",
     "vitest": "^1.6.0"
   },
   "peerDependencies": {
