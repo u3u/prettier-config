@@ -99,12 +99,12 @@
     "eslint": "^8.57.0",
     "execa": "^8.0.1",
     "fix-tsup-cjs": "^1.2.0",
-    "globby": "^14.0.1",
+    "globby": "^14.0.2",
     "lint-staged": "^15.2.7",
     "prettier": "^3.3.2",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.1.0",
-    "typescript": "^5.5.2",
+    "typescript": "^5.5.3",
     "vitest": "^1.6.0"
   },
   "peerDependencies": {
