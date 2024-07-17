@@ -11,7 +11,10 @@ export const classes = clsx(
 )
 
 export const styles = {
-  root: tw`dark:text-white text-md text-black`,
+  // FIXME Waiting for this issue to be resolved 👇
+  // https://github.com/ony3000/prettier-plugin-classnames/issues/52#issuecomment-2232585835
+  // @ts-expect-error
+  root: tw('dark:text-white text-md text-black'),
   base: twMerge(['z-[1] relative', twJoin('inset-0 absolute flex items-center')]),
 }
 
