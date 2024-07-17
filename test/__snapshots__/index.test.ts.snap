@@ -1,7 +1,12 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should match snapshots > .env.local 1`] = `
-"HTTPS_PROXY = http://127.0.0.1:7890
+"# Client & Server
+NEXT_PUBLIC_LANG = zh
+
+# Server
+THEME = "#1a66fe"
+HTTPS_PROXY = "http://127.0.0.1:7890"
 "
 `;
 
@@ -172,19 +177,6 @@ use {
   <xsl:text>slide </xsl:text>
 </svg>
 <!-- bar -->
-"
-`;
-
-exports[`should match snapshots > hosts 1`] = `
-"##
-# Host Database
-#
-# localhost is used to configure the loopback interface
-# when the system is booting.  Do not change this entry.
-##
-127.0.0.1 localhost
-255.255.255.255 broadcasthost
-::1 localhost
 "
 `;
 

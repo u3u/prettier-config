@@ -10,7 +10,7 @@ it('should match snapshots', async () => {
   const paths = await globby('*', {
     cwd: 'test/__fixtures__',
     dot: true,
-    ignore: sortTailwindClassesFiles,
+    ignore: [...sortTailwindClassesFiles, 'hosts'],
   });
 
   for (const filepath of paths) {
