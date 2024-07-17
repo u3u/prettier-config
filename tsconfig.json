@@ -6,5 +6,5 @@
     "resolveJsonModule": true
   },
 
-  "extends": "@tsconfig/node18/tsconfig.json"
+  "extends": "@tsconfig/node20/tsconfig.json"
 }
