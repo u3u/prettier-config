@@ -96,7 +96,7 @@
     "@u3u/eslint-config": "^2.15.1",
     "@u3u/prettier-config": "link:",
     "dedent": "^1.5.3",
-    "eslint": "^8.57.0",
+    "eslint": "^9.7.0",
     "execa": "^9.3.0",
     "fix-tsup-cjs": "^1.2.0",
     "globby": "^14.0.2",
