@@ -53,4 +53,7 @@ export default defineConfig({
   sortHtmlAttributes: 'alphabetical',
   sortTailwindcssClasses: true,
   wrapAttributes: 'force-expand-multiline',
+
+  xmlSortAttributesByKey: true,
+  xmlWhitespaceSensitivity: 'ignore',
 });
