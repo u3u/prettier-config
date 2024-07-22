@@ -17,3 +17,10 @@ const message =
   : i % 5 === 0
     ? "buzz"
     : i % 6 === 0 ? "foo": String(i);
+
+
+const arr = [1,2,3,]
+
+
+const arr2 = [
+  1,2,3]

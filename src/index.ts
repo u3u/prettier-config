@@ -34,9 +34,10 @@ export default defineConfig({
   ],
 
   plugins: [
-    '@ianvs/prettier-plugin-sort-imports',
     'prettier-plugin-sort-json',
     'prettier-plugin-packagejson',
+    'prettier-plugin-multiline-arrays',
+    '@ianvs/prettier-plugin-sort-imports',
     'prettier-plugin-jsdoc',
     'prettier-plugin-nginx',
     'prettier-plugin-ini',
