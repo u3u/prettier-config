@@ -431,10 +431,7 @@ export const classes = clsx('rounded bg-blue-500 px-4 py-2 text-base text-white'
 });
 
 export const styles = {
-  // FIXME Waiting for this issue to be resolved 👇
-  // https://github.com/ony3000/prettier-plugin-classnames/issues/52#issuecomment-2232585835
-  // @ts-expect-error
-  root: tw('text-md text-black dark:text-white'),
+  root: tw\`text-md text-black dark:text-white\`,
   base: twMerge(['relative z-[1]', twJoin('absolute inset-0 flex items-center')]),
 };
 
