@@ -17,5 +17,13 @@ export default defineConfig({
   dts: { resolve: true },
   entry: ['src/*.ts'],
   format: ['cjs', 'esm'],
+
+  onSuccess: async () => {
+    const { execa } = await import('execa');
+    const { stdout } = await execa`tsx lib/fix-prettier-plugin-tailwindcss.mts`;
+
+    console.log(stdout);
+  },
+
   shims: true,
 });

@@ -11,7 +11,7 @@ export const classes = clsx(
 )
 
 export const styles = {
-  root: tw`dark:text-white text-md text-black`,
+  root: tw`dark:text-white text-md text-black before:(absolute inset-0 animate-button-pulse rounded-[inherit] text-primary-500)`,
   base: twMerge(['z-[1] relative', twJoin('inset-0 absolute flex items-center')]),
 }
 

@@ -30,7 +30,7 @@ export default extendConfig({
 
   plugins: [
     //
-    'prettier-plugin-tailwindcss',
+    './prettier-plugin-tailwindcss.mjs',
     'prettier-plugin-classnames',
     'prettier-plugin-merge',
   ].map((item) => require.resolve(item)),

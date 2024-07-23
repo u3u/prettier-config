@@ -450,7 +450,8 @@ export const classes = clsx('rounded bg-blue-500 px-4 py-2 text-base text-white'
 });
 
 export const styles = {
-  root: tw\`text-md text-black dark:text-white\`,
+  root: tw\`text-md before:(absolute inset-0 animate-button-pulse rounded-[inherit] text-primary-500) text-black
+  dark:text-white\`,
   base: twMerge(['relative z-[1]', twJoin('absolute inset-0 flex items-center')]),
 };
 
