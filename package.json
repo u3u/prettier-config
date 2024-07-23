@@ -94,7 +94,7 @@
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.14.11",
     "@types/react": "^18.3.3",
-    "@u3u/eslint-config": "^2.15.1",
+    "@u3u/eslint-config": "^2.15.2",
     "@u3u/prettier-config": "link:",
     "dedent": "^1.5.3",
     "eslint": "^8.57.0",
@@ -104,9 +104,9 @@
     "lint-staged": "^15.2.7",
     "prettier": "^3.3.3",
     "simple-git-hooks": "^2.11.1",
-    "tsup": "^8.2.1",
-    "typescript": "^5.5.3",
-    "vitest": "^2.0.3"
+    "tsup": "^8.2.2",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.4"
   },
   "peerDependencies": {
     "prettier": ">=3.0.0"

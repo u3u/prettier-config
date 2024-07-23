@@ -1,8 +1,9 @@
 import '@total-typescript/ts-reset';
+// @ts-expect-error
+import { getPackageInfoSync } from 'local-pkg';
 import base from './base';
 import { defineConfig } from './utils';
 
-const { getPackageInfoSync } = require('local-pkg');
 const typescript = getPackageInfoSync('typescript');
 
 export default defineConfig({
@@ -16,7 +17,10 @@ export default defineConfig({
   importOrderTypeScriptVersion: typescript?.version || '5.0.0',
 
   iniSpaceAroundEquals: true,
+
   jsonRecursiveSort: true,
+
+  multilineArraysWrapThreshold: 2,
 
   overrides: [
     {
