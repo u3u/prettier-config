@@ -87,12 +87,12 @@
     "prettier-plugin-sort-json": "^4.0.0",
     "prettier-plugin-sql": "^0.18.1",
     "prettier-plugin-tailwindcss": "^0.6.5",
-    "remeda": "^2.6.0"
+    "remeda": "^2.7.0"
   },
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.14.13",
+    "@types/node": "^20.14.14",
     "@types/react": "^18.3.3",
     "@u3u/eslint-config": "^2.15.2",
     "@u3u/prettier-config": "link:",
@@ -104,7 +104,7 @@
     "lint-staged": "^15.2.7",
     "prettier": "^3.3.3",
     "simple-git-hooks": "^2.11.1",
-    "tsup": "^8.2.3",
+    "tsup": "^8.2.4",
     "tsx": "^4.16.5",
     "typescript": "^5.5.4",
     "vitest": "^2.0.5"
