@@ -66,8 +66,8 @@ importers:
         specifier: ^0.6.5
         version: 0.6.5(@ianvs/prettier-plugin-sort-imports@4.3.1(prettier@3.3.3))(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.3.0(prettier@3.3.3))(prettier@3.3.3)
       remeda:
-        specifier: ^2.7.1
-        version: 2.7.1
+        specifier: ^2.10.0
+        version: 2.10.0
     devDependencies:
       '@total-typescript/ts-reset':
         specifier: ^0.5.1
@@ -3317,8 +3317,8 @@ packages:
   remark-stringify@11.0.0:
     resolution: {integrity: sha512-1OSmLd3awB/t8qdoEOMazZkNsfVTeY4fTsgzcQFdXNq8ToTN4ZGwrMnlda4K6smTFKD+GRV6O48i6Z4iKgPPpw==}
 
-  remeda@2.7.1:
-    resolution: {integrity: sha512-P+tm5rsatmF0GRh/EWq7vfoVyYyZbjO5Un/d08rZyEiznQWHXTtxhPu8cTntlQ8bHyPJBF3n2i5yFFmgaS3stA==}
+  remeda@2.10.0:
+    resolution: {integrity: sha512-2RFz0VWckq8nb0nttzToa8BB5HgLsBHokWUKYiV5C8hnsZOTO1jcx0oXKvfS5khabhS6XkngMOLebQB+pm20IQ==}
 
   require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
@@ -3743,10 +3743,6 @@ packages:
     resolution: {integrity: sha512-aCuRNRERRVh33lgQaJRlUxZqzfhzwTrsE98Mc3o3VXqmiaQdHacgUtJ0esp+7MvZ92qhtzKPeusaX6vIEcoreA==}
     engines: {node: '>=14.16'}
 
-  type-fest@4.22.0:
-    resolution: {integrity: sha512-hxMO1k4ip1uTVGgPbs1hVpYyhz2P91A6tQyH2H9POx3U6T3MdhIcfY8L2hRu/LRmzPFdfduOS0RIDjFlP2urPw==}
-    engines: {node: '>=16'}
-
   type-fest@4.23.0:
     resolution: {integrity: sha512-ZiBujro2ohr5+Z/hZWHESLz3g08BBdrdLMieYFULJO+tWc437sn8kQsWLJoZErY8alNhxre9K4p3GURAG11n+w==}
     engines: {node: '>=16'}
@@ -4049,19 +4045,19 @@ snapshots:
     dependencies:
       browser-or-node: 2.1.1
       run-time-assertions: 1.5.2
-      type-fest: 4.22.0
+      type-fest: 4.23.0
 
   '@augment-vir/common@28.2.4':
     dependencies:
       browser-or-node: 3.0.0
       run-time-assertions: 1.5.2
-      type-fest: 4.22.0
+      type-fest: 4.23.0
 
   '@augment-vir/common@29.3.0':
     dependencies:
       browser-or-node: 3.0.0
       run-time-assertions: 1.5.2
-      type-fest: 4.22.0
+      type-fest: 4.23.0
 
   '@babel/code-frame@7.23.5':
     dependencies:
@@ -7521,7 +7517,7 @@ snapshots:
       mdast-util-to-markdown: 2.1.0
       unified: 11.0.4
 
-  remeda@2.7.1:
+  remeda@2.10.0:
     dependencies:
       type-fest: 4.23.0
 
@@ -7592,7 +7588,7 @@ snapshots:
     dependencies:
       '@augment-vir/common': 29.3.0
       expect-type: 0.15.0
-      type-fest: 4.22.0
+      type-fest: 4.23.0
 
   s.color@0.0.15: {}
 
@@ -7992,8 +7988,6 @@ snapshots:
   type-fest@0.8.1: {}
 
   type-fest@3.11.1: {}
-
-  type-fest@4.22.0: {}
 
   type-fest@4.23.0: {}
 
