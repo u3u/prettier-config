@@ -87,7 +87,7 @@
     "prettier-plugin-sort-json": "^4.0.0",
     "prettier-plugin-sql": "^0.18.1",
     "prettier-plugin-tailwindcss": "^0.6.5",
-    "remeda": "^2.10.0"
+    "remeda": "^2.10.1"
   },
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
@@ -112,7 +112,7 @@
   "peerDependencies": {
     "prettier": ">=3.0.0"
   },
-  "packageManager": "pnpm@9.6.0",
+  "packageManager": "pnpm@9.7.0",
   "publishConfig": {
     "access": "public"
   },
