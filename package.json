@@ -68,7 +68,7 @@
     ]
   },
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
     "@prettier/plugin-php": "^0.22.2",
     "@prettier/plugin-xml": "^3.4.1",
     "@shufo/prettier-plugin-blade": "^1.14.1",
@@ -87,7 +87,7 @@
     "prettier-plugin-sort-json": "^4.0.0",
     "prettier-plugin-sql": "^0.18.1",
     "prettier-plugin-tailwindcss": "^0.6.8",
-    "remeda": "^2.16.0"
+    "remeda": "^2.17.0"
   },
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.6.1",
