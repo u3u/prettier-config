@@ -68,7 +68,7 @@
     ]
   },
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
     "@prettier/plugin-php": "^0.22.2",
     "@prettier/plugin-xml": "^3.4.1",
     "@shufo/prettier-plugin-blade": "^1.15.1",
@@ -81,18 +81,18 @@
     "prettier-plugin-merge": "^0.7.2",
     "prettier-plugin-multiline-arrays": "^3.0.6",
     "prettier-plugin-nginx": "^1.0.3",
-    "prettier-plugin-packagejson": "^2.5.6",
+    "prettier-plugin-packagejson": "^2.5.7",
     "prettier-plugin-prisma": "^5.0.0",
     "prettier-plugin-sh": "^0.14.0",
     "prettier-plugin-sort-json": "^4.1.1",
     "prettier-plugin-sql": "^0.18.1",
-    "prettier-plugin-tailwindcss": "^0.6.9",
-    "remeda": "^2.19.0"
+    "prettier-plugin-tailwindcss": "^0.6.10",
+    "remeda": "^2.19.1"
   },
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.6.1",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.17.12",
+    "@types/node": "^20.17.13",
     "@types/react": "^18.3.18",
     "@u3u/eslint-config": "^2.15.2",
     "@u3u/prettier-config": "link:",
@@ -112,7 +112,7 @@
   "peerDependencies": {
     "prettier": ">=3.0.0"
   },
-  "packageManager": "pnpm@9.15.3",
+  "packageManager": "pnpm@9.15.4",
   "publishConfig": {
     "access": "public"
   },
