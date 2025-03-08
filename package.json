@@ -92,7 +92,7 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.6.1",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.17.23",
+    "@types/node": "^20.17.24",
     "@types/react": "^18.3.18",
     "@u3u/eslint-config": "^2.15.2",
     "@u3u/prettier-config": "link:",
@@ -112,7 +112,7 @@
   "peerDependencies": {
     "prettier": ">=3.0.0"
   },
-  "packageManager": "pnpm@9.15.6",
+  "packageManager": "pnpm@9.15.7",
   "publishConfig": {
     "access": "public"
   },
