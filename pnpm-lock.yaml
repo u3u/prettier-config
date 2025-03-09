@@ -42,8 +42,8 @@ importers:
         specifier: ^0.7.2
         version: 0.7.2(prettier@3.5.3)
       prettier-plugin-multiline-arrays:
-        specifier: ^3.0.6
-        version: 3.0.6(prettier@3.5.3)
+        specifier: ^4.0.2
+        version: 4.0.2(prettier@3.5.3)
       prettier-plugin-nginx:
         specifier: ^1.0.3
         version: 1.0.3
@@ -64,7 +64,7 @@ importers:
         version: 0.18.1(prettier@3.5.3)
       prettier-plugin-tailwindcss:
         specifier: ^0.6.11
-        version: 0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.3))(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.3.2(prettier@3.5.3))(prettier-plugin-multiline-arrays@3.0.6(prettier@3.5.3))(prettier@3.5.3)
+        version: 0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.3))(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.3.2(prettier@3.5.3))(prettier-plugin-multiline-arrays@4.0.2(prettier@3.5.3))(prettier@3.5.3)
       remeda:
         specifier: ^2.21.1
         version: 2.21.1
@@ -137,14 +137,17 @@ packages:
   '@astrojs/compiler@2.9.1':
     resolution: {integrity: sha512-s8Ge2lWHx/s3kl4UoerjL/iPtwdtogNM/BLOaGCwQA6crMOVYpphy5wUkYlKyuh8GAeGYH/5haLAFBsgNy9AQQ==}
 
-  '@augment-vir/common@23.4.0':
-    resolution: {integrity: sha512-QIrJ1doD00TNbOzeVrk9KgPTzRlIjayxERnhtbQjK/AFPj5yElcB03GbnGdQZPzws/R+5gfMM5cZiH7QyBP+Kg==}
+  '@augment-vir/assert@31.10.0':
+    resolution: {integrity: sha512-MBNL3z+8jRUJEEwo8QCJZ3+KG5vXXbE1qKI/IatuJm83KlPtjGwvqvSA6IycErwHdwullZGWOARK9D0nsPq+rg==}
+    engines: {node: '>=22'}
 
-  '@augment-vir/common@28.2.4':
-    resolution: {integrity: sha512-5Ib0OX7YlxAuFrG+MAoTsz6RlKMcbdMdoNGcEEKH/ezc/ZKMy/IHZ9Z/ZcCHYopZ4ocGXzVY4KUOiJ8+CXXvTA==}
+  '@augment-vir/common@31.10.0':
+    resolution: {integrity: sha512-bNy9Z5B8WTeqLYjCNDHL2meb0lp11pJyAnHyEujcLpSWLHJuxiaLO1mSxCGXw/cmADI6cYmKZQzxmasqitsnHw==}
+    engines: {node: '>=22'}
 
-  '@augment-vir/common@29.3.0':
-    resolution: {integrity: sha512-k3OX35/576thmGUzQUBcCKGarb7ONBfiu07+iV2vxmjl7VoB1rOB0vu8WqgB1ceJq2EMLDPXY18hHpJ9WeTHXQ==}
+  '@augment-vir/core@31.10.0':
+    resolution: {integrity: sha512-h3QO1zHC4ELf5sbCh6vv2Blt8gt66XdYzaCgcDeCNIyPw8gN9j5FdCk4JISg0QxznMmrcCzNCMdmVlGta1HuGg==}
+    engines: {node: '>=22'}
 
   '@babel/code-frame@7.23.5':
     resolution: {integrity: sha512-CgH3s1a96LipHCmSUmYFPwY7MNx8C3avkq7i4Wl3cfa662ldtUe4VM1TPXX70pfmrlWTb6jLqTYrZyT2ZTJBgA==}
@@ -190,6 +193,10 @@ packages:
   '@babel/types@7.26.0':
     resolution: {integrity: sha512-Z/yiTPj+lDVnF7lWeKCIJzaIkI0vYO87dMpZ4bg4TDrFe4XXLFWL1TbXU27gBP3QccxV9mZICCrnjnYlJjXHOA==}
     engines: {node: '>=6.9.0'}
+
+  '@date-vir/duration@7.3.1':
+    resolution: {integrity: sha512-MRXg2dz021QdOYx4TRcDFJ1PhiNIr8HsZ73uFot5+yMbE0oMdqEDpetzm3PAYvSrYrC3L/qxr8+cnh6FUr+cRw==}
+    engines: {node: '>=22'}
 
   '@esbuild/aix-ppc64@0.21.5':
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
@@ -838,6 +845,9 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
+  '@types/luxon@3.4.2':
+    resolution: {integrity: sha512-TifLZlFudklWlMBfhubvgqTXRzLDI5pCbGa4P8a3wPyUQSW+1xQ5eDsreP9DWHX3tjq1ke96uYG/nwundroWcA==}
+
   '@types/mdast@3.0.12':
     resolution: {integrity: sha512-DT+iNIRNX884cx0/Q1ja7NyUPpZuv0KPyL5rGNxm1WC1OtHstl7n4Jb7nk+xacNShQMbczJjt8uFzznpp6kYBg==}
 
@@ -1192,9 +1202,6 @@ packages:
   braces@3.0.3:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
-
-  browser-or-node@2.1.1:
-    resolution: {integrity: sha512-8CVjaLJGuSKMVTxJ2DpBl5XnlNDiT4cQFeuCJJrvJmts9YrTZDizTX7PjC2s6W4x+MBGZeEY6dGMrF04/6Hgqg==}
 
   browser-or-node@3.0.0:
     resolution: {integrity: sha512-iczIdVJzGEYhP5DqQxYM9Hh7Ztpqqi+CXZpSmX8ALFs9ecXkQIeqRyM6TfxEfMVpwhl3dSuDvxdzzo9sUOIVBQ==}
@@ -1828,11 +1835,12 @@ packages:
     resolution: {integrity: sha512-EHlpxMCpHWSAh1dgS6bVeoLAXGnJNdR93aabr4QCGbzOM73o5XmRfM/e5FUqsw3aagP8S8XEWUWFAxnRBnAF0Q==}
     engines: {node: ^18.19.0 || >=20.5.0}
 
-  expect-type@0.15.0:
-    resolution: {integrity: sha512-yWnriYB4e8G54M5/fAFj7rCIBiKs1HAACaY13kCz6Ku0dezjS9aMcfcdVK2X8Tv2tEV1BPz/wKfQ7WA4S/d8aA==}
-
   expect-type@1.1.0:
     resolution: {integrity: sha512-bFi65yM+xZgk+u/KRIpekdSYkTB5W1pEf0Lt8Q8Msh7b+eQ7LXVtIB1Bkm4fvclDEL1b2CZkMhv2mOeF8tMdkA==}
+    engines: {node: '>=12.0.0'}
+
+  expect-type@1.2.0:
+    resolution: {integrity: sha512-80F22aiJ3GLyVnS/B3HzgR6RelZVumzj9jkL0Rhz4h0xYbNW9PjlQz5h3J/SShErbXBc295vseR4/MIbVmUbeA==}
     engines: {node: '>=12.0.0'}
 
   extend@3.0.2:
@@ -2356,6 +2364,11 @@ packages:
     resolution: {integrity: sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==}
     hasBin: true
 
+  json5@2.2.3:
+    resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
+    engines: {node: '>=6'}
+    hasBin: true
+
   jsox@1.2.119:
     resolution: {integrity: sha512-f37obwxWKKuylcaOzNlUlzfDvURSCpqTXs8yEivhvsp86D/DTIySxP4v5Qdlg24qCuzDSZ0mJr3krc/f7TZ/5A==}
     hasBin: true
@@ -2453,6 +2466,10 @@ packages:
 
   lru-cache@7.18.3:
     resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
+    engines: {node: '>=12'}
+
+  luxon@3.5.0:
+    resolution: {integrity: sha512-rh+Zjr6DNfUYR3bPwJEnuwDdqMbxZW7LOQfUN4B54+Cl+0o5zaU9RJ6bcidfDtC1cWCZXQ+nvX8bf6bAji37QQ==}
     engines: {node: '>=12'}
 
   magic-string@0.30.17:
@@ -2981,8 +2998,9 @@ packages:
     peerDependencies:
       prettier: ^2 || ^3
 
-  prettier-plugin-multiline-arrays@3.0.6:
-    resolution: {integrity: sha512-FrWVa7MoDQo9b5XoLPrqIDClb0k+O8wOIsIr1DutRXhcerLY8PfIe/yYeTVD/vpRISkSXCBEYmj5Voe0wb5dEQ==}
+  prettier-plugin-multiline-arrays@4.0.2:
+    resolution: {integrity: sha512-j8aWPMQl3QsTRR7e2HuNfwp429mB0IL1NQ8PjO0xq5W20O5L5h2XZ99vnqirceJizKhqhm8sOMmsmGcKEtlCFg==}
+    engines: {node: '>=22'}
     peerDependencies:
       prettier: '>=3.0.0'
 
@@ -3100,8 +3118,9 @@ packages:
   proto-list@1.2.4:
     resolution: {integrity: sha512-vtK/94akxsTMhe0/cbfpR+syPuszcuwhqVjJq26CuNDgFGj682oRBXOP5MJpv2r7JtE8MsiepGIqvvOTBwn2vA==}
 
-  proxy-vir@1.0.0:
-    resolution: {integrity: sha512-WV1gkBxUOwLSz0Bn09tisIqLK7leAqtFm/474t3L0hQKJw7/gdrkGcWw0/OT1PhSy+TDS6swfq7Niuoq3XJhkQ==}
+  proxy-vir@2.0.1:
+    resolution: {integrity: sha512-hjy5mWzHZhgRGh0f90f0Bz3VrGUe0T+AlhwnETakzRdvaN9RtPYLQG1+ZuEzSDK95FAhPYd26nEi1xVrXqvBwg==}
+    engines: {node: '>=22'}
 
   punycode@2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
@@ -3252,10 +3271,6 @@ packages:
 
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
-
-  run-time-assertions@1.5.2:
-    resolution: {integrity: sha512-ccfwvjGuNU14cSSXLlmPRiqEgMfA7w3J2TViO79zMnzXGvE6FJ0dxnhIQGwe5r/vwySOJ4sqZksexo9wyAlA8g==}
-    deprecated: Use @augment-vir/assert instead.
 
   s.color@0.0.15:
     resolution: {integrity: sha512-AUNrbEUHeKY8XsYr/DYpl+qk5+aM+DChopnWOPEzn8YKzOhv4l2zH6LzZms3tOZP3wwdOyc0RmTciyi46HLIuA==}
@@ -3609,10 +3624,6 @@ packages:
     resolution: {integrity: sha512-aCuRNRERRVh33lgQaJRlUxZqzfhzwTrsE98Mc3o3VXqmiaQdHacgUtJ0esp+7MvZ92qhtzKPeusaX6vIEcoreA==}
     engines: {node: '>=14.16'}
 
-  type-fest@4.36.0:
-    resolution: {integrity: sha512-3T/PUdKTCnkUmhQU6FFJEHsLwadsRegktX3TNHk+2JJB9HlA8gp1/VXblXVDI93kSnXF2rdPx0GMbHtJIV2LPg==}
-    engines: {node: '>=16'}
-
   type-fest@4.37.0:
     resolution: {integrity: sha512-S/5/0kFftkq27FPNye0XM1e2NsnoD/3FS+pBmbjmmtLT6I+i344KoOf7pvXreaFsDamWeaJX55nczA1m5PsBDg==}
     engines: {node: '>=16'}
@@ -3632,6 +3643,10 @@ packages:
   typed-array-length@1.0.6:
     resolution: {integrity: sha512-/OxDN6OtAk5KBpGb28T+HZc2M+ADtvRxXrKKbUwtsLgdoxgX13hyy7ek6bFRl5+aBs2yZzB0c4CnQfAtVypW/g==}
     engines: {node: '>= 0.4'}
+
+  typed-event-target@4.0.3:
+    resolution: {integrity: sha512-CwpGF+ne1ju2zZo9Cx1VCG6fWQkcV8Mu1cFH2i4hciiuch3u6GahNirkfOE+S+9cegZ5NKvyR7gCXedJbV5uvQ==}
+    engines: {node: '>=22'}
 
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
@@ -3892,23 +3907,30 @@ snapshots:
 
   '@astrojs/compiler@2.9.1': {}
 
-  '@augment-vir/common@23.4.0':
+  '@augment-vir/assert@31.10.0':
     dependencies:
-      browser-or-node: 2.1.1
-      run-time-assertions: 1.5.2
-      type-fest: 4.36.0
+      '@augment-vir/core': 31.10.0
+      '@date-vir/duration': 7.3.1
+      deep-eql: 5.0.2
+      expect-type: 1.2.0
+      type-fest: 4.37.0
 
-  '@augment-vir/common@28.2.4':
+  '@augment-vir/common@31.10.0':
     dependencies:
-      browser-or-node: 3.0.0
-      run-time-assertions: 1.5.2
-      type-fest: 4.36.0
+      '@augment-vir/assert': 31.10.0
+      '@augment-vir/core': 31.10.0
+      '@date-vir/duration': 7.3.1
+      ansi-styles: 6.2.1
+      json5: 2.2.3
+      type-fest: 4.37.0
+      typed-event-target: 4.0.3
 
-  '@augment-vir/common@29.3.0':
+  '@augment-vir/core@31.10.0':
     dependencies:
+      '@date-vir/duration': 7.3.1
       browser-or-node: 3.0.0
-      run-time-assertions: 1.5.2
-      type-fest: 4.36.0
+      json5: 2.2.3
+      type-fest: 4.37.0
 
   '@babel/code-frame@7.23.5':
     dependencies:
@@ -3970,6 +3992,12 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
+
+  '@date-vir/duration@7.3.1':
+    dependencies:
+      '@types/luxon': 3.4.2
+      luxon: 3.5.0
+      type-fest: 4.37.0
 
   '@esbuild/aix-ppc64@0.21.5':
     optional: true
@@ -4424,6 +4452,8 @@ snapshots:
   '@types/json-schema@7.0.15': {}
 
   '@types/json5@0.0.29': {}
+
+  '@types/luxon@3.4.2': {}
 
   '@types/mdast@3.0.12':
     dependencies:
@@ -4926,8 +4956,6 @@ snapshots:
   braces@3.0.3:
     dependencies:
       fill-range: 7.1.1
-
-  browser-or-node@2.1.1: {}
 
   browser-or-node@3.0.0: {}
 
@@ -5749,9 +5777,9 @@ snapshots:
       strip-final-newline: 4.0.0
       yoctocolors: 2.1.1
 
-  expect-type@0.15.0: {}
-
   expect-type@1.1.0: {}
+
+  expect-type@1.2.0: {}
 
   extend@3.0.2: {}
 
@@ -6238,6 +6266,8 @@ snapshots:
     dependencies:
       minimist: 1.2.8
 
+  json5@2.2.3: {}
+
   jsox@1.2.119: {}
 
   jsx-ast-utils@3.3.5:
@@ -6339,6 +6369,8 @@ snapshots:
   lru-cache@10.1.0: {}
 
   lru-cache@7.18.3: {}
+
+  luxon@3.5.0: {}
 
   magic-string@0.30.17:
     dependencies:
@@ -7038,11 +7070,11 @@ snapshots:
       diff: 5.1.0
       prettier: 3.5.3
 
-  prettier-plugin-multiline-arrays@3.0.6(prettier@3.5.3):
+  prettier-plugin-multiline-arrays@4.0.2(prettier@3.5.3):
     dependencies:
-      '@augment-vir/common': 28.2.4
+      '@augment-vir/common': 31.10.0
       prettier: 3.5.3
-      proxy-vir: 1.0.0
+      proxy-vir: 2.0.1
 
   prettier-plugin-nginx@1.0.3: {}
 
@@ -7076,14 +7108,14 @@ snapshots:
       sql-formatter: 15.0.2
       tslib: 2.6.2
 
-  prettier-plugin-tailwindcss@0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.3))(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.3.2(prettier@3.5.3))(prettier-plugin-multiline-arrays@3.0.6(prettier@3.5.3))(prettier@3.5.3):
+  prettier-plugin-tailwindcss@0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.3))(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.3.2(prettier@3.5.3))(prettier-plugin-multiline-arrays@4.0.2(prettier@3.5.3))(prettier@3.5.3):
     dependencies:
       prettier: 3.5.3
     optionalDependencies:
       '@ianvs/prettier-plugin-sort-imports': 4.4.1(prettier@3.5.3)
       prettier-plugin-astro: 0.14.1
       prettier-plugin-jsdoc: 1.3.2(prettier@3.5.3)
-      prettier-plugin-multiline-arrays: 3.0.6(prettier@3.5.3)
+      prettier-plugin-multiline-arrays: 4.0.2(prettier@3.5.3)
 
   prettier@3.4.2: {}
 
@@ -7103,9 +7135,10 @@ snapshots:
 
   proto-list@1.2.4: {}
 
-  proxy-vir@1.0.0:
+  proxy-vir@2.0.1:
     dependencies:
-      '@augment-vir/common': 23.4.0
+      '@augment-vir/assert': 31.10.0
+      '@augment-vir/common': 31.10.0
 
   punycode@2.3.0: {}
 
@@ -7312,12 +7345,6 @@ snapshots:
   run-parallel@1.2.0:
     dependencies:
       queue-microtask: 1.2.3
-
-  run-time-assertions@1.5.2:
-    dependencies:
-      '@augment-vir/common': 29.3.0
-      expect-type: 0.15.0
-      type-fest: 4.36.0
 
   s.color@0.0.15: {}
 
@@ -7713,8 +7740,6 @@ snapshots:
 
   type-fest@3.11.1: {}
 
-  type-fest@4.36.0: {}
-
   type-fest@4.37.0: {}
 
   typed-array-buffer@1.0.2:
@@ -7748,6 +7773,12 @@ snapshots:
       has-proto: 1.0.3
       is-typed-array: 1.1.13
       possible-typed-array-names: 1.0.0
+
+  typed-event-target@4.0.3:
+    dependencies:
+      '@augment-vir/assert': 31.10.0
+      '@augment-vir/common': 31.10.0
+      '@augment-vir/core': 31.10.0
 
   typedarray@0.0.6: {}
 
