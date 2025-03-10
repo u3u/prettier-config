@@ -35,6 +35,7 @@ export default extendConfig({
     'prettier-plugin-merge',
   ].map((item) => require.resolve(item)),
 
+  syntaxTransformation: true,
   tailwindAttributes,
   tailwindFunctions,
 });
