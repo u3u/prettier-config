@@ -28,7 +28,12 @@ export default defineConfig({
       options: { parser: 'nginx' },
     },
     {
-      files: ['.npmrc', '.env', '.env.*'],
+      files: [
+        '.npmrc',
+        '.env',
+        '.env.*',
+      ],
+
       options: { parser: 'ini' },
     },
     {
