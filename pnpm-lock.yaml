@@ -76,8 +76,8 @@ importers:
         specifier: ^20.1.4
         version: 20.1.4
       '@types/node':
-        specifier: ^20.17.24
-        version: 20.17.24
+        specifier: ^22.13.10
+        version: 22.13.10
       '@types/react':
         specifier: ^18.3.18
         version: 18.3.18
@@ -122,7 +122,7 @@ importers:
         version: 5.8.2
       vitest:
         specifier: ^3.0.8
-        version: 3.0.8(@types/node@20.17.24)
+        version: 3.0.8(@types/node@22.13.10)
 
 packages:
 
@@ -772,6 +772,9 @@ packages:
 
   '@types/node@20.17.24':
     resolution: {integrity: sha512-d7fGCyB96w9BnWQrOsJtpyiSaBcAYYr75bnK6ZRjDbql2cGLj/3GsL5OYmLPNq76l7Gf2q4Rv9J2o6h5CrD9sA==}
+
+  '@types/node@22.13.10':
+    resolution: {integrity: sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==}
 
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -3576,6 +3579,9 @@ packages:
   undici-types@6.19.8:
     resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
+  undici-types@6.20.0:
+    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
+
   unicorn-magic@0.3.0:
     resolution: {integrity: sha512-+QBBXBCvifc56fsbuxZQ6Sic3wqqc3WWaqxs58gvJrcOuN83HGTCwz3oS5phzU9LthRNE9VrJCFCLUgHeeFnfA==}
     engines: {node: '>=18'}
@@ -4293,7 +4299,7 @@ snapshots:
 
   '@types/concat-stream@2.0.3':
     dependencies:
-      '@types/node': 20.17.24
+      '@types/node': 22.13.10
 
   '@types/debug@4.1.8':
     dependencies:
@@ -4335,6 +4341,10 @@ snapshots:
   '@types/node@20.17.24':
     dependencies:
       undici-types: 6.19.8
+
+  '@types/node@22.13.10':
+    dependencies:
+      undici-types: 6.20.0
 
   '@types/normalize-package-data@2.4.1': {}
 
@@ -4571,13 +4581,13 @@ snapshots:
       chai: 5.2.0
       tinyrainbow: 2.0.0
 
-  '@vitest/mocker@3.0.8(vite@5.4.14(@types/node@20.17.24))':
+  '@vitest/mocker@3.0.8(vite@5.4.14(@types/node@22.13.10))':
     dependencies:
       '@vitest/spy': 3.0.8
       estree-walker: 3.0.3
       magic-string: 0.30.17
     optionalDependencies:
-      vite: 5.4.14(@types/node@20.17.24)
+      vite: 5.4.14(@types/node@22.13.10)
 
   '@vitest/pretty-format@3.0.8':
     dependencies:
@@ -7639,6 +7649,8 @@ snapshots:
 
   undici-types@6.19.8: {}
 
+  undici-types@6.20.0: {}
+
   unicorn-magic@0.3.0: {}
 
   unified-engine@11.2.0:
@@ -7773,13 +7785,13 @@ snapshots:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  vite-node@3.0.8(@types/node@20.17.24):
+  vite-node@3.0.8(@types/node@22.13.10):
     dependencies:
       cac: 6.7.14
       debug: 4.4.0
       es-module-lexer: 1.6.0
       pathe: 2.0.3
-      vite: 5.4.14(@types/node@20.17.24)
+      vite: 5.4.14(@types/node@22.13.10)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -7791,19 +7803,19 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.4.14(@types/node@20.17.24):
+  vite@5.4.14(@types/node@22.13.10):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.1
       rollup: 4.34.9
     optionalDependencies:
-      '@types/node': 20.17.24
+      '@types/node': 22.13.10
       fsevents: 2.3.3
 
-  vitest@3.0.8(@types/node@20.17.24):
+  vitest@3.0.8(@types/node@22.13.10):
     dependencies:
       '@vitest/expect': 3.0.8
-      '@vitest/mocker': 3.0.8(vite@5.4.14(@types/node@20.17.24))
+      '@vitest/mocker': 3.0.8(vite@5.4.14(@types/node@22.13.10))
       '@vitest/pretty-format': 3.0.8
       '@vitest/runner': 3.0.8
       '@vitest/snapshot': 3.0.8
@@ -7819,11 +7831,11 @@ snapshots:
       tinyexec: 0.3.2
       tinypool: 1.0.2
       tinyrainbow: 2.0.0
-      vite: 5.4.14(@types/node@20.17.24)
-      vite-node: 3.0.8(@types/node@20.17.24)
+      vite: 5.4.14(@types/node@22.13.10)
+      vite-node: 3.0.8(@types/node@22.13.10)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.17.24
+      '@types/node': 22.13.10
     transitivePeerDependencies:
       - less
       - lightningcss
