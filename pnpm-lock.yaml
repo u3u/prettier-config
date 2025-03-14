@@ -42,8 +42,8 @@ importers:
         specifier: ^0.7.2
         version: 0.7.2(prettier@3.5.3)
       prettier-plugin-multiline-arrays:
-        specifier: ^4.0.2
-        version: 4.0.2(prettier@3.5.3)
+        specifier: ^4.0.3
+        version: 4.0.3(prettier@3.5.3)
       prettier-plugin-nginx:
         specifier: ^1.0.3
         version: 1.0.3
@@ -64,7 +64,7 @@ importers:
         version: 0.18.1(prettier@3.5.3)
       prettier-plugin-tailwindcss:
         specifier: ^0.6.11
-        version: 0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.3))(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.3.2(prettier@3.5.3))(prettier-plugin-multiline-arrays@4.0.2(prettier@3.5.3))(prettier@3.5.3)
+        version: 0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.3))(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.3.2(prettier@3.5.3))(prettier-plugin-multiline-arrays@4.0.3(prettier@3.5.3))(prettier@3.5.3)
       remeda:
         specifier: ^2.21.2
         version: 2.21.2
@@ -141,12 +141,20 @@ packages:
     resolution: {integrity: sha512-MBNL3z+8jRUJEEwo8QCJZ3+KG5vXXbE1qKI/IatuJm83KlPtjGwvqvSA6IycErwHdwullZGWOARK9D0nsPq+rg==}
     engines: {node: '>=22'}
 
-  '@augment-vir/common@31.10.0':
-    resolution: {integrity: sha512-bNy9Z5B8WTeqLYjCNDHL2meb0lp11pJyAnHyEujcLpSWLHJuxiaLO1mSxCGXw/cmADI6cYmKZQzxmasqitsnHw==}
+  '@augment-vir/assert@31.10.1':
+    resolution: {integrity: sha512-XNSpPHmjXOwJqxaPEjYt9dxk1mzgiaNio6sJ11GQd+8HPFSFRj67AlFeSZKAHgXaYw1vQCd2tmgLyqWJxvTcAQ==}
+    engines: {node: '>=22'}
+
+  '@augment-vir/common@31.10.1':
+    resolution: {integrity: sha512-wGHuMdAatfmwJK7evH+Xr/WJRb++Z8o2fFvlWj8LOIaE/IwKur1NCrRbqKKTOfo0L3Ar99oXM6PNWZvVcUH59w==}
     engines: {node: '>=22'}
 
   '@augment-vir/core@31.10.0':
     resolution: {integrity: sha512-h3QO1zHC4ELf5sbCh6vv2Blt8gt66XdYzaCgcDeCNIyPw8gN9j5FdCk4JISg0QxznMmrcCzNCMdmVlGta1HuGg==}
+    engines: {node: '>=22'}
+
+  '@augment-vir/core@31.10.1':
+    resolution: {integrity: sha512-SW8saxkOnkZjMajwFlZuX9EMzYFcyl6TuEnlBzcjGndUtYZkfIScQ/rMn+XFoETpPpb5VasoUotPnmO6s6Lxaw==}
     engines: {node: '>=22'}
 
   '@babel/code-frame@7.23.5':
@@ -2906,9 +2914,9 @@ packages:
     peerDependencies:
       prettier: ^2 || ^3
 
-  prettier-plugin-multiline-arrays@4.0.2:
-    resolution: {integrity: sha512-j8aWPMQl3QsTRR7e2HuNfwp429mB0IL1NQ8PjO0xq5W20O5L5h2XZ99vnqirceJizKhqhm8sOMmsmGcKEtlCFg==}
-    engines: {node: '>=22'}
+  prettier-plugin-multiline-arrays@4.0.3:
+    resolution: {integrity: sha512-H1f/0zbvlO/FR0Fmyl31sSBodsIZkuQF0Omi9BrptLU31rZ+Almt9BbrE8IS3BFT/DGKePKb55XqN660LTnmsQ==}
+    engines: {node: '>=20'}
     peerDependencies:
       prettier: '>=3.0.0'
 
@@ -3816,10 +3824,18 @@ snapshots:
       expect-type: 1.2.0
       type-fest: 4.37.0
 
-  '@augment-vir/common@31.10.0':
+  '@augment-vir/assert@31.10.1':
     dependencies:
-      '@augment-vir/assert': 31.10.0
-      '@augment-vir/core': 31.10.0
+      '@augment-vir/core': 31.10.1
+      '@date-vir/duration': 7.3.1
+      deep-eql: 5.0.2
+      expect-type: 1.2.0
+      type-fest: 4.37.0
+
+  '@augment-vir/common@31.10.1':
+    dependencies:
+      '@augment-vir/assert': 31.10.1
+      '@augment-vir/core': 31.10.1
       '@date-vir/duration': 7.3.1
       ansi-styles: 6.2.1
       json5: 2.2.3
@@ -3827,6 +3843,13 @@ snapshots:
       typed-event-target: 4.0.3
 
   '@augment-vir/core@31.10.0':
+    dependencies:
+      '@date-vir/duration': 7.3.1
+      browser-or-node: 3.0.0
+      json5: 2.2.3
+      type-fest: 4.37.0
+
+  '@augment-vir/core@31.10.1':
     dependencies:
       '@date-vir/duration': 7.3.1
       browser-or-node: 3.0.0
@@ -6916,9 +6939,9 @@ snapshots:
       diff: 5.1.0
       prettier: 3.5.3
 
-  prettier-plugin-multiline-arrays@4.0.2(prettier@3.5.3):
+  prettier-plugin-multiline-arrays@4.0.3(prettier@3.5.3):
     dependencies:
-      '@augment-vir/common': 31.10.0
+      '@augment-vir/common': 31.10.1
       prettier: 3.5.3
       proxy-vir: 2.0.1
 
@@ -6954,14 +6977,14 @@ snapshots:
       sql-formatter: 15.0.2
       tslib: 2.6.2
 
-  prettier-plugin-tailwindcss@0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.3))(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.3.2(prettier@3.5.3))(prettier-plugin-multiline-arrays@4.0.2(prettier@3.5.3))(prettier@3.5.3):
+  prettier-plugin-tailwindcss@0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.3))(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.3.2(prettier@3.5.3))(prettier-plugin-multiline-arrays@4.0.3(prettier@3.5.3))(prettier@3.5.3):
     dependencies:
       prettier: 3.5.3
     optionalDependencies:
       '@ianvs/prettier-plugin-sort-imports': 4.4.1(prettier@3.5.3)
       prettier-plugin-astro: 0.14.1
       prettier-plugin-jsdoc: 1.3.2(prettier@3.5.3)
-      prettier-plugin-multiline-arrays: 4.0.2(prettier@3.5.3)
+      prettier-plugin-multiline-arrays: 4.0.3(prettier@3.5.3)
 
   prettier@3.4.2: {}
 
@@ -6984,7 +7007,7 @@ snapshots:
   proxy-vir@2.0.1:
     dependencies:
       '@augment-vir/assert': 31.10.0
-      '@augment-vir/common': 31.10.0
+      '@augment-vir/common': 31.10.1
 
   punycode@2.3.0: {}
 
@@ -7597,9 +7620,9 @@ snapshots:
 
   typed-event-target@4.0.3:
     dependencies:
-      '@augment-vir/assert': 31.10.0
-      '@augment-vir/common': 31.10.0
-      '@augment-vir/core': 31.10.0
+      '@augment-vir/assert': 31.10.1
+      '@augment-vir/common': 31.10.1
+      '@augment-vir/core': 31.10.1
 
   typedarray@0.0.6: {}
 
