@@ -30,8 +30,8 @@ importers:
         specifier: ^0.14.1
         version: 0.14.1
       prettier-plugin-classnames:
-        specifier: ^0.8.3
-        version: 0.8.3(prettier-plugin-astro@0.14.1)(prettier@3.6.2)
+        specifier: ^0.8.4
+        version: 0.8.4(prettier-plugin-astro@0.14.1)(prettier@3.6.2)
       prettier-plugin-ini:
         specifier: ^1.3.0
         version: 1.3.0
@@ -76,11 +76,11 @@ importers:
         specifier: ^20.1.6
         version: 20.1.6
       '@types/node':
-        specifier: ^20.19.17
-        version: 20.19.17
+        specifier: ^20.19.18
+        version: 20.19.18
       '@types/react':
-        specifier: ^18.3.24
-        version: 18.3.24
+        specifier: ^18.3.25
+        version: 18.3.25
       '@u3u/eslint-config':
         specifier: ^2.15.2
         version: 2.15.2(astro-eslint-parser@1.0.2(typescript@5.9.2))(eslint@8.57.1)(typescript@5.9.2)
@@ -113,16 +113,16 @@ importers:
         version: 2.13.1
       tsup:
         specifier: ^8.5.0
-        version: 8.5.0(postcss@8.5.1)(tsx@4.20.5)(typescript@5.9.2)(yaml@2.7.0)
+        version: 8.5.0(postcss@8.5.1)(tsx@4.20.6)(typescript@5.9.2)(yaml@2.7.0)
       tsx:
-        specifier: ^4.20.5
-        version: 4.20.5
+        specifier: ^4.20.6
+        version: 4.20.6
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
       vitest:
         specifier: ^3.2.4
-        version: 3.2.4(@types/node@20.19.17)
+        version: 3.2.4(@types/node@20.19.18)
 
 packages:
 
@@ -793,8 +793,8 @@ packages:
   '@types/ms@0.7.31':
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
 
-  '@types/node@20.19.17':
-    resolution: {integrity: sha512-gfehUI8N1z92kygssiuWvLiwcbOB3IRktR6hTDgJlXMYh5OvkPSRmgfoBUmfZt+vhwJtX7v1Yw4KvvAf7c5QKQ==}
+  '@types/node@20.19.18':
+    resolution: {integrity: sha512-KeYVbfnbsBCyKG8e3gmUqAfyZNcoj/qpEbHRkQkfZdKOBrU7QQ+BsTdfqLSWX9/m1ytYreMhpKvp+EZi3UFYAg==}
 
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -805,8 +805,8 @@ packages:
   '@types/prop-types@15.7.11':
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
 
-  '@types/react@18.3.24':
-    resolution: {integrity: sha512-0dLEBsA1kI3OezMBF8nSsb7Nk19ZnsyE1LLhB8r27KbgU5H4pvuqZLdtE+aUkJVoXgTVuA+iLIwmZ0TuK4tx6A==}
+  '@types/react@18.3.25':
+    resolution: {integrity: sha512-oSVZmGtDPmRZtVDqvdKUi/qgCsWp5IDY29wp8na8Bj4B3cc99hfNzvNhlMkVVxctkAOGUA3Km7MMpBHAnWfcIA==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -2933,8 +2933,8 @@ packages:
     resolution: {integrity: sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==}
     engines: {node: ^14.15.0 || >=16.0.0}
 
-  prettier-plugin-classnames@0.8.3:
-    resolution: {integrity: sha512-lya2Wy+WGAhB7HG7wgZclpaPNIaAWvmYMSdJ7yEzrRHKexcY92x21DaI4EFjhalV/Dg8lp9fUM2JoMUBpxNf7A==}
+  prettier-plugin-classnames@0.8.4:
+    resolution: {integrity: sha512-OJNxf0Qu4lDNxgfa9kNClj3MWg7noz8F/m/Cg0/nB2J5hhSpH5NsN23URzXVIAzdCTZX/6bjBqbAbgrJUGWZ3g==}
     engines: {node: '>=18'}
     peerDependencies:
       prettier: ^3
@@ -3571,8 +3571,8 @@ packages:
     peerDependencies:
       typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
 
-  tsx@4.20.5:
-    resolution: {integrity: sha512-+wKjMNU9w/EaQayHXb7WA7ZaHY6hN8WgfvHNQ3t1PnU91/7O8TcTnIhCDYTZwnt8JsO9IBqZ30Ln1r7pPF52Aw==}
+  tsx@4.20.6:
+    resolution: {integrity: sha512-ytQKuwgmrrkDTFP4LjR0ToE2nqgy886GpvRSpU0JAnrdBYppuY5rLkRUYPU1yCryb24SsKBTL/hlDQAEFVwtZg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -4365,7 +4365,7 @@ snapshots:
 
   '@types/concat-stream@2.0.3':
     dependencies:
-      '@types/node': 20.19.17
+      '@types/node': 20.19.18
 
   '@types/debug@4.1.8':
     dependencies:
@@ -4406,7 +4406,7 @@ snapshots:
 
   '@types/ms@0.7.31': {}
 
-  '@types/node@20.19.17':
+  '@types/node@20.19.18':
     dependencies:
       undici-types: 6.21.0
 
@@ -4416,7 +4416,7 @@ snapshots:
 
   '@types/prop-types@15.7.11': {}
 
-  '@types/react@18.3.24':
+  '@types/react@18.3.25':
     dependencies:
       '@types/prop-types': 15.7.11
       csstype: 3.1.3
@@ -4648,13 +4648,13 @@ snapshots:
       chai: 5.2.0
       tinyrainbow: 2.0.0
 
-  '@vitest/mocker@3.2.4(vite@5.4.14(@types/node@20.19.17))':
+  '@vitest/mocker@3.2.4(vite@5.4.14(@types/node@20.19.18))':
     dependencies:
       '@vitest/spy': 3.2.4
       estree-walker: 3.0.3
       magic-string: 0.30.17
     optionalDependencies:
-      vite: 5.4.14(@types/node@20.19.17)
+      vite: 5.4.14(@types/node@20.19.18)
 
   '@vitest/pretty-format@3.2.4':
     dependencies:
@@ -6994,12 +6994,12 @@ snapshots:
     optionalDependencies:
       postcss: 8.5.1
 
-  postcss-load-config@6.0.1(postcss@8.5.1)(tsx@4.20.5)(yaml@2.7.0):
+  postcss-load-config@6.0.1(postcss@8.5.1)(tsx@4.20.6)(yaml@2.7.0):
     dependencies:
       lilconfig: 3.1.3
     optionalDependencies:
       postcss: 8.5.1
-      tsx: 4.20.5
+      tsx: 4.20.6
       yaml: 2.7.0
 
   postcss-nested@6.0.1(postcss@8.5.1):
@@ -7028,7 +7028,7 @@ snapshots:
       prettier: 3.6.2
       sass-formatter: 0.7.8
 
-  prettier-plugin-classnames@0.8.3(prettier-plugin-astro@0.14.1)(prettier@3.6.2):
+  prettier-plugin-classnames@0.8.4(prettier-plugin-astro@0.14.1)(prettier@3.6.2):
     dependencies:
       prettier: 3.6.2
       zod: 3.22.4
@@ -7656,7 +7656,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsup@8.5.0(postcss@8.5.1)(tsx@4.20.5)(typescript@5.9.2)(yaml@2.7.0):
+  tsup@8.5.0(postcss@8.5.1)(tsx@4.20.6)(typescript@5.9.2)(yaml@2.7.0):
     dependencies:
       bundle-require: 5.1.0(esbuild@0.25.0)
       cac: 6.7.14
@@ -7667,7 +7667,7 @@ snapshots:
       fix-dts-default-cjs-exports: 1.0.1
       joycon: 3.1.1
       picocolors: 1.1.1
-      postcss-load-config: 6.0.1(postcss@8.5.1)(tsx@4.20.5)(yaml@2.7.0)
+      postcss-load-config: 6.0.1(postcss@8.5.1)(tsx@4.20.6)(yaml@2.7.0)
       resolve-from: 5.0.0
       rollup: 4.34.9
       source-map: 0.8.0-beta.0
@@ -7689,7 +7689,7 @@ snapshots:
       tslib: 1.14.1
       typescript: 5.9.2
 
-  tsx@4.20.5:
+  tsx@4.20.6:
     dependencies:
       esbuild: 0.25.0
       get-tsconfig: 4.7.6
@@ -7770,7 +7770,7 @@ snapshots:
       '@types/concat-stream': 2.0.3
       '@types/debug': 4.1.8
       '@types/is-empty': 1.2.3
-      '@types/node': 20.19.17
+      '@types/node': 20.19.18
       '@types/unist': 3.0.0
       '@ungap/structured-clone': 1.2.0
       concat-stream: 2.0.0
@@ -7897,13 +7897,13 @@ snapshots:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  vite-node@3.2.4(@types/node@20.19.17):
+  vite-node@3.2.4(@types/node@20.19.18):
     dependencies:
       cac: 6.7.14
       debug: 4.4.1
       es-module-lexer: 1.7.0
       pathe: 2.0.3
-      vite: 5.4.14(@types/node@20.19.17)
+      vite: 5.4.14(@types/node@20.19.18)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -7915,20 +7915,20 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.4.14(@types/node@20.19.17):
+  vite@5.4.14(@types/node@20.19.18):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.1
       rollup: 4.34.9
     optionalDependencies:
-      '@types/node': 20.19.17
+      '@types/node': 20.19.18
       fsevents: 2.3.3
 
-  vitest@3.2.4(@types/node@20.19.17):
+  vitest@3.2.4(@types/node@20.19.18):
     dependencies:
       '@types/chai': 5.2.2
       '@vitest/expect': 3.2.4
-      '@vitest/mocker': 3.2.4(vite@5.4.14(@types/node@20.19.17))
+      '@vitest/mocker': 3.2.4(vite@5.4.14(@types/node@20.19.18))
       '@vitest/pretty-format': 3.2.4
       '@vitest/runner': 3.2.4
       '@vitest/snapshot': 3.2.4
@@ -7946,11 +7946,11 @@ snapshots:
       tinyglobby: 0.2.14
       tinypool: 1.1.1
       tinyrainbow: 2.0.0
-      vite: 5.4.14(@types/node@20.19.17)
-      vite-node: 3.2.4(@types/node@20.19.17)
+      vite: 5.4.14(@types/node@20.19.18)
+      vite-node: 3.2.4(@types/node@20.19.18)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.19.17
+      '@types/node': 20.19.18
     transitivePeerDependencies:
       - less
       - lightningcss
