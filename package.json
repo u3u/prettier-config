@@ -92,8 +92,8 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.6.1",
     "@tsconfig/node20": "^20.1.6",
-    "@types/node": "^20.19.18",
-    "@types/react": "^18.3.25",
+    "@types/node": "^20.19.19",
+    "@types/react": "^18.3.26",
     "@u3u/eslint-config": "^2.15.2",
     "@u3u/prettier-config": "link:",
     "dedent": "^1.7.0",
@@ -106,7 +106,7 @@
     "simple-git-hooks": "^2.13.1",
     "tsup": "^8.5.0",
     "tsx": "^4.20.6",
-    "typescript": "^5.9.2",
+    "typescript": "^5.9.3",
     "vitest": "^3.2.4"
   },
   "peerDependencies": {
