@@ -100,8 +100,8 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0
       globby:
-        specifier: ^14.1.0
-        version: 14.1.0
+        specifier: ^15.0.0
+        version: 15.0.0
       lint-staged:
         specifier: ^15.5.2
         version: 15.5.2
@@ -730,10 +730,6 @@ packages:
   '@shufo/tailwindcss-class-sorter@3.0.1':
     resolution: {integrity: sha512-y9SMobvwElX2G6vdg4odJ6UL6hu/o5RlMsdwEeDLGaqHU3BLSw9CeitGgBus6kadjjDdT2wseG0Tl5yXWdc4UQ==}
     engines: {node: '>= 14.0.0'}
-
-  '@sindresorhus/merge-streams@2.1.0':
-    resolution: {integrity: sha512-g3/sYJWXTAf3Ce861z4/mW9jDxN7hoNHZMEyhd3Zh7GKQPiovWNttzhRW2BeGPwPxPpLDKumL6Sg056VAMjdkg==}
-    engines: {node: '>=18'}
 
   '@sindresorhus/merge-streams@4.0.0':
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
@@ -1959,9 +1955,9 @@ packages:
     resolution: {integrity: sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==}
     engines: {node: '>=10'}
 
-  globby@14.1.0:
-    resolution: {integrity: sha512-0Ia46fDOaT7k4og1PDW4YbodWWr3scS2vAr2lTbsplOt2WkKp0vQbkI9wKis/T5LV/dqPjO3bpS/z6GTJB82LA==}
-    engines: {node: '>=18'}
+  globby@15.0.0:
+    resolution: {integrity: sha512-oB4vkQGqlMl682wL1IlWd02tXCbquGWM4voPEI85QmNKCaw8zGTm1f1rubFgkg3Eli2PtKlFgrnmUqasbQWlkw==}
+    engines: {node: '>=20'}
 
   gopd@1.0.1:
     resolution: {integrity: sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==}
@@ -2030,8 +2026,8 @@ packages:
     resolution: {integrity: sha512-InwqeHHN2XpumIkMvpl/DCJVrAHgCsG5+cn1XlnLWGwtZBm8QJfSusItfrwx81CTp5agNZqpKU2J/ccC5nGT4A==}
     engines: {node: '>= 4'}
 
-  ignore@7.0.3:
-    resolution: {integrity: sha512-bAH5jbK/F3T3Jls4I0SO1hmPR0dKU0a7+SY6n1yzRtG54FLO8d6w/nxLFX2Nb7dBu6cCWXPaAME6cYqFUMmuCA==}
+  ignore@7.0.5:
+    resolution: {integrity: sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==}
     engines: {node: '>= 4'}
 
   import-fresh@3.3.0:
@@ -4341,8 +4337,6 @@ snapshots:
     transitivePeerDependencies:
       - ts-node
 
-  '@sindresorhus/merge-streams@2.1.0': {}
-
   '@sindresorhus/merge-streams@4.0.0': {}
 
   '@total-typescript/ts-reset@0.6.1': {}
@@ -5922,11 +5916,11 @@ snapshots:
       merge2: 1.4.1
       slash: 3.0.0
 
-  globby@14.1.0:
+  globby@15.0.0:
     dependencies:
-      '@sindresorhus/merge-streams': 2.1.0
+      '@sindresorhus/merge-streams': 4.0.0
       fast-glob: 3.3.3
-      ignore: 7.0.3
+      ignore: 7.0.5
       path-type: 6.0.0
       slash: 5.1.0
       unicorn-magic: 0.3.0
@@ -5979,7 +5973,7 @@ snapshots:
 
   ignore@6.0.2: {}
 
-  ignore@7.0.3: {}
+  ignore@7.0.5: {}
 
   import-fresh@3.3.0:
     dependencies:
