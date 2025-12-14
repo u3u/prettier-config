@@ -92,7 +92,7 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.6.1",
     "@tsconfig/node20": "^20.1.8",
-    "@types/node": "^20.19.26",
+    "@types/node": "^24.10.4",
     "@types/react": "^18.3.27",
     "@u3u/eslint-config": "^2.15.2",
     "@u3u/prettier-config": "link:",
