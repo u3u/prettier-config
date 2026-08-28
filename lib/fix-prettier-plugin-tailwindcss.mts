@@ -4,8 +4,16 @@ import path from 'node:path';
 
 const require = createRequire(import.meta.url);
 const prettierPluginTailwindcssPath = require.resolve('prettier-plugin-tailwindcss');
+const prettierPluginTailwindcssDirectory = path.dirname(prettierPluginTailwindcssPath);
+const destinationDirectory = 'dist/prettier-plugin-tailwindcss';
+const sorterFilename = (await fs.readdir(prettierPluginTailwindcssDirectory)).find((filename) =>
+  /^sorter-.*\.mjs$/.test(filename),
+);
 
-const buffer = await fs.readFile(prettierPluginTailwindcssPath);
+if (!sorterFilename) throw new Error('Cannot find the Tailwind CSS sorter chunk');
+
+const sorterPath = path.join(prettierPluginTailwindcssDirectory, sorterFilename);
+const buffer = await fs.readFile(sorterPath);
 const code = buffer.toString('utf8');
 const regex = String.raw;
 
@@ -18,7 +26,9 @@ const regex = String.raw;
 
 const fixedCode = code.replace(regex`/([\t\r\f\n ]+)/`, regex`/([\t\r\f\n ]+(?![^\(]*\)))/`);
 
-await fs.writeFile('dist/prettier-plugin-tailwindcss.mjs', fixedCode, 'utf8');
-await fs.cp(path.join(prettierPluginTailwindcssPath, '../css/preflight.css'), 'dist/css/preflight.css');
+if (fixedCode === code) throw new Error('Cannot patch the Tailwind CSS sorter chunk');
+
+await fs.cp(prettierPluginTailwindcssDirectory, destinationDirectory, { recursive: true });
+await fs.writeFile(path.join(destinationDirectory, sorterFilename), fixedCode, 'utf8');
 
 console.log('✨ Fixed `prettier-plugin-tailwindcss`');

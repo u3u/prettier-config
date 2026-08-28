@@ -23,19 +23,22 @@ const tailwindFunctions = [
   'twx',
 ];
 
-export default extendConfig({
-  customAttributes: tailwindAttributes,
-  customFunctions: tailwindFunctions,
-  endingPosition: 'absolute-with-indent',
+export default extendConfig(
+  {
+    customAttributes: tailwindAttributes,
+    customFunctions: tailwindFunctions,
+    endingPosition: 'absolute',
 
-  plugins: [
-    //
-    './prettier-plugin-tailwindcss.mjs',
-    'prettier-plugin-classnames',
-    'prettier-plugin-merge',
-  ].map((item) => require.resolve(item)),
+    plugins: [
+      //
+      './prettier-plugin-tailwindcss/index.mjs',
+      'prettier-plugin-classnames',
+      'prettier-plugin-merge',
+    ].map((item) => require.resolve(item)),
 
-  syntaxTransformation: true,
-  tailwindAttributes,
-  tailwindFunctions,
-});
+    syntaxTransformation: true,
+    tailwindAttributes,
+    tailwindFunctions,
+  },
+  { arrayMerge: (target, source) => [...target.filter((item) => !source.includes(item)), ...source] },
+);

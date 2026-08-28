@@ -57,6 +57,7 @@ export default defineConfig({
     '@shufo/prettier-plugin-blade',
     'prettier-plugin-prisma',
     'prettier-plugin-astro',
+    'prettier-plugin-merge',
   ].map((item) => require.resolve(item)),
 
   // https://github.com/shufo/prettier-plugin-blade/tree/main?tab=readme-ov-file#options
