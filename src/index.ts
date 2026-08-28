@@ -1,5 +1,4 @@
 import '@total-typescript/ts-reset';
-// @ts-expect-error
 import { getPackageInfoSync } from 'local-pkg';
 import base from './base';
 import { defineConfig } from './utils';

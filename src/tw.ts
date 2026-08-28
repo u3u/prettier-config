@@ -4,6 +4,8 @@ const tailwindAttributes = [
   //
   'class:list',
   'class',
+  'className',
+  'classNames',
   'tw',
 ];
 
@@ -21,6 +23,8 @@ const tailwindFunctions = [
   'twJoin',
   'twMerge',
   'twx',
+  'cn',
+  'cnfast'
 ];
 
 export default extendConfig(
