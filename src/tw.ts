@@ -24,7 +24,7 @@ const tailwindFunctions = [
   'twMerge',
   'twx',
   'cn',
-  'cnfast'
+  'cnfast',
 ];
 
 export default extendConfig(
@@ -44,5 +44,9 @@ export default extendConfig(
     tailwindAttributes,
     tailwindFunctions,
   },
-  { arrayMerge: (target, source) => [...target.filter((item) => !source.includes(item)), ...source] },
+  {
+    arrayMerge: (target, source) => {
+      return [...target.filter((item) => !source.includes(item)), ...source];
+    },
+  },
 );

@@ -6,9 +6,8 @@ const require = createRequire(import.meta.url);
 const prettierPluginTailwindcssPath = require.resolve('prettier-plugin-tailwindcss');
 const prettierPluginTailwindcssDirectory = path.dirname(prettierPluginTailwindcssPath);
 const destinationDirectory = 'dist/prettier-plugin-tailwindcss';
-const sorterFilename = (await fs.readdir(prettierPluginTailwindcssDirectory)).find((filename) =>
-  /^sorter-.*\.mjs$/.test(filename),
-);
+const fileNames = await fs.readdir(prettierPluginTailwindcssDirectory);
+const sorterFilename = fileNames.find((filename) => /^sorter-.*\.mjs$/u.test(filename));
 
 if (!sorterFilename) throw new Error('Cannot find the Tailwind CSS sorter chunk');
 
