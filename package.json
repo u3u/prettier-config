@@ -114,7 +114,7 @@
   "peerDependencies": {
     "prettier": ">=3.0.0"
   },
-  "packageManager": "pnpm@11.28.0",
+  "packageManager": "pnpm@11.28.2",
   "publishConfig": {
     "access": "public"
   }
