@@ -72,8 +72,8 @@ importers:
         specifier: ^0.8.1
         version: 0.8.1(@ianvs/prettier-plugin-sort-imports@4.7.1(@prettier/plugin-oxc@0.2.3)(content-tag@4.2.0)(prettier-plugin-ember-template-tag@2.1.8(prettier@3.9.9)(supports-color@9.4.0))(prettier@3.9.9)(supports-color@9.4.0))(@prettier/plugin-oxc@0.2.3)(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.8.1(prettier@3.9.9)(supports-color@9.4.0))(prettier-plugin-multiline-arrays@4.1.11(prettier@3.9.9))(prettier@3.9.9)
       remeda:
-        specifier: ^2.50.0
-        version: 2.50.0
+        specifier: ^2.51.0
+        version: 2.51.0
     devDependencies:
       '@total-typescript/ts-reset':
         specifier: ^0.6.1
@@ -82,8 +82,8 @@ importers:
         specifier: ^24.0.5
         version: 24.0.5
       '@types/node':
-        specifier: ^24.19.0
-        version: 24.19.0
+        specifier: ^24.19.1
+        version: 24.19.1
       '@types/react':
         specifier: ^19.3.0
         version: 19.3.0
@@ -100,8 +100,8 @@ importers:
         specifier: ^8.57.1
         version: 8.57.1(supports-color@9.4.0)
       execa:
-        specifier: ^10.0.1
-        version: 10.0.1
+        specifier: ^10.1.0
+        version: 10.1.0
       fix-tsup-cjs:
         specifier: ^1.2.0
         version: 1.2.0
@@ -128,7 +128,7 @@ importers:
         version: 6.0.3
       vitest:
         specifier: ^4.1.11
-        version: 4.1.11(@types/node@24.19.0)(vite@8.2.2(@types/node@24.19.0)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1))
+        version: 4.1.11(@types/node@24.19.1)(vite@8.2.2(@types/node@24.19.1)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1))
 
 packages:
 
@@ -1150,8 +1150,8 @@ packages:
   '@types/node@20.19.26':
     resolution: {integrity: sha512-0l6cjgF0XnihUpndDhk+nyD3exio3iKaYROSgvh/qSevPXax3L8p5DBRFjbvalnwatGgHEQn2R88y2fA3g4irg==}
 
-  '@types/node@24.19.0':
-    resolution: {integrity: sha512-zY+5tKxXdhGh1PYI0ac+7juvEu4OI6vWtVVoj5i2m42jxAY1U+zHGt6QCyOFwykdP62sM3MJ9stoYYUw5aCWew==}
+  '@types/node@24.19.1':
+    resolution: {integrity: sha512-aS3/DG0oM05K0RIXXP+hKjinGG5IgSSVGzswZxW3O0sS3pH4/fycXundUC9XsszgKCk4gHXylTEK6hyFxVxnoQ==}
 
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -2115,8 +2115,8 @@ packages:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
 
-  execa@10.0.1:
-    resolution: {integrity: sha512-ge98qjkRK4IB7tL7Ju/6qmm5LHoH1eEMt5FNZrz3f4UIYhF28lggX20z3FaX1sgc67msLEn0N0BscOs29iuwyw==}
+  execa@10.1.0:
+    resolution: {integrity: sha512-5HT/600HqXEtmkb9mK/PkTWw+bQSCzPnWiZ4/87wD3Hi0wFzCapOuNT9p4M08PDd+KLHdHvFhKjOWmNx/npRNQ==}
     engines: {node: '>=22'}
 
   expect-type@1.3.0:
@@ -3445,8 +3445,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  pretty-ms@9.3.0:
-    resolution: {integrity: sha512-gjVS5hOP+M3wMm5nmNOucbIrqudzs9v/57bWRHQWLYklXqoXKrVfYW2W9+glfGsqtPgpiz5WwyEEB+ksXIx3gQ==}
+  pretty-ms@9.3.1:
+    resolution: {integrity: sha512-HzMy3Geq23nVALD/M2LliU+F+M+gVNsvkQWWqeBZ8HDiCgzo6YPJ/Omrmtq24EFrIsk0a3EkQGEd7bDOo+IhGA==}
     engines: {node: '>=18'}
 
   proc-log@3.0.0:
@@ -3553,8 +3553,8 @@ packages:
   remark-stringify@11.0.0:
     resolution: {integrity: sha512-1OSmLd3awB/t8qdoEOMazZkNsfVTeY4fTsgzcQFdXNq8ToTN4ZGwrMnlda4K6smTFKD+GRV6O48i6Z4iKgPPpw==}
 
-  remeda@2.50.0:
-    resolution: {integrity: sha512-pzljnP7Gnl/lLz5WcOSkxEGCjcK4dteQihQjRrtKCGqn8J6jD0BHwfU6pRrXjvQV2EWe+HdgtfZW7rDdmKn8uQ==}
+  remeda@2.51.0:
+    resolution: {integrity: sha512-4X/oHoc10jkt1w1V8yG/8tS8jYYj7vaNZs3nrvuDVRE1+nDqRAnX/L0PbwL4wOKcXSLHnkXyOQOinSBGQdJ35A==}
     engines: {node: '>=18.0.0'}
 
   require-directory@2.1.1:
@@ -4972,7 +4972,7 @@ snapshots:
 
   '@types/concat-stream@2.0.3':
     dependencies:
-      '@types/node': 20.19.26
+      '@types/node': 24.19.1
 
   '@types/debug@4.1.8':
     dependencies:
@@ -5017,7 +5017,7 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@types/node@24.19.0':
+  '@types/node@24.19.1':
     dependencies:
       undici-types: 7.24.6
 
@@ -5257,13 +5257,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.1
 
-  '@vitest/mocker@4.1.11(vite@8.2.2(@types/node@24.19.0)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1))':
+  '@vitest/mocker@4.1.11(vite@8.2.2(@types/node@24.19.1)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1))':
     dependencies:
       '@vitest/spy': 4.1.11
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 8.2.2(@types/node@24.19.0)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1)
+      vite: 8.2.2(@types/node@24.19.1)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1)
 
   '@vitest/pretty-format@4.1.11':
     dependencies:
@@ -6297,7 +6297,7 @@ snapshots:
 
   esutils@2.0.3: {}
 
-  execa@10.0.1:
+  execa@10.1.0:
     dependencies:
       '@sindresorhus/merge-streams': 4.0.0
       figures: 6.1.0
@@ -6306,7 +6306,7 @@ snapshots:
       is-plain-obj: 4.1.0
       is-stream: 4.0.1
       npm-run-path: 6.0.0
-      pretty-ms: 9.3.0
+      pretty-ms: 9.3.1
       signal-exit: 4.1.0
       strip-final-newline: 4.0.0
       which-command: 0.1.0
@@ -7723,7 +7723,7 @@ snapshots:
 
   prettier@3.9.9: {}
 
-  pretty-ms@9.3.0:
+  pretty-ms@9.3.1:
     dependencies:
       parse-ms: 4.0.0
 
@@ -7855,7 +7855,7 @@ snapshots:
       mdast-util-to-markdown: 2.1.0
       unified: 11.0.4
 
-  remeda@2.50.0: {}
+  remeda@2.51.0: {}
 
   require-directory@2.1.1: {}
 
@@ -8500,7 +8500,7 @@ snapshots:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  vite@8.2.2(@types/node@24.19.0)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1):
+  vite@8.2.2(@types/node@24.19.1)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -8508,16 +8508,16 @@ snapshots:
       rolldown: 1.2.6
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 24.19.0
+      '@types/node': 24.19.1
       esbuild: 0.27.1
       fsevents: 2.3.3
       tsx: 4.23.15
       yaml: 2.9.1
 
-  vitest@4.1.11(@types/node@24.19.0)(vite@8.2.2(@types/node@24.19.0)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1)):
+  vitest@4.1.11(@types/node@24.19.1)(vite@8.2.2(@types/node@24.19.1)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1)):
     dependencies:
       '@vitest/expect': 4.1.11
-      '@vitest/mocker': 4.1.11(vite@8.2.2(@types/node@24.19.0)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1))
+      '@vitest/mocker': 4.1.11(vite@8.2.2(@types/node@24.19.1)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1))
       '@vitest/pretty-format': 4.1.11
       '@vitest/runner': 4.1.11
       '@vitest/snapshot': 4.1.11
@@ -8534,10 +8534,10 @@ snapshots:
       tinyexec: 1.3.0
       tinyglobby: 0.2.17
       tinyrainbow: 3.1.1
-      vite: 8.2.2(@types/node@24.19.0)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1)
+      vite: 8.2.2(@types/node@24.19.1)(esbuild@0.27.1)(tsx@4.23.15)(yaml@2.9.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 24.19.0
+      '@types/node': 24.19.1
     transitivePeerDependencies:
       - msw
 
