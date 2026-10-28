@@ -33,8 +33,8 @@ importers:
         specifier: ^0.14.1
         version: 0.14.1
       prettier-plugin-classnames:
-        specifier: ^0.10.4
-        version: 0.10.4(@prettier/plugin-oxc@0.2.3)(prettier-plugin-astro@0.14.1)(prettier@3.9.10)
+        specifier: ^0.10.5
+        version: 0.10.5(@prettier/plugin-oxc@0.2.3)(prettier-plugin-astro@0.14.1)(prettier@3.9.10)
       prettier-plugin-ember-template-tag:
         specifier: ^2.1.8
         version: 2.1.8(prettier@3.9.10)(supports-color@9.4.0)
@@ -45,8 +45,8 @@ importers:
         specifier: ^1.8.1
         version: 1.8.1(prettier@3.9.10)(supports-color@9.4.0)
       prettier-plugin-merge:
-        specifier: ^0.10.1
-        version: 0.10.1(prettier@3.9.10)
+        specifier: ^0.10.2
+        version: 0.10.2(prettier@3.9.10)
       prettier-plugin-multiline-arrays:
         specifier: ^4.1.11
         version: 4.1.11(prettier@3.9.10)
@@ -54,8 +54,8 @@ importers:
         specifier: ^1.0.3
         version: 1.0.3
       prettier-plugin-packagejson:
-        specifier: ^3.0.2
-        version: 3.0.2(prettier@3.9.10)
+        specifier: ^3.0.3
+        version: 3.0.3(prettier@3.9.10)
       prettier-plugin-prisma:
         specifier: ^5.0.0
         version: 5.0.0(prettier@3.9.10)
@@ -72,8 +72,8 @@ importers:
         specifier: ^0.8.1
         version: 0.8.1(@ianvs/prettier-plugin-sort-imports@4.7.1(@prettier/plugin-oxc@0.2.3)(content-tag@4.2.0)(prettier-plugin-ember-template-tag@2.1.8(prettier@3.9.10)(supports-color@9.4.0))(prettier@3.9.10)(supports-color@9.4.0))(@prettier/plugin-oxc@0.2.3)(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.8.1(prettier@3.9.10)(supports-color@9.4.0))(prettier-plugin-multiline-arrays@4.1.11(prettier@3.9.10))(prettier@3.9.10)
       remeda:
-        specifier: ^2.53.0
-        version: 2.53.0
+        specifier: ^2.56.0
+        version: 2.56.0
     devDependencies:
       '@total-typescript/ts-reset':
         specifier: ^0.6.1
@@ -100,8 +100,8 @@ importers:
         specifier: ^8.57.1
         version: 8.57.1(supports-color@9.4.0)
       execa:
-        specifier: ^10.2.0
-        version: 10.2.0
+        specifier: ^10.2.1
+        version: 10.2.1
       fix-tsup-cjs:
         specifier: ^1.2.0
         version: 1.2.0
@@ -2119,8 +2119,8 @@ packages:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
 
-  execa@10.2.0:
-    resolution: {integrity: sha512-j1pFOVxaybMVCTNHSBuISL2KQcDS3KIE1wBmUp4n2X+1FgaQI2ZDJVy9TYxDyMCzYojRIMh9O8X/UoWZtxTJdw==}
+  execa@10.2.1:
+    resolution: {integrity: sha512-/Bofl3ZBh2Q4/PG0W63qFzP5vDAypi8Zc90UWTBzaDNIYiX7apPOd0N6L8hG8CojUdq4V51adu8BObP+iVsSTw==}
     engines: {node: '>=22'}
 
   expect-type@1.4.0:
@@ -3302,8 +3302,8 @@ packages:
     resolution: {integrity: sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==}
     engines: {node: ^14.15.0 || >=16.0.0}
 
-  prettier-plugin-classnames@0.10.4:
-    resolution: {integrity: sha512-JIheUGkLGEqBwv/OWpizy+C6lY9z1fE9KpQpq8q+3j2xyzon7zBiv8Udn8tNkKwoQObrIg2e++DEVnMZiTOeJw==}
+  prettier-plugin-classnames@0.10.5:
+    resolution: {integrity: sha512-+KbnIXWA6hcDmywQrHb+uxeiGjMFPveYzY3EekDVUbYYT6LzPqxB3lmuQ/vFv6Zy8n7x6fdVceEe/IFXpSvrlg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@prettier/plugin-oxc': '*'
@@ -3333,8 +3333,8 @@ packages:
     peerDependencies:
       prettier: ^3.0.0
 
-  prettier-plugin-merge@0.10.1:
-    resolution: {integrity: sha512-dwz+TLE6sAIaoiZTS7mixu6JF85IfvccWrFMcaA4tpmu51TerUEW/WlI1u9h5ewU8Zxu89q08KKNHKCOe17iAQ==}
+  prettier-plugin-merge@0.10.2:
+    resolution: {integrity: sha512-xhAlEdQgkNLZHSQ5YRKmuptWi3Sa6bKeC2QdHpPAoA3Yaoddo08euCVtuk3w+sLOhbj/097cftsiueBwyUywOA==}
     engines: {node: '>=18'}
     peerDependencies:
       prettier: ^3
@@ -3348,8 +3348,8 @@ packages:
   prettier-plugin-nginx@1.0.3:
     resolution: {integrity: sha512-vV5q85s8XnV6NEgvz1gVLfZhmxAxY03MyOYj2ApBpjFkbs00lRsRkTmqO9L39ADuD18z1RRCcfZ3eVxKhI/nqg==}
 
-  prettier-plugin-packagejson@3.0.2:
-    resolution: {integrity: sha512-kmoj3hEynXwoHDo8ZhmWAIjRBoQWCDUVackiWfSDWdgD0rS3LGB61T9zoVbume/cotYdCoadUh4sqViAmXvpBQ==}
+  prettier-plugin-packagejson@3.0.3:
+    resolution: {integrity: sha512-qhxhcs3/ppNH8ZhFMbMnucE9VqITVn3Vvu/LF0jcWfVJqlgEo1c9eoiTr1WiaMIKbEEqQb4JTZ8MBZGtGRfAoQ==}
     peerDependencies:
       prettier: ^3
     peerDependenciesMeta:
@@ -3548,8 +3548,8 @@ packages:
   remark-stringify@11.0.0:
     resolution: {integrity: sha512-1OSmLd3awB/t8qdoEOMazZkNsfVTeY4fTsgzcQFdXNq8ToTN4ZGwrMnlda4K6smTFKD+GRV6O48i6Z4iKgPPpw==}
 
-  remeda@2.53.0:
-    resolution: {integrity: sha512-1jeHr8AUMB3r089AOmaiHBPAcGTep27JCbMt8MeXXXquDkO3h2N4CtuK++4Oas8mulCUiOUDeZqN+ssrcatKlw==}
+  remeda@2.56.0:
+    resolution: {integrity: sha512-PVDXhxnOm2j9eZ73g6TUUmfnfa4IRMCy0d/9yYYCmpT+I8jtvZAfBEwfr/+A4OMQDP+0HbQQ9g0zpepOLSGWiA==}
     engines: {node: '>=18.0.0'}
 
   require-directory@2.1.1:
@@ -3694,9 +3694,9 @@ packages:
   sort-object-keys@2.0.1:
     resolution: {integrity: sha512-R89fO+z3x7hiKPXX5P0qim+ge6Y60AjtlW+QQpRozrrNcR1lw9Pkpm5MLB56HoNvdcLHL4wbpq16OcvGpEDJIg==}
 
-  sort-package-json@3.7.1:
-    resolution: {integrity: sha512-ssk1HG7whF8N/T1IsNAQrtHG5Cbdi0rAgRJZXYBr9hF5xaHnBNzUx/W6LcthEW7FhOwvZssbESZuO+GxssqAyA==}
-    engines: {node: '>=20'}
+  sort-package-json@4.1.0:
+    resolution: {integrity: sha512-CI7HgkV5rCE5dbYYJMuXkxgiSLc3uJczff9ic3kHuY5QRYKUbfsDSKN4DjTpvqejdJEkKLusQ64ykTte5ypr1A==}
+    engines: {node: '>=22'}
     hasBin: true
 
   source-map-js@1.2.1:
@@ -4238,8 +4238,8 @@ packages:
     resolution: {integrity: sha512-xYqdZFUK/VYazNl/oCDYN+3WloWQwMfZxBoiNt6qNyk+xfOdi598muWE42rNZFp1kNOiqW936q5RhUdnpqElSg==}
     engines: {node: '>=18'}
 
-  zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  zod@4.6.7:
+    resolution: {integrity: sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -6290,7 +6290,7 @@ snapshots:
 
   esutils@2.0.3: {}
 
-  execa@10.2.0:
+  execa@10.2.1:
     dependencies:
       '@sindresorhus/merge-streams': 4.0.0
       figures: 6.1.0
@@ -7628,10 +7628,10 @@ snapshots:
       prettier: 3.9.10
       sass-formatter: 0.7.8
 
-  prettier-plugin-classnames@0.10.4(@prettier/plugin-oxc@0.2.3)(prettier-plugin-astro@0.14.1)(prettier@3.9.10):
+  prettier-plugin-classnames@0.10.5(@prettier/plugin-oxc@0.2.3)(prettier-plugin-astro@0.14.1)(prettier@3.9.10):
     dependencies:
       prettier: 3.9.10
-      zod: 3.22.4
+      zod: 4.6.7
     optionalDependencies:
       '@prettier/plugin-oxc': 0.2.3
       prettier-plugin-astro: 0.14.1
@@ -7657,7 +7657,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  prettier-plugin-merge@0.10.1(prettier@3.9.10):
+  prettier-plugin-merge@0.10.2(prettier@3.9.10):
     dependencies:
       diff: 5.2.2
       prettier: 3.9.10
@@ -7671,9 +7671,9 @@ snapshots:
 
   prettier-plugin-nginx@1.0.3: {}
 
-  prettier-plugin-packagejson@3.0.2(prettier@3.9.10):
+  prettier-plugin-packagejson@3.0.3(prettier@3.9.10):
     dependencies:
-      sort-package-json: 3.7.1
+      sort-package-json: 4.1.0
     optionalDependencies:
       prettier: 3.9.10
 
@@ -7844,7 +7844,7 @@ snapshots:
       mdast-util-to-markdown: 2.1.0
       unified: 11.0.4
 
-  remeda@2.53.0: {}
+  remeda@2.56.0: {}
 
   require-directory@2.1.1: {}
 
@@ -8008,7 +8008,7 @@ snapshots:
 
   sort-object-keys@2.0.1: {}
 
-  sort-package-json@3.7.1:
+  sort-package-json@4.1.0:
     dependencies:
       detect-indent: 7.0.2
       detect-newline: 4.0.1
@@ -8639,6 +8639,6 @@ snapshots:
 
   yoctocolors@2.2.0: {}
 
-  zod@3.22.4: {}
+  zod@4.6.7: {}
 
   zwitch@2.0.4: {}
