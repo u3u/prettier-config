@@ -51,8 +51,8 @@ importers:
         specifier: ^4.1.11
         version: 4.1.11(prettier@3.10.1)
       prettier-plugin-nginx:
-        specifier: ^1.0.3
-        version: 1.0.3
+        specifier: ^2.0.0
+        version: 2.0.0(prettier@3.10.1)
       prettier-plugin-packagejson:
         specifier: ^3.1.0
         version: 3.1.0(prettier@3.10.1)
@@ -3321,8 +3321,11 @@ packages:
     peerDependencies:
       prettier: '>=3.0.0 <4.0.0'
 
-  prettier-plugin-nginx@1.0.3:
-    resolution: {integrity: sha512-vV5q85s8XnV6NEgvz1gVLfZhmxAxY03MyOYj2ApBpjFkbs00lRsRkTmqO9L39ADuD18z1RRCcfZ3eVxKhI/nqg==}
+  prettier-plugin-nginx@2.0.0:
+    resolution: {integrity: sha512-fdSsnlYu1CyVrKNgOjEihIJ/32vdwCR3OOUfYCJ+S/phdzmML97Z6VC5KKHlUWRtzGU2Z2juQOdRMyG0QeO0Ng==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      prettier: ^3.6.0
 
   prettier-plugin-packagejson@3.1.0:
     resolution: {integrity: sha512-KxH8E68UGYVW4IDxZk7lLXKxVd8uY6g8ctfu+fNwA+bAKgCN66ZoRIcPtOHXDa1kDj/nLBZIgH8srP/1Yaz9iA==}
@@ -7615,7 +7618,9 @@ snapshots:
       prettier: 3.10.1
       proxy-vir: 2.0.4
 
-  prettier-plugin-nginx@1.0.3: {}
+  prettier-plugin-nginx@2.0.0(prettier@3.10.1):
+    dependencies:
+      prettier: 3.10.1
 
   prettier-plugin-packagejson@3.1.0(prettier@3.10.1):
     dependencies:
